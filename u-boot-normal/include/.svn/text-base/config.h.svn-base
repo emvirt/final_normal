@@ -1,0 +1,3 @@
+/* Automatically generated - do not edit */
+#include <configs/mx6q_sabreauto.h>
+#include <asm/config.h>

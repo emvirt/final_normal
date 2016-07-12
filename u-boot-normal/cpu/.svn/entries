@@ -1,0 +1,163 @@
+10
+
+dir
+25
+svn://163.152.162.87/repos/trunk/avs/normal/u-boot-normal/cpu
+svn://163.152.162.87
+
+
+
+2014-03-12T18:46:50.396999Z
+24
+swkim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+042ee42e-fc72-435d-9fb6-c3986d68be1e
+
+mpc5xx
+dir
+
+lh7a40x
+dir
+
+mcf523x
+dir
+
+mpc8xx
+dir
+
+i386
+dir
+
+nios2
+dir
+
+at32ap
+dir
+
+arm720t
+dir
+
+arm_cortexa8
+dir
+
+arm920t
+dir
+
+mpc512x
+dir
+
+arm_intcm
+dir
+
+mpc5xxx
+dir
+
+mcf547x_8x
+dir
+
+mcf5227x
+dir
+
+leon2
+dir
+
+mcf5445x
+dir
+
+leon3
+dir
+
+arm926ejs
+dir
+
+mcf52x2
+dir
+
+ppc4xx
+dir
+
+mcf532x
+dir
+
+microblaze
+dir
+
+pxa
+dir
+
+arm1136
+dir
+
+mpc8220
+dir
+
+sh2
+dir
+
+sh3
+dir
+
+arm1176
+dir
+
+sh4
+dir
+
+mpc8260
+dir
+
+ixp
+dir
+
+arm925t
+dir
+
+sa1100
+dir
+
+mpc824x
+dir
+
+nios
+dir
+
+mips
+dir
+
+blackfin
+dir
+
+arm946es
+dir
+
+mpc83xx
+dir
+
+mpc85xx
+dir
+
+mpc86xx
+dir
+
+mpc8xxx
+dir
+
+74xx_7xx
+dir
+
+s3c44b0
+dir
+

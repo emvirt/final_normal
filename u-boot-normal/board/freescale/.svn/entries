@@ -1,0 +1,229 @@
+10
+
+dir
+25
+svn://163.152.162.87/repos/trunk/avs/normal/u-boot-normal/board/freescale
+svn://163.152.162.87
+
+
+
+2014-03-12T18:46:50.396999Z
+24
+swkim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+042ee42e-fc72-435d-9fb6-c3986d68be1e
+
+m5282evb
+dir
+
+m5373evb
+dir
+
+mpc8569mds
+dir
+
+m5253demo
+dir
+
+mpc837xemds
+dir
+
+mx6q_hdmidongle
+dir
+
+common
+dir
+
+mpc8540ads
+dir
+
+mx6sl_arm2
+dir
+
+mpc8560ads
+dir
+
+p2020ds
+dir
+
+mpc8536ds
+dir
+
+mpc8572ds
+dir
+
+mx23_evk
+dir
+
+mx6q_sabreauto
+dir
+
+mpc8548cds
+dir
+
+mx28_evk
+dir
+
+mx51_bbg
+dir
+
+m5235evb
+dir
+
+m5271evb
+dir
+
+mpc8360emds
+dir
+
+m5275evb
+dir
+
+m5249evb
+dir
+
+m5208evbe
+dir
+
+mpc8568mds
+dir
+
+mpc5121ads
+dir
+
+mx53_pcba
+dir
+
+mx6q_sabrelite
+dir
+
+mx31pdk
+dir
+
+mpc8260ads
+dir
+
+m53017evb
+dir
+
+mpc8313erdb
+dir
+
+m54451evb
+dir
+
+mpc8315erdb
+dir
+
+mx6q_sabresd
+dir
+
+m54455evb
+dir
+
+m52277evb
+dir
+
+m5272c3
+dir
+
+mpc837xerdb
+dir
+
+m5329evb
+dir
+
+mx6q_arm2
+dir
+
+m5253evbe
+dir
+
+m547xevb
+dir
+
+m548xevb
+dir
+
+mpc7448hpc2
+dir
+
+mpc8349itx
+dir
+
+mpc8323erdb
+dir
+
+mx53_smd
+dir
+
+mx31_3stack
+dir
+
+mx51_3stack
+dir
+
+mx25_3stack
+dir
+
+mx35_3stack
+dir
+
+mpc8360erdk
+dir
+
+mx53_loco
+dir
+
+mpc8641hpcn
+dir
+
+mpc832xemds
+dir
+
+mx6sl_evk
+dir
+
+mpc8349emds
+dir
+
+mx31ads
+dir
+
+mx53_ard
+dir
+
+mpc8544ds
+dir
+
+mpc8541cds
+dir
+
+mpc8266ads
+dir
+
+mpc8610hpcd
+dir
+
+mx50_rdp
+dir
+
+mpc8555cds
+dir
+
+mx53_evk
+dir
+

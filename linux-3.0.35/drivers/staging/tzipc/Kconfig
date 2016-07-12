@@ -1,0 +1,8 @@
+config TZIPC
+	tristate "TZIPC support"
+	default n
+	---help---
+	  This driver provides Inter-Core-Inter-Domain-Communication in TrustZone environment.
+
+	  To compile this driver as a module, choose M here. The module
+	  will be called tzipc.

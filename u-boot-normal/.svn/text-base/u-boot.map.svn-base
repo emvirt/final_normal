@@ -1,0 +1,2783 @@
+Archive member included because of file (symbol)
+
+board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+                              cpu/arm_cortexa8/start.o (lowlevel_init)
+lib_arm/libarm.a(board.o)     cpu/arm_cortexa8/start.o (start_armboot)
+lib_arm/libarm.a(interrupts.o)
+                              lib_arm/libarm.a(board.o) (enable_interrupts)
+net/libnet.a(net.o)           lib_arm/libarm.a(board.o) (copy_filename)
+net/libnet.a(nfs.o)           net/libnet.a(net.o) (NfsStart)
+net/libnet.a(rarp.o)          net/libnet.a(net.o) (RarpRequest)
+net/libnet.a(tftp.o)          net/libnet.a(net.o) (TftpStart)
+net/libnet.a(bootp.o)         net/libnet.a(net.o) (BootpRequest)
+net/libnet.a(eth.o)           net/libnet.a(net.o) (eth_get_dev)
+lib_generic/libgeneric.a(display_options.o)
+                              net/libnet.a(nfs.o) (print_size)
+lib_generic/libgeneric.a(string.o)
+                              net/libnet.a(net.o) (strcpy)
+lib_generic/libgeneric.a(vsprintf.o)
+                              lib_arm/libarm.a(board.o) (simple_strtoul)
+lib_generic/libgeneric.a(ctype.o)
+                              lib_generic/libgeneric.a(display_options.o) (_ctype)
+lib_generic/libgeneric.a(div64.o)
+                              lib_generic/libgeneric.a(vsprintf.o) (__div64_32)
+cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+                              lib_arm/libarm.a(interrupts.o) (reset_cpu)
+cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+                              lib_arm/libarm.a(board.o) (arch_cpu_init)
+cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+                              lib_arm/libarm.a(board.o) (timer_init)
+lib_arm/libarm.a(reset.o)     lib_generic/libgeneric.a(vsprintf.o) (do_reset)
+drivers/misc/libmisc.a(imx_otp.o)
+                              cpu/arm_cortexa8/mx6/libmx6.a(generic.o) (imx_otp_read_one_u32)
+drivers/net/libnet.a(mxc_fec.o)
+                              cpu/arm_cortexa8/mx6/libmx6.a(generic.o) (mxc_fec_initialize)
+drivers/serial/libserial.a(serial_mxc.o)
+                              lib_arm/libarm.a(board.o) (serial_init)
+common/libcommon.a(cmd_bdinfo.o)
+                              (__u_boot_cmd_bdinfo)
+common/libcommon.a(cmd_boot.o)
+                              (__u_boot_cmd_reset)
+common/libcommon.a(cmd_bootm.o)
+                              (__u_boot_cmd_iminfo)
+common/libcommon.a(cmd_clk.o)
+                              (__u_boot_cmd_clk)
+common/libcommon.a(cmd_console.o)
+                              (__u_boot_cmd_coninfo)
+common/libcommon.a(cmd_ext2.o)
+                              (__u_boot_cmd_ext2load)
+common/libcommon.a(cmd_fat.o)
+                              (__u_boot_cmd_fatinfo)
+common/libcommon.a(cmd_flash.o)
+                              (__u_boot_cmd_protect)
+common/libcommon.a(cmd_i2c.o)
+                              (__u_boot_cmd_i2c)
+common/libcommon.a(cmd_imxotp.o)
+                              (__u_boot_cmd_imxotp)
+common/libcommon.a(cmd_itest.o)
+                              (__u_boot_cmd_itest)
+common/libcommon.a(cmd_load.o)
+                              (__u_boot_cmd_loady)
+common/libcommon.a(cmd_mem.o)
+                              (__u_boot_cmd_mtest)
+common/libcommon.a(cmd_mii.o)
+                              (__u_boot_cmd_mii)
+common/libcommon.a(cmd_misc.o)
+                              (__u_boot_cmd_sleep)
+common/libcommon.a(cmd_mmc.o)
+                              (__u_boot_cmd_mmc)
+common/libcommon.a(cmd_net.o)
+                              (__u_boot_cmd_ping)
+common/libcommon.a(cmd_nvedit.o)
+                              net/libnet.a(net.o) (get_env_id)
+common/libcommon.a(cmd_regul.o)
+                              (__u_boot_cmd_regul)
+common/libcommon.a(cmd_sata.o)
+                              (__u_boot_cmd_sata)
+common/libcommon.a(cmd_sf.o)  (__u_boot_cmd_sf)
+common/libcommon.a(cmd_source.o)
+                              (__u_boot_cmd_autoscr)
+common/libcommon.a(cmd_spi.o)
+                              (__u_boot_cmd_sspi)
+common/libcommon.a(cmd_ximg.o)
+                              (__u_boot_cmd_imxtract)
+common/libcommon.a(command.o)
+                              common/libcommon.a(cmd_bootm.o) (find_cmd_tbl)
+common/libcommon.a(console.o)
+                              lib_arm/libarm.a(interrupts.o) (printf)
+common/libcommon.a(dlmalloc.o)
+                              common/libcommon.a(cmd_source.o) (free)
+common/libcommon.a(env_common.o)
+                              common/libcommon.a(cmd_nvedit.o) (env_crc_update)
+common/libcommon.a(env_mmc.o)
+                              common/libcommon.a(env_common.o) (env_get_char_spec)
+common/libcommon.a(exports.o)
+                              lib_arm/libarm.a(board.o) (jumptable_init)
+common/libcommon.a(image.o)   common/libcommon.a(cmd_bootm.o) (image_check_hcrc)
+common/libcommon.a(main.o)    common/libcommon.a(cmd_i2c.o) (readline)
+common/libcommon.a(miiphyutil.o)
+                              net/libnet.a(eth.o) (miiphy_init)
+common/libcommon.a(s_record.o)
+                              common/libcommon.a(cmd_load.o) (srec_decode)
+common/libcommon.a(stdio.o)   common/libcommon.a(cmd_console.o) (stdio_get_list)
+common/libcommon.a(xyzModem.o)
+                              common/libcommon.a(cmd_load.o) (xyzModem_stream_open)
+board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+                              cpu/arm_cortexa8/mx6/libmx6.a(generic.o) (get_board_rev)
+lib_generic/libgeneric.a(crc16.o)
+                              common/libcommon.a(xyzModem.o) (cyg_crc16)
+lib_generic/libgeneric.a(crc32.o)
+                              common/libcommon.a(cmd_i2c.o) (crc32)
+lib_generic/libgeneric.a(gunzip.o)
+                              common/libcommon.a(cmd_bootm.o) (gunzip)
+lib_generic/libgeneric.a(lmb.o)
+                              common/libcommon.a(cmd_bootm.o) (lmb_init)
+lib_generic/libgeneric.a(zlib.o)
+                              lib_generic/libgeneric.a(gunzip.o) (inflateInit2_)
+board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+                              board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o) (fsl_set_system_rev)
+cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+                              board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o) (mxc_iomux_v3_setup_pad)
+lib_arm/libarm.a(bootm.o)     common/libcommon.a(cmd_bootm.o) (do_bootm_linux)
+lib_arm/libarm.a(cache.o)     common/libcommon.a(cmd_load.o) (flush_cache)
+fs/fat/libfat.a(fat.o)        common/libcommon.a(cmd_fat.o) (fat_register_device)
+fs/ext2/libext2fs.a(ext2fs.o)
+                              common/libcommon.a(cmd_ext2.o) (ext2fs_ls)
+fs/ext2/libext2fs.a(dev.o)    common/libcommon.a(cmd_ext2.o) (ext2fs_set_blk_dev)
+disk/libdisk.a(part.o)        common/libcommon.a(cmd_ext2.o) (get_dev)
+disk/libdisk.a(part_dos.o)    disk/libdisk.a(part.o) (test_part_dos)
+drivers/block/libblock.a(dwc_ahsata.o)
+                              common/libcommon.a(cmd_sata.o) (init_sata)
+drivers/block/libblock.a(libata.o)
+                              drivers/block/libblock.a(dwc_ahsata.o) (ata_id_n_sectors)
+drivers/gpio/libgpio.a(mxc_gpio.o)
+                              board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o) (gpio_direction_output)
+drivers/i2c/libi2c.a(mxc_i2c.o)
+                              common/libcommon.a(cmd_i2c.o) (i2c_init)
+drivers/mmc/libmmc.a(mmc.o)   common/libcommon.a(cmd_mmc.o) (find_mmc_device)
+drivers/mmc/libmmc.a(imx_esdhc.o)
+                              board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o) (fsl_esdhc_initialize)
+drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+                              common/libcommon.a(cmd_sf.o) (spi_flash_probe)
+drivers/power/libpower.a(anatop.o)
+                              common/libcommon.a(cmd_regul.o) (regul_list)
+drivers/spi/libspi.a(imx_ecspi.o)
+                              common/libcommon.a(exports.o) (spi_init)
+cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+                              lib_arm/libarm.a(bootm.o) (cleanup_before_linux)
+/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+                              net/libnet.a(bootp.o) (__aeabi_uidiv)
+/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+                              common/libcommon.a(cmd_mem.o) (__aeabi_idiv)
+/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+                              lib_generic/libgeneric.a(vsprintf.o) (__aeabi_llsr)
+/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+                              drivers/mmc/libmmc.a(mmc.o) (__aeabi_llsl)
+/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+                              /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+.text           0x67800000    0x1f288
+ board/freescale/mx6q_sabreauto/flash_header.o(.text.flasheader)
+ .text.flasheader
+                0x67800000      0x6cc board/freescale/mx6q_sabreauto/flash_header.o
+ cpu/arm_cortexa8/start.o()
+ *fill*         0x678006cc       0x14 00
+ .text          0x678006e0      0x440 cpu/arm_cortexa8/start.o
+                0x678006e0                _start
+                0x67800720                _end_vect
+                0x67800724                _armboot_start
+                0x67800728                _bss_start
+                0x6780072c                _bss_end
+                0x67800a60                v7_flush_dcache_all
+ .data          0x67800b20        0x0 cpu/arm_cortexa8/start.o
+ .bss           0x67800b20        0x0 cpu/arm_cortexa8/start.o
+ .ARM.attributes
+                0x67800b20       0x19 cpu/arm_cortexa8/start.o
+ .debug_line    0x67800b39       0xba cpu/arm_cortexa8/start.o
+ .debug_info    0x67800bf3       0x66 cpu/arm_cortexa8/start.o
+ .debug_abbrev  0x67800c59       0x14 cpu/arm_cortexa8/start.o
+ *fill*         0x67800c6d        0x3 00
+ .debug_aranges
+                0x67800c70       0x20 cpu/arm_cortexa8/start.o
+ board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(.text)
+ .text          0x67800c90      0x9e0 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+                0x67800ccc                get_boot_device
+                0x67800cdc                get_board_rev
+                0x67800cec                sata_initialize
+                0x67800d7c                dram_init
+                0x67800d9c                setup_lvds_poweron
+                0x67800e30                spi_get_cfg
+                0x67800ebc                spi_io_init
+                0x67800f50                board_eth_init
+                0x67800f58                usdhc_gpio_init
+                0x67800fe0                board_mmc_init
+                0x67800ff4                get_ddr_delay
+                0x67800ffc                board_init
+                0x678012f0                board_late_init
+                0x678012f8                mx6_rgmii_rework
+                0x67801498                enet_board_init
+                0x678014a8                checkboard
+ .text          0x67801670        0x0 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+ lib_arm/libarm.a(.text)
+ .text          0x67801670      0x204 lib_arm/libarm.a(board.o)
+                0x678016c8                sbrk
+                0x67801700                coloured_LED_init
+                0x67801700                __coloured_LED_init
+                0x67801704                red_LED_on
+                0x67801704                __red_LED_on
+                0x67801708                __red_LED_off
+                0x67801708                red_LED_off
+                0x6780170c                green_LED_on
+                0x6780170c                __green_LED_on
+                0x67801710                __green_LED_off
+                0x67801710                green_LED_off
+                0x67801714                __yellow_LED_on
+                0x67801714                yellow_LED_on
+                0x67801718                __yellow_LED_off
+                0x67801718                yellow_LED_off
+                0x6780171c                blue_LED_on
+                0x6780171c                __blue_LED_on
+                0x67801720                blue_LED_off
+                0x67801720                __blue_LED_off
+                0x67801724                hang
+                0x67801738                start_armboot
+ .text          0x67801874      0x3a4 lib_arm/libarm.a(bootm.o)
+                0x678019a8                do_bootm_linux
+                0x67801aac                setup_serial_tag
+                0x67801aec                setup_revision_tag
+                0x67801b28                do_booti_linux
+ .text          0x67801c18        0x4 lib_arm/libarm.a(cache.o)
+                0x67801c18                flush_cache
+ .text          0x67801c1c      0x264 lib_arm/libarm.a(interrupts.o)
+                0x67801c1c                enable_interrupts
+                0x67801c20                disable_interrupts
+                0x67801c28                bad_mode
+                0x67801c44                show_regs
+                0x67801d84                do_undefined_instruction
+                0x67801da8                do_software_interrupt
+                0x67801dcc                do_prefetch_abort
+                0x67801df0                do_data_abort
+                0x67801e14                do_not_used
+                0x67801e38                do_fiq
+                0x67801e5c                do_irq
+ .text          0x67801e80       0x30 lib_arm/libarm.a(reset.o)
+                0x67801e80                do_reset
+ net/libnet.a(.text)
+ .text          0x67801eb0      0x918 net/libnet.a(bootp.o)
+                0x678025c4                BootpRequest
+                0x678027c4                DhcpRequest
+ .text          0x678027c8      0x7d4 net/libnet.a(eth.o)
+                0x678027c8                eth_parse_enetaddr
+                0x6780281c                eth_getenv_enetaddr
+                0x67802878                eth_setenv_enetaddr
+                0x678028ac                eth_getenv_enetaddr_by_index
+                0x678028f8                eth_get_dev
+                0x67802908                eth_get_dev_by_name
+                0x6780295c                eth_get_dev_by_index
+                0x678029a4                eth_get_dev_index
+                0x678029f4                eth_register
+                0x67802a7c                eth_initialize
+                0x67802ce0                eth_halt
+                0x67802d10                eth_send
+                0x67802d48                eth_rx
+                0x67802d74                eth_try_another
+                0x67802e1c                eth_init
+                0x67802ee0                eth_set_current
+                0x67802f7c                eth_get_name
+ .text          0x67802f9c     0x1384 net/libnet.a(net.o)
+                0x6780301c                NetSetHandler
+                0x6780302c                NetSetTimeout
+                0x6780305c                NetStartAgain
+                0x67803148                NetSendPacket
+                0x6780314c                NetCksum
+                0x67803184                NetCksumOk
+                0x678031a8                NetEthHdrSize
+                0x678031e8                NetSetEther
+                0x67803290                NetReceive
+                0x67803854                ArpRequest
+                0x67803948                ArpTimeoutCheck
+                0x678039b4                PingSend
+                0x67803afc                NetSetIP
+                0x67803bf4                NetSendUDPPacket
+                0x67803d2c                copy_filename
+                0x67803d70                random_port
+                0x67803d8c                ip_to_string
+                0x67803ddc                string_to_ip
+                0x67803e4c                VLAN_to_string
+                0x67803e9c                string_to_VLAN
+                0x67803ef4                getenv_IPaddr
+                0x67803f04                getenv_VLAN
+                0x67803f14                NetLoop
+ .text          0x67804320      0xe24 net/libnet.a(nfs.o)
+                0x67804f18                NfsStart
+ .text          0x67805144      0x19c net/libnet.a(rarp.o)
+                0x678051a0                RarpRequest
+ .text          0x678052e0      0x720 net/libnet.a(tftp.o)
+                0x67805790                TftpStart
+ drivers/mtd/libmtd.a(.text)
+ drivers/mmc/libmmc.a(.text)
+ .text          0x67805a00     0x19fc drivers/mmc/libmmc.a(mmc.o)
+                0x67805a1c                __board_mmc_getcd
+                0x67805a1c                board_mmc_getcd
+                0x67805a24                mmc_send_cmd
+                0x67805a34                mmc_send_status
+                0x67805af0                mmc_set_blocklen
+                0x67805b28                find_mmc_device
+                0x67806070                sd_send_op_cond
+                0x678061f4                mmc_send_ext_csd
+                0x67806248                mmc_switch
+                0x678062a4                mmc_change_freq
+                0x6780637c                mmc_switch_part
+                0x678063b8                sd_switch_part
+                0x67806414                mmc_switch_boot_part
+                0x67806578                sd_switch_boot_part
+                0x67806580                sd_switch
+                0x678065f0                sd_change_freq
+                0x67806828                sd_uhsi_mode_select
+                0x6780691c                sd_send_tuning_cmd
+                0x67806974                sd_uhsi_tuning
+                0x67806a30                mmc_set_ios
+                0x67806a40                mmc_set_clock
+                0x67806a6c                mmc_set_bus_width
+                0x67806a80                mmc_startup
+                0x678071a4                mmc_send_if_cond
+                0x67807224                mmc_register
+                0x678072b0                mmc_get_dev
+                0x678072c4                mmc_init
+                0x67807334                cpu_mmc_init
+                0x6780733c                print_mmc_devices
+                0x678073a0                get_mmc_num
+                0x678073b0                mmc_initialize
+ .text          0x678073fc      0x928 drivers/mmc/libmmc.a(imx_esdhc.o)
+                0x67807424                esdhc_xfertyp
+                0x67807884                set_sysctl
+                0x67807b5c                fsl_esdhc_initialize
+                0x67807cec                fsl_esdhc_mmc_init
+                0x67807d24                . = DEFINED (env_offset)?env_offset:.
+ common/env_embedded.o(.text)
+ .text          0x67807d24        0x0 common/env_embedded.o
+ *(.text)
+ .text          0x67807d24        0x0 board/freescale/mx6q_sabreauto/flash_header.o
+ .text          0x67807d24      0x240 lib_generic/libgeneric.a(display_options.o)
+                0x67807d24                display_options
+                0x67807d44                print_size
+                0x67807e0c                print_buffer
+ .text          0x67807f64      0x544 lib_generic/libgeneric.a(string.o)
+                0x67807f64                strcpy
+                0x67807f7c                strncpy
+                0x67807fa0                strcat
+                0x67807fcc                strncat
+                0x67808020                strcmp
+                0x67808048                strncmp
+                0x6780808c                strchr
+                0x678080c0                strlen
+                0x678080e0                strrchr
+                0x6780811c                strnlen
+                0x67808148                strdup
+                0x6780817c                strspn
+                0x678081bc                strpbrk
+                0x678081f8                strtok
+                0x67808270                strsep
+                0x678082a4                strswab
+                0x678082f0                memset
+                0x6780830c                bcopy
+                0x67808334                memcpy
+                0x67808354                memmove
+                0x678083b8                memcmp
+                0x678083ec                memscan
+                0x67808418                strstr
+                0x67808478                memchr
+ .text          0x678084a8      0xd64 lib_generic/libgeneric.a(vsprintf.o)
+                0x678089f8                simple_strtoul
+                0x67808aa4                simple_strtol
+                0x67808acc                ustrtoul
+                0x67808b40                vsprintf
+                0x6780919c                sprintf
+                0x678091c0                panic
+ .text          0x6780920c        0x0 lib_generic/libgeneric.a(ctype.o)
+ .text          0x6780920c       0xec lib_generic/libgeneric.a(div64.o)
+                0x6780920c                __div64_32
+ .text          0x678092f8       0x1c cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+                0x678092f8                interrupt_init
+                0x67809300                reset_cpu
+ .text          0x67809314      0xef4 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+                0x67809314                do_switch_mfgmode
+                0x678096a8                mxc_get_clock
+                0x678098d8                mxc_dump_clocks
+                0x67809a9c                clk_info
+                0x67809bf0                clk_config
+                0x67809f60                print_cpuinfo
+                0x6780a020                fec_get_mac_addr
+                0x6780a060                cpu_eth_init
+                0x6780a078                arch_cpu_init
+                0x6780a164                otp_clk_enable
+                0x6780a184                otp_clk_disable
+                0x6780a1a8                clear_mfgmode_mem
+                0x6780a1cc                get_board_serial
+                0x6780a1f0                get_mmc_env_devno
+ .text          0x6780a208      0x1dc cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+                0x6780a25c                timer_init
+                0x6780a280                reset_timer_masked
+                0x6780a2a4                reset_timer
+                0x6780a2a8                get_ticks
+                0x6780a2ec                get_timer_masked
+                0x6780a32c                get_timer
+                0x6780a340                set_timer
+                0x6780a360                udelay
+ .text          0x6780a3e4      0x2b8 drivers/misc/libmisc.a(imx_otp.o)
+                0x6780a4c4                imx_otp_read_one_u32
+                0x6780a5a0                imx_otp_blow_one_u32
+ .text          0x6780a69c      0xcc0 drivers/net/libnet.a(mxc_fec.o)
+                0x6780a848                fec_send
+                0x6780a9d0                fec_recv
+                0x6780aa8c                dbgFecRegs
+                0x6780ac80                fec_reset
+                0x6780acd8                fec_halt
+                0x6780ad24                fec_init
+                0x6780b240                mxc_fec_initialize
+ .text          0x6780b35c      0x14c drivers/serial/libserial.a(serial_mxc.o)
+                0x6780b35c                serial_setbrg
+                0x6780b3a8                serial_getc
+                0x6780b3cc                serial_putc
+                0x6780b3fc                serial_tstc
+                0x6780b418                serial_puts
+                0x6780b438                serial_init
+ .text          0x6780b4a8       0xe8 common/libcommon.a(cmd_bdinfo.o)
+                0x6780b4a8                do_bdinfo
+ .text          0x6780b590       0x8c common/libcommon.a(cmd_boot.o)
+                0x6780b590                do_go_exec
+                0x6780b5a8                do_go
+ .text          0x6780b61c      0xc9c common/libcommon.a(cmd_bootm.o)
+                0x6780b72c                do_bootd
+                0x6780b8cc                do_iminfo
+                0x6780be08                board_lmb_reserve
+                0x6780be08                __board_lmb_reserve
+                0x6780be0c                arch_lmb_reserve
+                0x6780be0c                __arch_lmb_reserve
+                0x6780be10                do_bootm_subcommand
+                0x6780bfd8                do_bootm
+ .text          0x6780c2b8      0x180 common/libcommon.a(cmd_clk.o)
+                0x6780c2b8                do_clkops
+ .text          0x6780c438       0xb8 common/libcommon.a(cmd_console.o)
+                0x6780c438                do_coninfo
+ .text          0x6780c4f0      0x42c common/libcommon.a(cmd_ext2.o)
+                0x6780c4f0                do_ext2load
+                0x6780c7f4                do_ext2ls
+ .text          0x6780c91c      0x360 common/libcommon.a(cmd_fat.o)
+                0x6780c91c                do_fat_fsinfo
+                0x6780c9f4                do_fat_ls
+                0x6780cafc                do_fat_fsload
+ .text          0x6780cc7c       0x70 common/libcommon.a(cmd_flash.o)
+                0x6780cc7c                do_flinfo
+                0x6780cc84                do_flerase
+                0x6780cc8c                do_protect
+ .text          0x6780ccec      0xa6c common/libcommon.a(cmd_i2c.o)
+                0x6780cf14                __def_i2c_get_bus_speed
+                0x6780cf14                i2c_get_bus_speed
+                0x6780cf20                __def_i2c_set_bus_speed
+                0x6780cf20                i2c_set_bus_speed
+                0x6780cf38                do_i2c_md
+                0x6780d114                do_i2c_mw
+                0x6780d240                do_i2c_crc
+                0x6780d384                do_i2c_probe
+                0x6780d3d4                do_i2c_loop
+                0x6780d4e0                do_i2c_bus_speed
+                0x6780d554                do_i2c
+ .text          0x6780d758      0x314 common/libcommon.a(cmd_imxotp.o)
+                0x6780d758                validate_zero_from_simple_strtoul
+                0x6780d7e4                do_imxotp
+ .text          0x6780da6c      0x2d0 common/libcommon.a(cmd_itest.o)
+                0x6780dab4                binary_test
+                0x6780dca0                do_itest
+ .text          0x6780dd3c      0xc3c common/libcommon.a(cmd_load.o)
+                0x6780e05c                do_load_serial
+                0x6780e158                send_pad
+                0x6780e184                ktrans
+                0x6780e1a4                chk1
+                0x6780e1cc                s1_sendpacket
+                0x6780e1f0                send_ack
+                0x6780e24c                send_nack
+                0x6780e2a8                k_data_init
+                0x6780e2c8                k_data_save
+                0x6780e2ec                k_data_restore
+                0x6780e310                k_data_char
+                0x6780e360                handle_send_packet
+                0x6780e520                do_load_serial_bin
+ .text          0x6780e978      0x8e0 common/libcommon.a(cmd_mem.o)
+                0x6780e978                do_mem_base
+                0x6780e9b8                do_mem_mtest
+                0x6780eb34                do_mem_loop
+                0x6780ec28                do_mem_md
+                0x6780ecfc                do_mem_crc
+                0x6780edac                do_mem_cp
+                0x6780ee84                do_mem_cmp
+                0x6780f00c                do_mem_mw
+                0x6780f208                do_mem_nm
+                0x6780f230                do_mem_mm
+ .text          0x6780f258      0x7b8 common/libcommon.a(cmd_mii.o)
+                0x6780f2a4                MII_dump_0_to_5
+                0x6780f574                do_mii
+ .text          0x6780fa10       0x84 common/libcommon.a(cmd_misc.o)
+                0x6780fa10                do_sleep
+ .text          0x6780fa94      0x7c4 common/libcommon.a(cmd_mmc.o)
+                0x6780fa94                do_mmcops
+                0x6780fff8                do_mmcinfo
+ .text          0x67810258      0x3b4 common/libcommon.a(cmd_net.o)
+                0x67810548                do_nfs
+                0x67810554                do_dhcp
+                0x67810560                do_rarpb
+                0x6781056c                do_tftpb
+                0x67810578                do_bootp
+                0x67810584                do_ping
+ .text          0x6781060c      0x818 common/libcommon.a(cmd_nvedit.o)
+                0x6781060c                do_saveenv
+                0x67810638                do_destroyenv
+                0x67810668                get_env_id
+                0x67810678                envmatch
+                0x678106dc                getenv_r
+                0x67810784                getenv
+                0x678107f8                _do_setenv
+                0x67810c40                do_setenv
+                0x67810c6c                setenv
+                0x67810d94                do_printenv
+ .text          0x67810e24      0x1d8 common/libcommon.a(cmd_regul.o)
+                0x67810e24                do_regulops
+ .text          0x67810ffc      0x494 common/libcommon.a(cmd_sata.o)
+                0x67810ffc                do_sata
+                0x678113d0                __sata_initialize
+                0x67811474                sata_get_dev
+ .text          0x67811490      0x3e0 common/libcommon.a(cmd_sf.o)
+ .text          0x67811870      0x224 common/libcommon.a(cmd_source.o)
+                0x67811870                source
+                0x67811a14                do_source
+ .text          0x67811a94      0x1ac common/libcommon.a(cmd_spi.o)
+                0x67811a94                do_spi
+ .text          0x67811c40      0x234 common/libcommon.a(cmd_ximg.o)
+                0x67811c40                do_imgextract
+ .text          0x67811e74      0x934 common/libcommon.a(command.o)
+                0x67811e74                do_echo
+                0x67811ef4                do_version
+                0x67811f14                var_complete
+                0x67811f9c                find_cmd_tbl
+                0x67812030                find_cmd
+                0x67812058                cmd_usage
+                0x678120b8                _do_help
+                0x6781223c                do_help
+                0x67812280                install_auto_complete
+                0x678122d4                cmd_auto_complete
+                0x67812758                cmd_get_data_size
+ .text          0x678127a8      0x564 common/libcommon.a(console.o)
+                0x6781284c                serial_printf
+                0x67812890                fgetc
+                0x678128bc                ftstc
+                0x678128e8                fputc
+                0x67812910                fputs
+                0x67812938                fprintf
+                0x67812984                getc
+                0x6781299c                tstc
+                0x678129b4                putc
+                0x678129d0                puts
+                0x678129ec                printf
+                0x67812a30                vprintf
+                0x67812a64                ctrlc
+                0x67812ab0                disable_ctrlc
+                0x67812ac8                had_ctrlc
+                0x67812ad8                clear_ctrlc
+                0x67812aec                dbg
+                0x67812af8                search_device
+                0x67812b20                console_assign
+                0x67812b60                console_init_f
+                0x67812b70                stdio_print_current_devices
+                0x67812c24                console_init_r
+ .text          0x67812d0c      0xf98 common/libcommon.a(dlmalloc.o)
+                0x67812d0c                malloc_bin_reloc
+                0x67812d3c                malloc_trim
+                0x67812e0c                free
+                0x67813030                cfree
+                0x67813034                malloc
+                0x678135e4                calloc
+                0x678136b8                memalign
+                0x678137c8                pvalloc
+                0x678137e0                valloc
+                0x678137ec                realloc
+                0x67813bf4                malloc_usable_size
+                0x67813c30                mallopt
+ .text          0x67813ca4      0x298 common/libcommon.a(env_common.o)
+                0x67813ca4                env_crc_update
+                0x67813cd0                env_crc_destroy
+                0x67813cec                env_get_char_memory
+                0x67813d10                env_get_char
+                0x67813d40                env_get_addr
+                0x67813d64                set_default_env
+                0x67813dac                env_relocate
+                0x67813e00                env_complete
+ .text          0x67813f3c      0x1e8 common/libcommon.a(env_mmc.o)
+                0x67813f3c                env_get_char_spec
+                0x67813f48                env_init
+                0x67813f78                init_mmc_for_env
+                0x67813fb8                write_env
+                0x67814028                saveenv
+                0x678140a8                read_env
+                0x67814118                env_relocate_spec
+ .text          0x67814124      0x168 common/libcommon.a(exports.o)
+                0x67814128                get_version
+                0x67814130                jumptable_init
+ .text          0x6781428c      0x734 common/libcommon.a(image.o)
+                0x6781435c                image_check_hcrc
+                0x678143ac                image_check_dcrc
+                0x678143e8                image_multi_count
+                0x6781440c                image_multi_getimg
+                0x67814490                getenv_yesno
+                0x678144b8                getenv_bootm_low
+                0x678144ec                getenv_bootm_size
+                0x67814520                memmove_wd
+                0x67814524                genimg_get_os_name
+                0x6781453c                genimg_get_arch_name
+                0x67814554                genimg_get_type_name
+                0x6781456c                genimg_get_comp_name
+                0x67814584                image_print_contents
+                0x67814730                genimg_get_os_id
+                0x67814740                genimg_get_arch_id
+                0x67814750                genimg_get_type_id
+                0x67814760                genimg_get_comp_id
+                0x67814770                genimg_get_format
+                0x67814784                genimg_get_image
+                0x67814788                genimg_has_config
+                0x67814790                boot_get_ramdisk
+ .text          0x678149c0     0x101c common/libcommon.a(main.o)
+                0x67814b80                __show_boot_progress
+                0x67814b80                show_boot_progress
+                0x67814b84                readline_into_buffer
+                0x6781547c                readline
+                0x67815488                parse_line
+                0x67815514                run_command
+                0x678158e4                main_loop
+                0x67815960                do_run
+ .text          0x678159dc      0x52c common/libcommon.a(miiphyutil.o)
+                0x678159dc                miiphy_init
+                0x678159f8                miiphy_register
+                0x67815ad0                miiphy_set_current_dev
+                0x67815b2c                miiphy_get_current_dev
+                0x67815b44                miiphy_read
+                0x67815bcc                miiphy_write
+                0x67815c54                miiphy_listdev
+                0x67815cbc                miiphy_info
+                0x67815d48                miiphy_reset
+                0x67815de8                miiphy_speed
+                0x67815e74                miiphy_duplex
+                0x67815f00                miiphy_is_1000base_x
+ .text          0x67815f08      0x2d4 common/libcommon.a(s_record.o)
+                0x67815f74                srec_decode
+ .text          0x678161dc      0x184 common/libcommon.a(stdio.o)
+                0x678161dc                stdio_get_list
+                0x678161e8                stdio_get_by_name
+                0x6781623c                stdio_clone
+                0x67816284                stdio_register
+                0x678162c8                stdio_init
+ .text          0x67816360      0x8ac common/libcommon.a(xyzModem.o)
+                0x67816360                CYGACC_COMM_IF_GETC_TIMEOUT
+                0x67816648                CYGACC_COMM_IF_PUTC
+                0x67816650                parse_num
+                0x6781676c                xyzModem_stream_open
+                0x678168b8                xyzModem_stream_read
+                0x67816b08                xyzModem_stream_close
+                0x67816b58                xyzModem_stream_terminate
+                0x67816bec                xyzModem_error
+ .text          0x67816c0c       0x48 lib_generic/libgeneric.a(crc16.o)
+                0x67816c0c                cyg_crc16
+ .text          0x67816c54      0x108 lib_generic/libgeneric.a(crc32.o)
+                0x67816c54                crc32
+                0x67816d58                crc32_wd
+ .text          0x67816d5c      0x1b4 lib_generic/libgeneric.a(gunzip.o)
+                0x67816d5c                zfree
+                0x67816d64                zalloc
+                0x67816d74                zunzip
+                0x67816e64                gunzip
+ .text          0x67816f10      0x54c lib_generic/libgeneric.a(lmb.o)
+                0x678170d8                lmb_dump_all
+                0x678170dc                lmb_init
+                0x67817104                lmb_add
+                0x67817108                lmb_free
+                0x6781722c                lmb_reserve
+                0x67817234                lmb_overlaps_region
+                0x67817290                __lmb_alloc_base
+                0x678173c0                lmb_alloc_base
+                0x678173f4                lmb_alloc
+                0x678173fc                lmb_is_reserved
+ .text          0x6781745c     0x2718 lib_generic/libgeneric.a(zlib.o)
+                0x6781745c                zcfree
+                0x67817464                zcalloc
+                0x6781746c                inflate_fast
+                0x678179b0                inflate_table
+                0x67817f84                inflateReset
+                0x67818024                inflateInit2_
+                0x6781812c                inflateInit_
+                0x67818140                inflateEnd
+                0x678181cc                adler32
+                0x678184c4                inflate
+ .text          0x67819b74       0xd4 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+                0x67819b74                fsl_set_system_rev
+                0x67819c10                cpu_is_mx6q
+ .text          0x67819c48      0x174 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+                0x67819c48                mxc_iomux_v3_setup_pad
+                0x67819d34                mxc_iomux_v3_setup_multiple_pads
+                0x67819d6c                mxc_iomux_set_gpr_register
+                0x67819dac                mxc_iomux_v3_init
+ .text          0x67819dbc     0x1380 fs/fat/libfat.a(fat.o)
+                0x6781a498                fat_register_device
+                0x6781a5a8                do_fat_read
+                0x6781af9c                file_fat_detectfs
+                0x6781b0f4                file_fat_ls
+                0x6781b104                file_fat_read
+ .text          0x6781b13c      0xdc4 fs/ext2/libext2fs.a(ext2fs.o)
+                0x6781b22c                ext2fs_free_node
+                0x6781b24c                ext2fs_read_file
+                0x6781b964                ext2fs_find_file1
+                0x6781bbf4                ext2fs_find_file
+                0x6781bc64                ext2fs_ls
+                0x6781bcd8                ext2fs_open
+                0x6781bd6c                ext2fs_close
+                0x6781be20                ext2fs_read
+                0x6781be50                ext2fs_mount
+ .text          0x6781bf00      0x224 fs/ext2/libext2fs.a(dev.o)
+                0x6781bf00                ext2fs_set_blk_dev
+                0x6781bf54                ext2fs_devread
+ .text          0x6781c124      0x3cc disk/libdisk.a(part.o)
+                0x6781c124                get_dev
+                0x6781c18c                dev_print
+                0x6781c3d0                init_part
+                0x6781c3ec                get_partition_info
+                0x6781c414                print_part
+ .text          0x6781c4f0      0x4cc disk/libdisk.a(part_dos.o)
+                0x6781c920                test_part_dos
+                0x6781c974                print_part_dos
+                0x6781c9a0                get_partition_info_dos
+ .text          0x6781c9bc      0xfa0 drivers/block/libblock.a(dwc_ahsata.o)
+                0x6781cd5c                init_sata
+                0x6781d280                dwc_ahsata_flush_cache
+                0x6781d2ec                dwc_ahsata_rw_ncq_cmd
+                0x6781d3d0                dwc_ahsata_flush_cache_ext
+                0x6781d43c                ata_low_level_rw_lba48
+                0x6781d4cc                ata_low_level_rw_lba28
+                0x6781d544                sata_read
+                0x6781d580                sata_write
+                0x6781d5f8                scan_sata
+ .text          0x6781d95c      0x27c drivers/block/libblock.a(libata.o)
+                0x6781d95c                ata_id_n_sectors
+                0x6781d9e8                ata_dev_classify
+                0x6781da34                ata_id_c_string
+                0x6781daac                ata_dump_id
+                0x6781dbd4                ata_swap_buf_le16
+ .text          0x6781dbd8      0x11c drivers/gpio/libgpio.a(mxc_gpio.o)
+                0x6781dc24                gpio_set_value
+                0x6781dc5c                gpio_get_value
+                0x6781dc88                gpio_request
+                0x6781dc98                gpio_free
+                0x6781dc9c                gpio_toggle_value
+                0x6781dcbc                gpio_direction_input
+                0x6781dcc4                gpio_direction_output
+ .text          0x6781dcf4      0x49c drivers/i2c/libi2c.a(mxc_i2c.o)
+                0x6781df20                i2c_init
+                0x6781df8c                i2c_probe
+                0x6781dfe0                i2c_read
+                0x6781e10c                i2c_write
+ .text          0x6781e190      0x7bc drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+                0x6781e7f4                spi_flash_probe
+                0x6781e918                spi_flash_free
+ .text          0x6781e94c      0x27c drivers/power/libpower.a(anatop.o)
+                0x6781ea40                regul_list
+                0x6781eab8                regul_set
+                0x6781eb28                regul_get
+                0x6781eb90                regul_set_core
+                0x6781eba0                regul_get_core
+                0x6781ebac                regul_set_periph
+                0x6781ebbc                regul_get_periph
+ .text          0x6781ebc8      0x378 drivers/spi/libspi.a(imx_ecspi.o)
+                0x6781ebc8                spi_init
+                0x6781ebcc                spi_setup_slave
+                0x6781ed68                spi_free_slave
+                0x6781ed74                spi_claim_bus
+                0x6781ed7c                spi_release_bus
+                0x6781ed80                spi_xfer
+                0x6781ef24                spi_cs_is_valid
+                0x6781ef2c                spi_cs_activate
+                0x6781ef30                spi_cs_deactivate
+ .text          0x6781ef40      0x120 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+                0x6781ef40                cleanup_before_linux
+ .text          0x6781f060       0x1c /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+                0x6781f060                raise
+ .text          0x6781f07c       0xc8 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+                0x6781f07c                __udivsi3
+                0x6781f07c                __aeabi_uidiv
+                0x6781f124                __aeabi_uidivmod
+ .text          0x6781f144       0xfc /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+                0x6781f144                __aeabi_idiv
+                0x6781f144                __divsi3
+                0x6781f220                __aeabi_idivmod
+ .text          0x6781f240       0x1c /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+                0x6781f240                __aeabi_llsr
+                0x6781f240                __lshrdi3
+ .text          0x6781f25c       0x1c /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+                0x6781f25c                __ashldi3
+                0x6781f25c                __aeabi_llsl
+ .text          0x6781f278       0x10 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+                0x6781f278                __aeabi_ldiv0
+                0x6781f278                __aeabi_idiv0
+
+.glue_7         0x6781f288        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x6781f288        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x6781f288        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x6781f288        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x6781f288        0x0
+ .iplt          0x00000000        0x0 board/freescale/mx6q_sabreauto/flash_header.o
+
+.text.init      0x6781f288        0xc
+ .text.init     0x6781f288        0xc board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+                0x6781f288                lowlevel_init
+                0x6781f294                . = ALIGN (0x4)
+
+.rodata         0x6781f294     0x8628
+ *(SORT(.rodata*))
+ .rodata        0x6781f294       0x80 lib_arm/libarm.a(interrupts.o)
+ .rodata        0x6781f314        0xc cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .rodata        0x6781f320       0x14 common/libcommon.a(cmd_nvedit.o)
+ .rodata        0x6781f334       0x20 common/libcommon.a(xyzModem.o)
+ .rodata        0x6781f354      0x400 lib_generic/libgeneric.a(crc32.o)
+ .rodata        0x6781f754      0x9cc lib_generic/libgeneric.a(zlib.o)
+                0x678200f8                z_errmsg
+ .rodata        0x67820120       0x18 disk/libdisk.a(part.o)
+ .rodata        0x67820138       0x1c drivers/gpio/libgpio.a(mxc_gpio.o)
+ .rodata        0x67820154       0x50 drivers/mmc/libmmc.a(mmc.o)
+ .rodata        0x678201a4       0x3c drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .rodata        0x678201e0      0x200 lib_generic/libgeneric.a(crc16.o)
+ .rodata        0x678203e0       0x54 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .rodata        0x67820434       0x2a lib_arm/libarm.a(board.o)
+                0x67820434                version_string
+ .rodata        0x6782045e        0x7 net/libnet.a(net.o)
+ .rodata        0x67820465        0x7 net/libnet.a(eth.o)
+ .rodata        0x6782046c       0x21 lib_generic/libgeneric.a(vsprintf.o)
+                0x6782047c                hex_asc
+ .rodata        0x6782048d       0x16 common/libcommon.a(command.o)
+ .rodata.str1.1
+                0x678204a3       0x4c lib_arm/libarm.a(board.o)
+ .rodata.str1.1
+                0x678204ef      0x264 lib_arm/libarm.a(interrupts.o)
+                                0x27b (size before relaxing)
+ .rodata.str1.1
+                0x67820753      0x20b net/libnet.a(net.o)
+                                0x213 (size before relaxing)
+ .rodata.str1.1
+                0x6782095e      0x172 net/libnet.a(nfs.o)
+                                0x188 (size before relaxing)
+ .rodata.str1.1
+                0x67820ad0       0x47 net/libnet.a(rarp.o)
+ .rodata.str1.1
+                0x67820b17      0x10c net/libnet.a(tftp.o)
+                                0x1e8 (size before relaxing)
+ .rodata.str1.1
+                0x67820c23      0x100 net/libnet.a(bootp.o)
+                                0x13d (size before relaxing)
+ .rodata.str1.1
+                0x67820d23       0xc5 net/libnet.a(eth.o)
+                                 0xdf (size before relaxing)
+ .rodata.str1.1
+                0x67820de8       0x2b lib_generic/libgeneric.a(display_options.o)
+                                 0x36 (size before relaxing)
+ .rodata.str1.1
+                0x67820e13       0x1f lib_generic/libgeneric.a(vsprintf.o)
+ .rodata.str1.1
+                0x67820e32      0x420 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+                                0x423 (size before relaxing)
+ .rodata.str1.1
+                0x67821252        0xf lib_arm/libarm.a(reset.o)
+ .rodata.str1.1
+                0x67821261      0x143 drivers/misc/libmisc.a(imx_otp.o)
+ .rodata.str1.1
+                0x678213a4      0x294 drivers/net/libnet.a(mxc_fec.o)
+ .rodata.str1.1
+                0x67821638       0xaa common/libcommon.a(cmd_bdinfo.o)
+                                 0xb3 (size before relaxing)
+ .rodata.str1.1
+                0x678216e2       0xef common/libcommon.a(cmd_boot.o)
+                                 0xf0 (size before relaxing)
+ .rodata.str1.1
+                0x678217d1      0x7d5 common/libcommon.a(cmd_bootm.o)
+                                0x829 (size before relaxing)
+ .rodata.str1.1
+                0x67821fa6      0x212 common/libcommon.a(cmd_clk.o)
+                                0x216 (size before relaxing)
+ .rodata.str1.1
+                0x678221b8       0x5c common/libcommon.a(cmd_console.o)
+                                 0x61 (size before relaxing)
+ .rodata.str1.1
+                0x67822214      0x302 common/libcommon.a(cmd_ext2.o)
+                                0x39a (size before relaxing)
+ .rodata.str1.1
+                0x67822516      0x2e1 common/libcommon.a(cmd_fat.o)
+                                0x3a5 (size before relaxing)
+ .rodata.str1.1
+                0x678227f7      0x4b6 common/libcommon.a(cmd_flash.o)
+                                0x4bd (size before relaxing)
+ .rodata.str1.1
+                0x67822cad      0x344 common/libcommon.a(cmd_i2c.o)
+                                0x387 (size before relaxing)
+ .rodata.str1.1
+                0x67822ff1      0x2f6 common/libcommon.a(cmd_imxotp.o)
+ .rodata.str1.1
+                0x678232e7       0xb3 common/libcommon.a(cmd_itest.o)
+                                 0xb5 (size before relaxing)
+ .rodata.str1.1
+                0x6782339a      0x336 common/libcommon.a(cmd_load.o)
+                                0x353 (size before relaxing)
+ .rodata.str1.1
+                0x678236d0      0x45c common/libcommon.a(cmd_mem.o)
+                                0x490 (size before relaxing)
+ .rodata.str1.1
+                0x67823b2c      0x752 common/libcommon.a(cmd_mii.o)
+                                0x773 (size before relaxing)
+ .rodata.str1.1
+                0x6782427e       0x5f common/libcommon.a(cmd_misc.o)
+ .rodata.str1.1
+                0x678242dd      0x4bb common/libcommon.a(cmd_mmc.o)
+                                0x4cf (size before relaxing)
+ .rodata.str1.1
+                0x67824798      0x1ee common/libcommon.a(cmd_net.o)
+                                0x223 (size before relaxing)
+ .rodata.str1.1
+                0x67824986      0x3c7 common/libcommon.a(cmd_nvedit.o)
+                                0x424 (size before relaxing)
+ .rodata.str1.1
+                0x67824d4d      0x254 common/libcommon.a(cmd_regul.o)
+                                0x269 (size before relaxing)
+ .rodata.str1.1
+                0x67824fa1      0x1f9 common/libcommon.a(cmd_sata.o)
+                                0x227 (size before relaxing)
+ .rodata.str1.1
+                0x6782519a      0x279 common/libcommon.a(cmd_sf.o)
+                                0x28a (size before relaxing)
+ .rodata.str1.1
+                0x67825413      0x178 common/libcommon.a(cmd_source.o)
+                                0x180 (size before relaxing)
+ .rodata.str1.1
+                0x6782558b      0x179 common/libcommon.a(cmd_spi.o)
+                                0x180 (size before relaxing)
+ .rodata.str1.1
+                0x67825704      0x10e common/libcommon.a(cmd_ximg.o)
+                                0x19c (size before relaxing)
+ .rodata.str1.1
+                0x67825812      0x26b common/libcommon.a(command.o)
+                                0x2a4 (size before relaxing)
+ .rodata.str1.1
+                0x67825a7d       0x70 common/libcommon.a(console.o)
+                                 0x74 (size before relaxing)
+ .rodata.str1.1
+                0x67825aed       0x33 common/libcommon.a(env_common.o)
+                                 0x37 (size before relaxing)
+ .rodata.str1.1
+                0x67825b20       0x3b common/libcommon.a(env_mmc.o)
+                                 0x4d (size before relaxing)
+ .rodata.str1.1
+                0x67825b5b      0x3f6 common/libcommon.a(image.o)
+                                0x46c (size before relaxing)
+ .rodata.str1.1
+                0x67825f51       0x89 common/libcommon.a(main.o)
+                                 0xc6 (size before relaxing)
+ .rodata.str1.1
+                0x67825fda      0x13b common/libcommon.a(miiphyutil.o)
+                                0x13d (size before relaxing)
+ .rodata.str1.1
+                0x67826115        0x7 common/libcommon.a(stdio.o)
+                                 0x1b (size before relaxing)
+ .rodata.str1.1
+                0x6782611c       0xe3 common/libcommon.a(xyzModem.o)
+                                 0xe5 (size before relaxing)
+ .rodata.str1.1
+                0x678261ff      0x12e board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+                                0x144 (size before relaxing)
+ .rodata.str1.1
+                0x6782632d       0x85 lib_generic/libgeneric.a(gunzip.o)
+ .rodata.str1.1
+                0x678263b2       0x34 lib_generic/libgeneric.a(lmb.o)
+ .rodata.str1.1
+                0x678263e6      0x21c lib_generic/libgeneric.a(zlib.o)
+                                0x21d (size before relaxing)
+ .rodata.str1.1
+                0x67826602       0x80 lib_arm/libarm.a(bootm.o)
+                                 0x89 (size before relaxing)
+ .rodata.str1.1
+                0x67826682      0x16e fs/fat/libfat.a(fat.o)
+                                0x173 (size before relaxing)
+ .rodata.str1.1
+                0x678267f0      0x1be fs/ext2/libext2fs.a(ext2fs.o)
+ .rodata.str1.1
+                0x678269ae       0xdc fs/ext2/libext2fs.a(dev.o)
+ .rodata.str1.1
+                0x67826a8a      0x1d7 disk/libdisk.a(part.o)
+                                0x20d (size before relaxing)
+ .rodata.str1.1
+                0x67826c61       0xe5 disk/libdisk.a(part_dos.o)
+                                 0xf7 (size before relaxing)
+ .rodata.str1.1
+                0x67826d46      0x224 drivers/block/libblock.a(dwc_ahsata.o)
+                                0x22e (size before relaxing)
+ .rodata.str1.1
+                0x67826f6a      0x2b2 drivers/block/libblock.a(libata.o)
+ .rodata.str1.1
+                0x6782721c       0xd3 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .rodata.str1.1
+                0x678272ef      0x320 drivers/mmc/libmmc.a(mmc.o)
+                                0x32b (size before relaxing)
+ .rodata.str1.1
+                0x6782760f       0xb3 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .rodata.str1.1
+                0x678276c2       0x8d drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+                                 0x8f (size before relaxing)
+ .rodata.str1.1
+                0x6782774f       0x70 drivers/power/libpower.a(anatop.o)
+                                 0x74 (size before relaxing)
+ .rodata.str1.1
+                0x678277bf       0xe2 drivers/spi/libspi.a(imx_ecspi.o)
+ .rodata.str1.1
+                0x678278a1       0x1b /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+
+.rel.dyn        0x678278bc        0x0
+ .rel.iplt      0x00000000        0x0 board/freescale/mx6q_sabreauto/flash_header.o
+                0x678278bc                . = ALIGN (0x4)
+
+.data           0x678278c0     0x1408
+ *(.data)
+ .data          0x678278c0        0x0 board/freescale/mx6q_sabreauto/flash_header.o
+ .data          0x678278c0        0x0 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+ .data          0x678278c0       0x20 lib_arm/libarm.a(board.o)
+                0x678278c0                init_sequence
+ .data          0x678278e0        0x0 lib_arm/libarm.a(interrupts.o)
+ .data          0x678278e0        0xa net/libnet.a(net.o)
+                0x678278e0                NetOurVLAN
+                0x678278e2                NetOurNativeVLAN
+                0x678278e4                NetBcastAddr
+ *fill*         0x678278ea        0x2 00
+ .data          0x678278ec        0x4 net/libnet.a(nfs.o)
+ .data          0x678278f0        0x0 net/libnet.a(rarp.o)
+ .data          0x678278f0       0x14 net/libnet.a(tftp.o)
+                0x678278fc                TftpRRQTimeoutMSecs
+                0x67827900                TftpRRQTimeoutCountMax
+ .data          0x67827904        0x0 net/libnet.a(bootp.o)
+ .data          0x67827904        0x0 net/libnet.a(eth.o)
+ .data          0x67827904        0x0 common/env_embedded.o
+ .data          0x67827904        0x0 lib_generic/libgeneric.a(display_options.o)
+ .data          0x67827904        0x0 lib_generic/libgeneric.a(string.o)
+ .data          0x67827904        0x0 lib_generic/libgeneric.a(vsprintf.o)
+ .data          0x67827904      0x100 lib_generic/libgeneric.a(ctype.o)
+                0x67827904                _ctype
+ .data          0x67827a04        0x0 lib_generic/libgeneric.a(div64.o)
+ .data          0x67827a04        0x0 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .data          0x67827a04        0x0 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .data          0x67827a04        0x0 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .data          0x67827a04        0x0 lib_arm/libarm.a(reset.o)
+ .data          0x67827a04        0x0 drivers/misc/libmisc.a(imx_otp.o)
+ .data          0x67827a04       0x34 drivers/net/libnet.a(mxc_fec.o)
+                0x67827a04                fec_info
+ .data          0x67827a38        0x0 drivers/serial/libserial.a(serial_mxc.o)
+ .data          0x67827a38        0x0 common/libcommon.a(cmd_bdinfo.o)
+ .data          0x67827a38        0x0 common/libcommon.a(cmd_boot.o)
+ .data          0x67827a38       0xf8 common/libcommon.a(cmd_bootm.o)
+                0x67827a38                load_addr
+                0x67827a3c                cmd_bootm_sub
+                0x67827ae4                boot_os
+ .data          0x67827b30        0x0 common/libcommon.a(cmd_clk.o)
+ .data          0x67827b30        0x0 common/libcommon.a(cmd_console.o)
+ .data          0x67827b30        0x0 common/libcommon.a(cmd_ext2.o)
+ .data          0x67827b30        0x0 common/libcommon.a(cmd_fat.o)
+ .data          0x67827b30        0x0 common/libcommon.a(cmd_flash.o)
+ .data          0x67827b30        0x4 common/libcommon.a(cmd_i2c.o)
+ .data          0x67827b34        0x0 common/libcommon.a(cmd_imxotp.o)
+ .data          0x67827b34       0x68 common/libcommon.a(cmd_itest.o)
+                0x67827b34                op_table
+ .data          0x67827b9c        0x4 common/libcommon.a(cmd_load.o)
+ .data          0x67827ba0        0x4 common/libcommon.a(cmd_mem.o)
+                0x67827ba0                dp_last_length
+ .data          0x67827ba4      0x2e8 common/libcommon.a(cmd_mii.o)
+                0x67827ba4                reg_0_5_desc_tbl
+                0x67827bd4                desc_and_len_tbl
+                0x67827c04                reg_5_desc_tbl
+                0x67827c94                reg_4_desc_tbl
+                0x67827d24                reg_3_desc_tbl
+                0x67827d48                reg_2_desc_tbl
+                0x67827d54                reg_1_desc_tbl
+                0x67827e14                reg_0_desc_tbl
+ .data          0x67827e8c        0x0 common/libcommon.a(cmd_misc.o)
+ .data          0x67827e8c        0x4 common/libcommon.a(cmd_mmc.o)
+ .data          0x67827e90        0x0 common/libcommon.a(cmd_net.o)
+ .data          0x67827e90        0x4 common/libcommon.a(cmd_nvedit.o)
+ .data          0x67827e94        0x0 common/libcommon.a(cmd_regul.o)
+ .data          0x67827e94        0x4 common/libcommon.a(cmd_sata.o)
+                0x67827e94                sata_curr_device
+ .data          0x67827e98        0x0 common/libcommon.a(cmd_sf.o)
+ .data          0x67827e98        0x0 common/libcommon.a(cmd_source.o)
+ .data          0x67827e98        0x0 common/libcommon.a(cmd_spi.o)
+ .data          0x67827e98        0x0 common/libcommon.a(cmd_ximg.o)
+ .data          0x67827e98        0x0 common/libcommon.a(command.o)
+ .data          0x67827e98        0x0 common/libcommon.a(console.o)
+ .data          0x67827e98      0x414 common/libcommon.a(dlmalloc.o)
+ .data          0x678282ac      0x274 common/libcommon.a(env_common.o)
+                0x678282ac                default_environment
+                0x6782851c                default_environment_size
+ .data          0x67828520        0x4 common/libcommon.a(env_mmc.o)
+                0x67828520                env_name_spec
+ .data          0x67828524        0x0 common/libcommon.a(exports.o)
+ .data          0x67828524      0x1ec common/libcommon.a(image.o)
+ .data          0x67828710       0x14 common/libcommon.a(main.o)
+ .data          0x67828724        0x0 common/libcommon.a(miiphyutil.o)
+ .data          0x67828724        0x0 common/libcommon.a(s_record.o)
+ .data          0x67828724        0xc common/libcommon.a(stdio.o)
+                0x67828724                stdio_names
+ .data          0x67828730        0x0 common/libcommon.a(xyzModem.o)
+ .data          0x67828730      0x1e0 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+                0x67828730                usdhc1_pads
+                0x67828760                usdhc2_pads
+                0x67828790                usdhc3_pads
+                0x678287e8                usdhc4_pads
+                0x67828838                usdhc_cfg
+                0x67828888                gpio_pads
+                0x67828898                enet_pads
+ .data          0x67828910        0x0 lib_generic/libgeneric.a(crc16.o)
+ .data          0x67828910        0x0 lib_generic/libgeneric.a(crc32.o)
+ .data          0x67828910        0x0 lib_generic/libgeneric.a(gunzip.o)
+ .data          0x67828910        0x0 lib_generic/libgeneric.a(lmb.o)
+ .data          0x67828910        0x0 lib_generic/libgeneric.a(zlib.o)
+ .data          0x67828910        0x0 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .data          0x67828910        0x0 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .data          0x67828910        0x0 lib_arm/libarm.a(bootm.o)
+ .data          0x67828910        0x0 lib_arm/libarm.a(cache.o)
+ .data          0x67828910        0x4 fs/fat/libfat.a(fat.o)
+ .data          0x67828914        0x8 fs/ext2/libext2fs.a(ext2fs.o)
+                0x67828914                indir1_blkno
+                0x67828918                indir2_blkno
+ .data          0x6782891c        0x0 fs/ext2/libext2fs.a(dev.o)
+ .data          0x6782891c        0x0 disk/libdisk.a(part.o)
+ .data          0x6782891c        0x0 disk/libdisk.a(part_dos.o)
+ .data          0x6782891c        0x0 drivers/block/libblock.a(dwc_ahsata.o)
+ .data          0x6782891c        0x0 drivers/block/libblock.a(libata.o)
+ .data          0x6782891c        0x0 drivers/gpio/libgpio.a(mxc_gpio.o)
+ .data          0x6782891c        0x0 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .data          0x6782891c        0x4 drivers/mmc/libmmc.a(mmc.o)
+ .data          0x67828920        0x0 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .data          0x67828920        0x0 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .data          0x67828920      0x3a8 drivers/power/libpower.a(anatop.o)
+ .data          0x67828cc8        0x0 drivers/spi/libspi.a(imx_ecspi.o)
+ .data          0x67828cc8        0x0 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .data          0x67828cc8        0x0 /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .data          0x67828cc8        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .data          0x67828cc8        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+ .data          0x67828cc8        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+ .data          0x67828cc8        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+ .data          0x67828cc8        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+
+.igot.plt       0x67828cc8        0x0
+ .igot.plt      0x00000000        0x0 board/freescale/mx6q_sabreauto/flash_header.o
+                0x67828cc8                . = ALIGN (0x4)
+
+.got
+ *(.got)
+                0x67828cc8                . = .
+                0x67828cc8                __u_boot_cmd_start = .
+
+.u_boot_cmd     0x67828cc8      0x690
+ *(.u_boot_cmd)
+ .u_boot_cmd    0x67828cc8       0x1c cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+                0x67828cc8                __u_boot_cmd_download_mode
+ .u_boot_cmd    0x67828ce4       0x1c common/libcommon.a(cmd_bdinfo.o)
+                0x67828ce4                __u_boot_cmd_bdinfo
+ .u_boot_cmd    0x67828d00       0x38 common/libcommon.a(cmd_boot.o)
+                0x67828d00                __u_boot_cmd_reset
+                0x67828d1c                __u_boot_cmd_go
+ .u_boot_cmd    0x67828d38       0x70 common/libcommon.a(cmd_bootm.o)
+                0x67828d38                __u_boot_cmd_iminfo
+                0x67828d54                __u_boot_cmd_bootd
+                0x67828d70                __u_boot_cmd_boot
+                0x67828d8c                __u_boot_cmd_bootm
+ .u_boot_cmd    0x67828da8       0x1c common/libcommon.a(cmd_clk.o)
+                0x67828da8                __u_boot_cmd_clk
+ .u_boot_cmd    0x67828dc4       0x1c common/libcommon.a(cmd_console.o)
+                0x67828dc4                __u_boot_cmd_coninfo
+ .u_boot_cmd    0x67828de0       0x38 common/libcommon.a(cmd_ext2.o)
+                0x67828de0                __u_boot_cmd_ext2load
+                0x67828dfc                __u_boot_cmd_ext2ls
+ .u_boot_cmd    0x67828e18       0x54 common/libcommon.a(cmd_fat.o)
+                0x67828e18                __u_boot_cmd_fatinfo
+                0x67828e34                __u_boot_cmd_fatls
+                0x67828e50                __u_boot_cmd_fatload
+ .u_boot_cmd    0x67828e6c       0x54 common/libcommon.a(cmd_flash.o)
+                0x67828e6c                __u_boot_cmd_protect
+                0x67828e88                __u_boot_cmd_erase
+                0x67828ea4                __u_boot_cmd_flinfo
+ .u_boot_cmd    0x67828ec0       0x1c common/libcommon.a(cmd_i2c.o)
+                0x67828ec0                __u_boot_cmd_i2c
+ .u_boot_cmd    0x67828edc       0x1c common/libcommon.a(cmd_imxotp.o)
+                0x67828edc                __u_boot_cmd_imxotp
+ .u_boot_cmd    0x67828ef8       0x1c common/libcommon.a(cmd_itest.o)
+                0x67828ef8                __u_boot_cmd_itest
+ .u_boot_cmd    0x67828f14       0x54 common/libcommon.a(cmd_load.o)
+                0x67828f14                __u_boot_cmd_loady
+                0x67828f30                __u_boot_cmd_loadb
+                0x67828f4c                __u_boot_cmd_loads
+ .u_boot_cmd    0x67828f68      0x118 common/libcommon.a(cmd_mem.o)
+                0x67828f68                __u_boot_cmd_mtest
+                0x67828f84                __u_boot_cmd_loop
+                0x67828fa0                __u_boot_cmd_base
+                0x67828fbc                __u_boot_cmd_crc32
+                0x67828fd8                __u_boot_cmd_cmp
+                0x67828ff4                __u_boot_cmd_cp
+                0x67829010                __u_boot_cmd_mw
+                0x6782902c                __u_boot_cmd_nm
+                0x67829048                __u_boot_cmd_mm
+                0x67829064                __u_boot_cmd_md
+ .u_boot_cmd    0x67829080       0x1c common/libcommon.a(cmd_mii.o)
+                0x67829080                __u_boot_cmd_mii
+ .u_boot_cmd    0x6782909c       0x1c common/libcommon.a(cmd_misc.o)
+                0x6782909c                __u_boot_cmd_sleep
+ .u_boot_cmd    0x678290b8       0x38 common/libcommon.a(cmd_mmc.o)
+                0x678290b8                __u_boot_cmd_mmc
+                0x678290d4                __u_boot_cmd_mmcinfo
+ .u_boot_cmd    0x678290f0       0xa8 common/libcommon.a(cmd_net.o)
+                0x678290f0                __u_boot_cmd_ping
+                0x6782910c                __u_boot_cmd_nfs
+                0x67829128                __u_boot_cmd_dhcp
+                0x67829144                __u_boot_cmd_rarpboot
+                0x67829160                __u_boot_cmd_tftpboot
+                0x6782917c                __u_boot_cmd_bootp
+ .u_boot_cmd    0x67829198       0x8c common/libcommon.a(cmd_nvedit.o)
+                0x67829198                __u_boot_cmd_run
+                0x678291b4                __u_boot_cmd_destroyenv
+                0x678291d0                __u_boot_cmd_setenv
+                0x678291ec                __u_boot_cmd_printenv
+                0x67829208                __u_boot_cmd_saveenv
+ .u_boot_cmd    0x67829224       0x1c common/libcommon.a(cmd_regul.o)
+                0x67829224                __u_boot_cmd_regul
+ .u_boot_cmd    0x67829240       0x1c common/libcommon.a(cmd_sata.o)
+                0x67829240                __u_boot_cmd_sata
+ .u_boot_cmd    0x6782925c       0x1c common/libcommon.a(cmd_sf.o)
+                0x6782925c                __u_boot_cmd_sf
+ .u_boot_cmd    0x67829278       0x38 common/libcommon.a(cmd_source.o)
+                0x67829278                __u_boot_cmd_autoscr
+                0x67829294                __u_boot_cmd_source
+ .u_boot_cmd    0x678292b0       0x1c common/libcommon.a(cmd_spi.o)
+                0x678292b0                __u_boot_cmd_sspi
+ .u_boot_cmd    0x678292cc       0x1c common/libcommon.a(cmd_ximg.o)
+                0x678292cc                __u_boot_cmd_imxtract
+ .u_boot_cmd    0x678292e8       0x70 common/libcommon.a(command.o)
+                0x678292e8                __u_boot_cmd_question_mark
+                0x67829304                __u_boot_cmd_help
+                0x67829320                __u_boot_cmd_echo
+                0x6782933c                __u_boot_cmd_version
+                0x67829358                __u_boot_cmd_end = .
+                0x67829358                . = ALIGN (0x4)
+                0x67829358                _end_of_copy = .
+                0x67829358                __bss_start = .
+
+.bss            0x67829358    0x399b4
+ *(.bss)
+ .bss           0x67829358        0x0 board/freescale/mx6q_sabreauto/flash_header.o
+ .bss           0x67829358        0x0 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+ .bss           0x67829358       0x10 lib_arm/libarm.a(board.o)
+                0x67829364                monitor_flash_len
+ .bss           0x67829368        0x0 lib_arm/libarm.a(interrupts.o)
+ .bss           0x67829368     0x25e0 net/libnet.a(net.o)
+                0x67829368                NetState
+                0x6782936c                NetPingIP
+                0x67829384                NetRestartWrap
+                0x6782938c                NetOurEther
+                0x67829394                NetRxPacket
+                0x67829398                NetRxPacketLen
+                0x6782939c                NetOurIP
+                0x678293a0                NetArpWaitPacketIP
+                0x678293a4                NetArpWaitPacketMAC
+                0x678293a8                NetArpWaitReplyIP
+                0x678293ac                NetArpWaitTxPacket
+                0x678293b0                NetArpWaitTxPacketSize
+                0x678293b4                NetServerIP
+                0x678293b8                NetServerEther
+                0x678293c0                NetTxPacket
+                0x678293c4                NetOurSubnetMask
+                0x678293c8                NetOurGatewayIP
+                0x678293cc                NetArpWaitTimerStart
+                0x678293d0                NetArpWaitTry
+                0x678293da                NetEtherNullAddr
+                0x678293e0                NetIPID
+                0x678293e6                PktBuf
+                0x6782b208                NetRxPackets
+                0x6782b218                NetArpWaitPacketBuf
+                0x6782b83c                NetBootFileXferSize
+                0x6782b840                BootFile
+                0x6782b8c0                NetBootFileSize
+                0x6782b8c2                NetOurRootPath
+                0x6782b902                NetOurHostName
+                0x6782b922                NetOurNISDomain
+                0x6782b944                NetOurDNSIP
+ .bss           0x6782b948      0x8b0 net/libnet.a(nfs.o)
+ .bss           0x6782c1f8        0x4 net/libnet.a(rarp.o)
+                0x6782c1f8                RarpTry
+ .bss           0x6782c1fc       0xb4 net/libnet.a(tftp.o)
+ .bss           0x6782c2b0       0x14 net/libnet.a(bootp.o)
+                0x6782c2b0                dhcp_leasetime
+                0x6782c2b4                NetDHCPServerIP
+                0x6782c2b8                BootpID
+                0x6782c2bc                dhcp_state
+                0x6782c2c0                BootpTry
+ .bss           0x6782c2c4       0x14 net/libnet.a(eth.o)
+ .bss           0x6782c2d8        0x0 common/env_embedded.o
+ .bss           0x6782c2d8        0x0 lib_generic/libgeneric.a(display_options.o)
+ .bss           0x6782c2d8        0x4 lib_generic/libgeneric.a(string.o)
+                0x6782c2d8                ___strtok
+ .bss           0x6782c2dc        0x0 lib_generic/libgeneric.a(vsprintf.o)
+ .bss           0x6782c2dc        0x0 lib_generic/libgeneric.a(ctype.o)
+ .bss           0x6782c2dc        0x0 lib_generic/libgeneric.a(div64.o)
+ .bss           0x6782c2dc        0x0 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .bss           0x6782c2dc        0x8 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .bss           0x6782c2e4        0xc cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .bss           0x6782c2f0        0x0 lib_arm/libarm.a(reset.o)
+ .bss           0x6782c2f0        0x0 drivers/misc/libmisc.a(imx_otp.o)
+ .bss           0x6782c2f0        0x4 drivers/net/libnet.a(mxc_fec.o)
+ .bss           0x6782c2f4        0x0 drivers/serial/libserial.a(serial_mxc.o)
+ .bss           0x6782c2f4        0x0 common/libcommon.a(cmd_bdinfo.o)
+ .bss           0x6782c2f4        0x0 common/libcommon.a(cmd_boot.o)
+ .bss           0x6782c2f4      0x130 common/libcommon.a(cmd_bootm.o)
+ .bss           0x6782c424        0x0 common/libcommon.a(cmd_clk.o)
+ .bss           0x6782c424        0x0 common/libcommon.a(cmd_console.o)
+ .bss           0x6782c424        0x0 common/libcommon.a(cmd_ext2.o)
+ .bss           0x6782c424        0x0 common/libcommon.a(cmd_fat.o)
+ .bss           0x6782c424        0x0 common/libcommon.a(cmd_flash.o)
+ .bss           0x6782c424       0x18 common/libcommon.a(cmd_i2c.o)
+ .bss           0x6782c43c        0x0 common/libcommon.a(cmd_imxotp.o)
+ .bss           0x6782c43c        0x0 common/libcommon.a(cmd_itest.o)
+ .bss           0x6782c43c       0x60 common/libcommon.a(cmd_load.o)
+                0x6782c448                his_pad_count
+                0x6782c44c                his_pad_char
+                0x6782c465                his_eol
+                0x6782c46c                os_data_init
+                0x6782c47c                os_data_char
+                0x6782c480                his_quote
+                0x6782c484                send_ptr
+                0x6782c488                send_parms
+ .bss           0x6782c49c       0x14 common/libcommon.a(cmd_mem.o)
+                0x6782c4a0                dp_last_addr
+                0x6782c4a4                dp_last_size
+                0x6782c4a8                mm_last_addr
+                0x6782c4ac                mm_last_size
+ .bss           0x6782c4b0       0x18 common/libcommon.a(cmd_mii.o)
+                0x6782c4b0                last_op
+                0x6782c4b4                last_addr_lo
+                0x6782c4b8                last_addr_hi
+                0x6782c4bc                last_reg_lo
+                0x6782c4c0                last_reg_hi
+                0x6782c4c4                last_data
+ .bss           0x6782c4c8        0x0 common/libcommon.a(cmd_misc.o)
+ .bss           0x6782c4c8        0x0 common/libcommon.a(cmd_mmc.o)
+ .bss           0x6782c4c8        0x0 common/libcommon.a(cmd_net.o)
+ .bss           0x6782c4c8        0x0 common/libcommon.a(cmd_nvedit.o)
+ .bss           0x6782c4c8        0x0 common/libcommon.a(cmd_regul.o)
+ .bss           0x6782c4c8       0x70 common/libcommon.a(cmd_sata.o)
+                0x6782c4c8                sata_dev_desc
+ .bss           0x6782c538        0x4 common/libcommon.a(cmd_sf.o)
+ .bss           0x6782c53c        0x0 common/libcommon.a(cmd_source.o)
+ .bss           0x6782c53c      0x208 common/libcommon.a(cmd_spi.o)
+ .bss           0x6782c744        0x0 common/libcommon.a(cmd_ximg.o)
+ .bss           0x6782c744      0x600 common/libcommon.a(command.o)
+ .bss           0x6782cd44        0x8 common/libcommon.a(console.o)
+ .bss           0x6782cd4c       0x38 common/libcommon.a(dlmalloc.o)
+ .bss           0x6782cd84        0x0 common/libcommon.a(env_common.o)
+ .bss           0x6782cd84        0x8 common/libcommon.a(env_mmc.o)
+                0x6782cd88                env_ptr
+ .bss           0x6782cd8c        0x0 common/libcommon.a(exports.o)
+ .bss           0x6782cd8c        0x0 common/libcommon.a(image.o)
+ .bss           0x6782cd8c     0x5860 common/libcommon.a(main.o)
+                0x6782cd98                hist_num
+                0x6782cd9c                hist_lines
+                0x67831d9c                hist_list
+                0x67831dec                console_buffer
+ .bss           0x678325ec        0xc common/libcommon.a(miiphyutil.o)
+ .bss           0x678325f8        0x0 common/libcommon.a(s_record.o)
+ .bss           0x678325f8       0x48 common/libcommon.a(stdio.o)
+                0x67832634                stdio_devices
+ .bss           0x67832640      0x43c common/libcommon.a(xyzModem.o)
+ .bss           0x67832a7c        0x4 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .bss           0x67832a80        0x0 lib_generic/libgeneric.a(crc16.o)
+ .bss           0x67832a80        0x0 lib_generic/libgeneric.a(crc32.o)
+ .bss           0x67832a80        0x0 lib_generic/libgeneric.a(gunzip.o)
+ .bss           0x67832a80        0x0 lib_generic/libgeneric.a(lmb.o)
+ .bss           0x67832a80        0x0 lib_generic/libgeneric.a(zlib.o)
+ .bss           0x67832a80        0x4 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+                0x67832a80                fsl_system_rev
+ .bss           0x67832a84        0x4 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .bss           0x67832a88        0x4 lib_arm/libarm.a(bootm.o)
+ .bss           0x67832a8c        0x0 lib_arm/libarm.a(cache.o)
+ .bss           0x67832a8c    0x30008 fs/fat/libfat.a(fat.o)
+                0x67832a94                get_vfatname_block
+                0x67842a94                do_fat_read_block
+                0x67852a94                get_dentfromdir_block
+ .bss           0x67862a94       0x1c fs/ext2/libext2fs.a(ext2fs.o)
+                0x67862a94                ext2fs_root
+                0x67862a98                indir1_block
+                0x67862a9c                indir1_size
+                0x67862aa0                indir2_block
+                0x67862aa4                indir2_size
+                0x67862aa8                symlinknest
+                0x67862aac                ext2fs_file
+ .bss           0x67862ab0       0x50 fs/ext2/libext2fs.a(dev.o)
+ .bss           0x67862b00        0x0 disk/libdisk.a(part.o)
+ .bss           0x67862b00        0x0 disk/libdisk.a(part_dos.o)
+ .bss           0x67862b00        0x4 drivers/block/libblock.a(dwc_ahsata.o)
+ .bss           0x67862b04        0x0 drivers/block/libblock.a(libata.o)
+ .bss           0x67862b04        0x0 drivers/gpio/libgpio.a(mxc_gpio.o)
+ .bss           0x67862b04        0x0 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .bss           0x67862b04        0x8 drivers/mmc/libmmc.a(mmc.o)
+ .bss           0x67862b0c        0x0 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .bss           0x67862b0c      0x200 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .bss           0x67862d0c        0x0 drivers/power/libpower.a(anatop.o)
+ .bss           0x67862d0c        0x0 drivers/spi/libspi.a(imx_ecspi.o)
+ .bss           0x67862d0c        0x0 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .bss           0x67862d0c        0x0 /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .bss           0x67862d0c        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .bss           0x67862d0c        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+ .bss           0x67862d0c        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+ .bss           0x67862d0c        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+ .bss           0x67862d0c        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+                0x67862d0c                _end = .
+Address of section .text set to 0x67800000
+LOAD cpu/arm_cortexa8/start.o
+START GROUP
+LOAD lib_generic/libgeneric.a
+LOAD lib_generic/lzma/liblzma.a
+LOAD lib_generic/lzo/liblzo.a
+LOAD board/freescale/common/libfreescale.a
+LOAD cpu/arm_cortexa8/libarm_cortexa8.a
+LOAD cpu/arm_cortexa8/mx6/libmx6.a
+LOAD lib_arm/libarm.a
+LOAD fs/cramfs/libcramfs.a
+LOAD fs/fat/libfat.a
+LOAD fs/fdos/libfdos.a
+LOAD fs/jffs2/libjffs2.a
+LOAD fs/reiserfs/libreiserfs.a
+LOAD fs/ext2/libext2fs.a
+LOAD fs/yaffs2/libyaffs2.a
+LOAD fs/ubifs/libubifs.a
+LOAD net/libnet.a
+LOAD disk/libdisk.a
+LOAD drivers/bios_emulator/libatibiosemu.a
+LOAD drivers/block/libblock.a
+LOAD drivers/dma/libdma.a
+LOAD drivers/fpga/libfpga.a
+LOAD drivers/gpio/libgpio.a
+LOAD drivers/hwmon/libhwmon.a
+LOAD drivers/i2c/libi2c.a
+LOAD drivers/input/libinput.a
+LOAD drivers/misc/libmisc.a
+LOAD drivers/mmc/libmmc.a
+LOAD drivers/mtd/libmtd.a
+LOAD drivers/mtd/nand/libnand.a
+LOAD drivers/mtd/onenand/libonenand.a
+LOAD drivers/mtd/ubi/libubi.a
+LOAD drivers/mtd/spi/libspi_flash.a
+LOAD drivers/net/libnet.a
+LOAD drivers/net/phy/libphy.a
+LOAD drivers/net/sk98lin/libsk98lin.a
+LOAD drivers/pci/libpci.a
+LOAD drivers/pcmcia/libpcmcia.a
+LOAD drivers/power/libpower.a
+LOAD drivers/spi/libspi.a
+LOAD drivers/fastboot/libfastboot.a
+LOAD drivers/rtc/librtc.a
+LOAD drivers/serial/libserial.a
+LOAD drivers/twserial/libtws.a
+LOAD drivers/usb/gadget/libusb_gadget.a
+LOAD drivers/usb/host/libusb_host.a
+LOAD drivers/usb/musb/libusb_musb.a
+LOAD drivers/video/libvideo.a
+LOAD drivers/watchdog/libwatchdog.a
+LOAD common/libcommon.a
+LOAD libfdt/libfdt.a
+LOAD api/libapi.a
+LOAD post/libpost.a
+LOAD board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a
+END GROUP
+LOAD /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+LOAD /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a
+OUTPUT(u-boot elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x27
+ .ARM.attributes
+                0x00000000       0x19 board/freescale/mx6q_sabreauto/flash_header.o
+ .ARM.attributes
+                0x00000019       0x19 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+ .ARM.attributes
+                0x00000032       0x2b lib_arm/libarm.a(board.o)
+ .ARM.attributes
+                0x0000005d       0x2b lib_arm/libarm.a(interrupts.o)
+ .ARM.attributes
+                0x00000088       0x2b net/libnet.a(net.o)
+ .ARM.attributes
+                0x000000b3       0x2b net/libnet.a(nfs.o)
+ .ARM.attributes
+                0x000000de       0x29 net/libnet.a(rarp.o)
+ .ARM.attributes
+                0x00000107       0x29 net/libnet.a(tftp.o)
+ .ARM.attributes
+                0x00000130       0x2b net/libnet.a(bootp.o)
+ .ARM.attributes
+                0x0000015b       0x2b net/libnet.a(eth.o)
+ .ARM.attributes
+                0x00000186       0x29 common/env_embedded.o
+ .ARM.attributes
+                0x000001af       0x29 lib_generic/libgeneric.a(display_options.o)
+ .ARM.attributes
+                0x000001d8       0x2b lib_generic/libgeneric.a(string.o)
+ .ARM.attributes
+                0x00000203       0x2b lib_generic/libgeneric.a(vsprintf.o)
+ .ARM.attributes
+                0x0000022e       0x29 lib_generic/libgeneric.a(ctype.o)
+ .ARM.attributes
+                0x00000257       0x29 lib_generic/libgeneric.a(div64.o)
+ .ARM.attributes
+                0x00000280       0x2b cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .ARM.attributes
+                0x000002ab       0x2b cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .ARM.attributes
+                0x000002d6       0x2b cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .ARM.attributes
+                0x00000301       0x29 lib_arm/libarm.a(reset.o)
+ .ARM.attributes
+                0x0000032a       0x29 drivers/misc/libmisc.a(imx_otp.o)
+ .ARM.attributes
+                0x00000353       0x2b drivers/net/libnet.a(mxc_fec.o)
+ .ARM.attributes
+                0x0000037e       0x2b drivers/serial/libserial.a(serial_mxc.o)
+ .ARM.attributes
+                0x000003a9       0x29 common/libcommon.a(cmd_bdinfo.o)
+ .ARM.attributes
+                0x000003d2       0x29 common/libcommon.a(cmd_boot.o)
+ .ARM.attributes
+                0x000003fb       0x2b common/libcommon.a(cmd_bootm.o)
+ .ARM.attributes
+                0x00000426       0x29 common/libcommon.a(cmd_clk.o)
+ .ARM.attributes
+                0x0000044f       0x29 common/libcommon.a(cmd_console.o)
+ .ARM.attributes
+                0x00000478       0x29 common/libcommon.a(cmd_ext2.o)
+ .ARM.attributes
+                0x000004a1       0x29 common/libcommon.a(cmd_fat.o)
+ .ARM.attributes
+                0x000004ca       0x2b common/libcommon.a(cmd_flash.o)
+ .ARM.attributes
+                0x000004f5       0x2b common/libcommon.a(cmd_i2c.o)
+ .ARM.attributes
+                0x00000520       0x29 common/libcommon.a(cmd_imxotp.o)
+ .ARM.attributes
+                0x00000549       0x29 common/libcommon.a(cmd_itest.o)
+ .ARM.attributes
+                0x00000572       0x2b common/libcommon.a(cmd_load.o)
+ .ARM.attributes
+                0x0000059d       0x29 common/libcommon.a(cmd_mem.o)
+ .ARM.attributes
+                0x000005c6       0x29 common/libcommon.a(cmd_mii.o)
+ .ARM.attributes
+                0x000005ef       0x29 common/libcommon.a(cmd_misc.o)
+ .ARM.attributes
+                0x00000618       0x29 common/libcommon.a(cmd_mmc.o)
+ .ARM.attributes
+                0x00000641       0x29 common/libcommon.a(cmd_net.o)
+ .ARM.attributes
+                0x0000066a       0x2b common/libcommon.a(cmd_nvedit.o)
+ .ARM.attributes
+                0x00000695       0x29 common/libcommon.a(cmd_regul.o)
+ .ARM.attributes
+                0x000006be       0x2b common/libcommon.a(cmd_sata.o)
+ .ARM.attributes
+                0x000006e9       0x29 common/libcommon.a(cmd_sf.o)
+ .ARM.attributes
+                0x00000712       0x29 common/libcommon.a(cmd_source.o)
+ .ARM.attributes
+                0x0000073b       0x29 common/libcommon.a(cmd_spi.o)
+ .ARM.attributes
+                0x00000764       0x29 common/libcommon.a(cmd_ximg.o)
+ .ARM.attributes
+                0x0000078d       0x29 common/libcommon.a(command.o)
+ .ARM.attributes
+                0x000007b6       0x2b common/libcommon.a(console.o)
+ .ARM.attributes
+                0x000007e1       0x2b common/libcommon.a(dlmalloc.o)
+ .ARM.attributes
+                0x0000080c       0x2b common/libcommon.a(env_common.o)
+ .ARM.attributes
+                0x00000837       0x2b common/libcommon.a(env_mmc.o)
+ .ARM.attributes
+                0x00000862       0x2b common/libcommon.a(exports.o)
+ .ARM.attributes
+                0x0000088d       0x2b common/libcommon.a(image.o)
+ .ARM.attributes
+                0x000008b8       0x2b common/libcommon.a(main.o)
+ .ARM.attributes
+                0x000008e3       0x2b common/libcommon.a(miiphyutil.o)
+ .ARM.attributes
+                0x0000090e       0x2b common/libcommon.a(s_record.o)
+ .ARM.attributes
+                0x00000939       0x2b common/libcommon.a(stdio.o)
+ .ARM.attributes
+                0x00000964       0x2b common/libcommon.a(xyzModem.o)
+ .ARM.attributes
+                0x0000098f       0x2b board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .ARM.attributes
+                0x000009ba       0x29 lib_generic/libgeneric.a(crc16.o)
+ .ARM.attributes
+                0x000009e3       0x29 lib_generic/libgeneric.a(crc32.o)
+ .ARM.attributes
+                0x00000a0c       0x29 lib_generic/libgeneric.a(gunzip.o)
+ .ARM.attributes
+                0x00000a35       0x2b lib_generic/libgeneric.a(lmb.o)
+ .ARM.attributes
+                0x00000a60       0x29 lib_generic/libgeneric.a(zlib.o)
+ .ARM.attributes
+                0x00000a89       0x29 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .ARM.attributes
+                0x00000ab2       0x2b cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .ARM.attributes
+                0x00000add       0x2b lib_arm/libarm.a(bootm.o)
+ .ARM.attributes
+                0x00000b08       0x2b lib_arm/libarm.a(cache.o)
+ .ARM.attributes
+                0x00000b33       0x2b fs/fat/libfat.a(fat.o)
+ .ARM.attributes
+                0x00000b5e       0x2b fs/ext2/libext2fs.a(ext2fs.o)
+ .ARM.attributes
+                0x00000b89       0x29 fs/ext2/libext2fs.a(dev.o)
+ .ARM.attributes
+                0x00000bb2       0x29 disk/libdisk.a(part.o)
+ .ARM.attributes
+                0x00000bdb       0x2b disk/libdisk.a(part_dos.o)
+ .ARM.attributes
+                0x00000c06       0x2b drivers/block/libblock.a(dwc_ahsata.o)
+ .ARM.attributes
+                0x00000c31       0x2b drivers/block/libblock.a(libata.o)
+ .ARM.attributes
+                0x00000c5c       0x2b drivers/gpio/libgpio.a(mxc_gpio.o)
+ .ARM.attributes
+                0x00000c87       0x29 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .ARM.attributes
+                0x00000cb0       0x2b drivers/mmc/libmmc.a(mmc.o)
+ .ARM.attributes
+                0x00000cdb       0x2b drivers/mmc/libmmc.a(imx_esdhc.o)
+ .ARM.attributes
+                0x00000d06       0x29 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .ARM.attributes
+                0x00000d2f       0x2b drivers/power/libpower.a(anatop.o)
+ .ARM.attributes
+                0x00000d5a       0x2b drivers/spi/libspi.a(imx_ecspi.o)
+ .ARM.attributes
+                0x00000d85       0x29 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .ARM.attributes
+                0x00000dae       0x29 /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .ARM.attributes
+                0x00000dd7       0x1a /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000df1       0x1a /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000e0b       0x1a /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x00000e25       0x1a /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x00000e3f       0x18 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+
+.comment        0x00000000       0x60
+ .comment       0x00000000       0x60 lib_arm/libarm.a(board.o)
+                                 0x61 (size before relaxing)
+ .comment       0x00000000       0x61 lib_arm/libarm.a(interrupts.o)
+ .comment       0x00000000       0x61 net/libnet.a(net.o)
+ .comment       0x00000000       0x61 net/libnet.a(nfs.o)
+ .comment       0x00000000       0x61 net/libnet.a(rarp.o)
+ .comment       0x00000000       0x61 net/libnet.a(tftp.o)
+ .comment       0x00000000       0x61 net/libnet.a(bootp.o)
+ .comment       0x00000000       0x61 net/libnet.a(eth.o)
+ .comment       0x00000000       0x61 common/env_embedded.o
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(display_options.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(string.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(vsprintf.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(ctype.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(div64.o)
+ .comment       0x00000000       0x61 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .comment       0x00000000       0x61 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .comment       0x00000000       0x61 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .comment       0x00000000       0x61 lib_arm/libarm.a(reset.o)
+ .comment       0x00000000       0x61 drivers/misc/libmisc.a(imx_otp.o)
+ .comment       0x00000000       0x61 drivers/net/libnet.a(mxc_fec.o)
+ .comment       0x00000000       0x61 drivers/serial/libserial.a(serial_mxc.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_bdinfo.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_boot.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_bootm.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_clk.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_console.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_ext2.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_fat.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_flash.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_i2c.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_imxotp.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_itest.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_load.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_mem.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_mii.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_misc.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_mmc.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_net.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_nvedit.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_regul.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_sata.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_sf.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_source.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_spi.o)
+ .comment       0x00000000       0x61 common/libcommon.a(cmd_ximg.o)
+ .comment       0x00000000       0x61 common/libcommon.a(command.o)
+ .comment       0x00000000       0x61 common/libcommon.a(console.o)
+ .comment       0x00000000       0x61 common/libcommon.a(dlmalloc.o)
+ .comment       0x00000000       0x61 common/libcommon.a(env_common.o)
+ .comment       0x00000000       0x61 common/libcommon.a(env_mmc.o)
+ .comment       0x00000000       0x61 common/libcommon.a(exports.o)
+ .comment       0x00000000       0x61 common/libcommon.a(image.o)
+ .comment       0x00000000       0x61 common/libcommon.a(main.o)
+ .comment       0x00000000       0x61 common/libcommon.a(miiphyutil.o)
+ .comment       0x00000000       0x61 common/libcommon.a(s_record.o)
+ .comment       0x00000000       0x61 common/libcommon.a(stdio.o)
+ .comment       0x00000000       0x61 common/libcommon.a(xyzModem.o)
+ .comment       0x00000000       0x61 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(crc16.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(crc32.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(gunzip.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(lmb.o)
+ .comment       0x00000000       0x61 lib_generic/libgeneric.a(zlib.o)
+ .comment       0x00000000       0x61 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .comment       0x00000000       0x61 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .comment       0x00000000       0x61 lib_arm/libarm.a(bootm.o)
+ .comment       0x00000000       0x61 lib_arm/libarm.a(cache.o)
+ .comment       0x00000000       0x61 fs/fat/libfat.a(fat.o)
+ .comment       0x00000000       0x61 fs/ext2/libext2fs.a(ext2fs.o)
+ .comment       0x00000000       0x61 fs/ext2/libext2fs.a(dev.o)
+ .comment       0x00000000       0x61 disk/libdisk.a(part.o)
+ .comment       0x00000000       0x61 disk/libdisk.a(part_dos.o)
+ .comment       0x00000000       0x61 drivers/block/libblock.a(dwc_ahsata.o)
+ .comment       0x00000000       0x61 drivers/block/libblock.a(libata.o)
+ .comment       0x00000000       0x61 drivers/gpio/libgpio.a(mxc_gpio.o)
+ .comment       0x00000000       0x61 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .comment       0x00000000       0x61 drivers/mmc/libmmc.a(mmc.o)
+ .comment       0x00000000       0x61 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .comment       0x00000000       0x61 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .comment       0x00000000       0x61 drivers/power/libpower.a(anatop.o)
+ .comment       0x00000000       0x61 drivers/spi/libspi.a(imx_ecspi.o)
+ .comment       0x00000000       0x61 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .comment       0x00000000       0x61 /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 lib_arm/libarm.a(board.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_arm/libarm.a(interrupts.o)
+ .note.GNU-stack
+                0x00000000        0x0 net/libnet.a(net.o)
+ .note.GNU-stack
+                0x00000000        0x0 net/libnet.a(nfs.o)
+ .note.GNU-stack
+                0x00000000        0x0 net/libnet.a(rarp.o)
+ .note.GNU-stack
+                0x00000000        0x0 net/libnet.a(tftp.o)
+ .note.GNU-stack
+                0x00000000        0x0 net/libnet.a(bootp.o)
+ .note.GNU-stack
+                0x00000000        0x0 net/libnet.a(eth.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/env_embedded.o
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(display_options.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(string.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(vsprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(ctype.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(div64.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_arm/libarm.a(reset.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/misc/libmisc.a(imx_otp.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/net/libnet.a(mxc_fec.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/serial/libserial.a(serial_mxc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_bdinfo.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_boot.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_bootm.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_clk.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_console.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_ext2.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_fat.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_flash.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_i2c.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_imxotp.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_itest.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_load.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_mem.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_mii.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_misc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_mmc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_net.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_nvedit.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_regul.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_sata.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_sf.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_source.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_spi.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_ximg.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(command.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(console.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(dlmalloc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(env_common.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(env_mmc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(exports.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(image.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(main.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(miiphyutil.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(s_record.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(stdio.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(xyzModem.o)
+ .note.GNU-stack
+                0x00000000        0x0 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(crc16.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(crc32.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(gunzip.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(lmb.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(zlib.o)
+ .note.GNU-stack
+                0x00000000        0x0 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_arm/libarm.a(bootm.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_arm/libarm.a(cache.o)
+ .note.GNU-stack
+                0x00000000        0x0 fs/fat/libfat.a(fat.o)
+ .note.GNU-stack
+                0x00000000        0x0 fs/ext2/libext2fs.a(ext2fs.o)
+ .note.GNU-stack
+                0x00000000        0x0 fs/ext2/libext2fs.a(dev.o)
+ .note.GNU-stack
+                0x00000000        0x0 disk/libdisk.a(part.o)
+ .note.GNU-stack
+                0x00000000        0x0 disk/libdisk.a(part_dos.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/block/libblock.a(dwc_ahsata.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/block/libblock.a(libata.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/gpio/libgpio.a(mxc_gpio.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/mmc/libmmc.a(mmc.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/power/libpower.a(anatop.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/spi/libspi.a(imx_ecspi.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .note.GNU-stack
+                0x00000000        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+
+.debug_line     0x00000000     0xb40b
+ .debug_line    0x00000000       0x3f board/freescale/mx6q_sabreauto/flash_header.o
+ .debug_line    0x0000003f       0x40 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+ .debug_line    0x0000007f      0x1bd lib_arm/libarm.a(board.o)
+ .debug_line    0x0000023c       0xc9 lib_arm/libarm.a(interrupts.o)
+ .debug_line    0x00000305      0x61e net/libnet.a(net.o)
+ .debug_line    0x00000923      0x396 net/libnet.a(nfs.o)
+ .debug_line    0x00000cb9      0x137 net/libnet.a(rarp.o)
+ .debug_line    0x00000df0      0x283 net/libnet.a(tftp.o)
+ .debug_line    0x00001073      0x31b net/libnet.a(bootp.o)
+ .debug_line    0x0000138e      0x271 net/libnet.a(eth.o)
+ .debug_line    0x000015ff       0x1d common/env_embedded.o
+ .debug_line    0x0000161c      0x140 lib_generic/libgeneric.a(display_options.o)
+ .debug_line    0x0000175c      0x2ae lib_generic/libgeneric.a(string.o)
+ .debug_line    0x00001a0a      0x534 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_line    0x00001f3e       0x65 lib_generic/libgeneric.a(ctype.o)
+ .debug_line    0x00001fa3       0xd5 lib_generic/libgeneric.a(div64.o)
+ .debug_line    0x00002078       0xb8 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .debug_line    0x00002130      0x3fc cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .debug_line    0x0000252c      0x112 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .debug_line    0x0000263e       0x75 lib_arm/libarm.a(reset.o)
+ .debug_line    0x000026b3      0x14c drivers/misc/libmisc.a(imx_otp.o)
+ .debug_line    0x000027ff      0x3b6 drivers/net/libnet.a(mxc_fec.o)
+ .debug_line    0x00002bb5      0x117 drivers/serial/libserial.a(serial_mxc.o)
+ .debug_line    0x00002ccc      0x113 common/libcommon.a(cmd_bdinfo.o)
+ .debug_line    0x00002ddf       0xca common/libcommon.a(cmd_boot.o)
+ .debug_line    0x00002ea9      0x3f5 common/libcommon.a(cmd_bootm.o)
+ .debug_line    0x0000329e       0xd0 common/libcommon.a(cmd_clk.o)
+ .debug_line    0x0000336e       0xe4 common/libcommon.a(cmd_console.o)
+ .debug_line    0x00003452      0x15a common/libcommon.a(cmd_ext2.o)
+ .debug_line    0x000035ac      0x133 common/libcommon.a(cmd_fat.o)
+ .debug_line    0x000036df       0x94 common/libcommon.a(cmd_flash.o)
+ .debug_line    0x00003773      0x33c common/libcommon.a(cmd_i2c.o)
+ .debug_line    0x00003aaf      0x11a common/libcommon.a(cmd_imxotp.o)
+ .debug_line    0x00003bc9      0x111 common/libcommon.a(cmd_itest.o)
+ .debug_line    0x00003cda      0x397 common/libcommon.a(cmd_load.o)
+ .debug_line    0x00004071      0x2d8 common/libcommon.a(cmd_mem.o)
+ .debug_line    0x00004349      0x22b common/libcommon.a(cmd_mii.o)
+ .debug_line    0x00004574       0xc5 common/libcommon.a(cmd_misc.o)
+ .debug_line    0x00004639      0x1f4 common/libcommon.a(cmd_mmc.o)
+ .debug_line    0x0000482d      0x159 common/libcommon.a(cmd_net.o)
+ .debug_line    0x00004986      0x3a7 common/libcommon.a(cmd_nvedit.o)
+ .debug_line    0x00004d2d       0xa0 common/libcommon.a(cmd_regul.o)
+ .debug_line    0x00004dcd      0x184 common/libcommon.a(cmd_sata.o)
+ .debug_line    0x00004f51      0x1b8 common/libcommon.a(cmd_sf.o)
+ .debug_line    0x00005109      0x1ca common/libcommon.a(cmd_source.o)
+ .debug_line    0x000052d3       0xdc common/libcommon.a(cmd_spi.o)
+ .debug_line    0x000053af      0x19d common/libcommon.a(cmd_ximg.o)
+ .debug_line    0x0000554c      0x295 common/libcommon.a(command.o)
+ .debug_line    0x000057e1      0x2e3 common/libcommon.a(console.o)
+ .debug_line    0x00005ac4      0x4b4 common/libcommon.a(dlmalloc.o)
+ .debug_line    0x00005f78      0x194 common/libcommon.a(env_common.o)
+ .debug_line    0x0000610c      0x183 common/libcommon.a(env_mmc.o)
+ .debug_line    0x0000628f      0x121 common/libcommon.a(exports.o)
+ .debug_line    0x000063b0      0x36f common/libcommon.a(image.o)
+ .debug_line    0x0000671f      0x3d3 common/libcommon.a(main.o)
+ .debug_line    0x00006af2      0x1df common/libcommon.a(miiphyutil.o)
+ .debug_line    0x00006cd1      0x109 common/libcommon.a(s_record.o)
+ .debug_line    0x00006dda      0x178 common/libcommon.a(stdio.o)
+ .debug_line    0x00006f52      0x2c7 common/libcommon.a(xyzModem.o)
+ .debug_line    0x00007219      0x324 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .debug_line    0x0000753d       0xca lib_generic/libgeneric.a(crc16.o)
+ .debug_line    0x00007607      0x125 lib_generic/libgeneric.a(crc32.o)
+ .debug_line    0x0000772c       0xd9 lib_generic/libgeneric.a(gunzip.o)
+ .debug_line    0x00007805      0x297 lib_generic/libgeneric.a(lmb.o)
+ .debug_line    0x00007a9c      0x9fd lib_generic/libgeneric.a(zlib.o)
+ .debug_line    0x00008499       0xd7 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .debug_line    0x00008570      0x111 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .debug_line    0x00008681      0x1e2 lib_arm/libarm.a(bootm.o)
+ .debug_line    0x00008863       0x38 lib_arm/libarm.a(cache.o)
+ .debug_line    0x0000889b      0x52e fs/fat/libfat.a(fat.o)
+ .debug_line    0x00008dc9      0x347 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_line    0x00009110      0x141 fs/ext2/libext2fs.a(dev.o)
+ .debug_line    0x00009251      0x1a5 disk/libdisk.a(part.o)
+ .debug_line    0x000093f6      0x196 disk/libdisk.a(part_dos.o)
+ .debug_line    0x0000958c      0x4d4 drivers/block/libblock.a(dwc_ahsata.o)
+ .debug_line    0x00009a60      0x11d drivers/block/libblock.a(libata.o)
+ .debug_line    0x00009b7d       0xf5 drivers/gpio/libgpio.a(mxc_gpio.o)
+ .debug_line    0x00009c72      0x275 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .debug_line    0x00009ee7      0x73f drivers/mmc/libmmc.a(mmc.o)
+ .debug_line    0x0000a626      0x3de drivers/mmc/libmmc.a(imx_esdhc.o)
+ .debug_line    0x0000aa04      0x2c5 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .debug_line    0x0000acc9      0x105 drivers/power/libpower.a(anatop.o)
+ .debug_line    0x0000adce      0x1ee drivers/spi/libspi.a(imx_ecspi.o)
+ .debug_line    0x0000afbc      0x107 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .debug_line    0x0000b0c3       0x3f /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .debug_line    0x0000b102       0xab /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .debug_line    0x0000b1ad       0xb7 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+ .debug_line    0x0000b264       0x8d /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000b2f1       0x8d /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+ .debug_line    0x0000b37e       0x8d /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+
+.debug_info     0x00000000    0x29834
+ .debug_info    0x00000000       0x7b board/freescale/mx6q_sabreauto/flash_header.o
+ .debug_info    0x0000007b       0x7c board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+ .debug_info    0x000000f7      0x51a lib_arm/libarm.a(board.o)
+ .debug_info    0x00000611      0x260 lib_arm/libarm.a(interrupts.o)
+ .debug_info    0x00000871     0x19ef net/libnet.a(net.o)
+ .debug_info    0x00002260      0xd0d net/libnet.a(nfs.o)
+ .debug_info    0x00002f6d      0x2cc net/libnet.a(rarp.o)
+ .debug_info    0x00003239      0x659 net/libnet.a(tftp.o)
+ .debug_info    0x00003892      0xd14 net/libnet.a(bootp.o)
+ .debug_info    0x000045a6      0x94f net/libnet.a(eth.o)
+ .debug_info    0x00004ef5       0x73 common/env_embedded.o
+ .debug_info    0x00004f68      0x283 lib_generic/libgeneric.a(display_options.o)
+ .debug_info    0x000051eb      0x8e2 lib_generic/libgeneric.a(string.o)
+ .debug_info    0x00005acd      0xbbf lib_generic/libgeneric.a(vsprintf.o)
+ .debug_info    0x0000668c       0x63 lib_generic/libgeneric.a(ctype.o)
+ .debug_info    0x000066ef      0x13c lib_generic/libgeneric.a(div64.o)
+ .debug_info    0x0000682b       0xc3 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .debug_info    0x000068ee     0x12e8 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .debug_info    0x00007bd6      0x397 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .debug_info    0x00007f6d      0x1aa lib_arm/libarm.a(reset.o)
+ .debug_info    0x00008117      0x3ba drivers/misc/libmisc.a(imx_otp.o)
+ .debug_info    0x000084d1     0x1047 drivers/net/libnet.a(mxc_fec.o)
+ .debug_info    0x00009518      0x2c6 drivers/serial/libserial.a(serial_mxc.o)
+ .debug_info    0x000097de      0x50d common/libcommon.a(cmd_bdinfo.o)
+ .debug_info    0x00009ceb      0x289 common/libcommon.a(cmd_boot.o)
+ .debug_info    0x00009f74     0x1502 common/libcommon.a(cmd_bootm.o)
+ .debug_info    0x0000b476      0x22f common/libcommon.a(cmd_clk.o)
+ .debug_info    0x0000b6a5      0x39d common/libcommon.a(cmd_console.o)
+ .debug_info    0x0000ba42      0x67b common/libcommon.a(cmd_ext2.o)
+ .debug_info    0x0000c0bd      0x6df common/libcommon.a(cmd_fat.o)
+ .debug_info    0x0000c79c      0x343 common/libcommon.a(cmd_flash.o)
+ .debug_info    0x0000cadf      0x9c7 common/libcommon.a(cmd_i2c.o)
+ .debug_info    0x0000d4a6      0x2a2 common/libcommon.a(cmd_imxotp.o)
+ .debug_info    0x0000d748      0x58b common/libcommon.a(cmd_itest.o)
+ .debug_info    0x0000dcd3      0xdff common/libcommon.a(cmd_load.o)
+ .debug_info    0x0000ead2      0xe77 common/libcommon.a(cmd_mem.o)
+ .debug_info    0x0000f949      0x867 common/libcommon.a(cmd_mii.o)
+ .debug_info    0x000101b0      0x1f4 common/libcommon.a(cmd_misc.o)
+ .debug_info    0x000103a4      0xa7a common/libcommon.a(cmd_mmc.o)
+ .debug_info    0x00010e1e      0x761 common/libcommon.a(cmd_net.o)
+ .debug_info    0x0001157f      0xa49 common/libcommon.a(cmd_nvedit.o)
+ .debug_info    0x00011fc8      0x1e9 common/libcommon.a(cmd_regul.o)
+ .debug_info    0x000121b1      0x566 common/libcommon.a(cmd_sata.o)
+ .debug_info    0x00012717      0x740 common/libcommon.a(cmd_sf.o)
+ .debug_info    0x00012e57      0x591 common/libcommon.a(cmd_source.o)
+ .debug_info    0x000133e8      0x2a2 common/libcommon.a(cmd_spi.o)
+ .debug_info    0x0001368a      0x490 common/libcommon.a(cmd_ximg.o)
+ .debug_info    0x00013b1a      0xcd9 common/libcommon.a(command.o)
+ .debug_info    0x000147f3      0xaac common/libcommon.a(console.o)
+ .debug_info    0x0001529f      0xc0d common/libcommon.a(dlmalloc.o)
+ .debug_info    0x00015eac      0x4e0 common/libcommon.a(env_common.o)
+ .debug_info    0x0001638c      0xa4e common/libcommon.a(env_mmc.o)
+ .debug_info    0x00016dda      0x2fa common/libcommon.a(exports.o)
+ .debug_info    0x000170d4     0x1212 common/libcommon.a(image.o)
+ .debug_info    0x000182e6      0xed2 common/libcommon.a(main.o)
+ .debug_info    0x000191b8      0x6ea common/libcommon.a(miiphyutil.o)
+ .debug_info    0x000198a2      0x1b8 common/libcommon.a(s_record.o)
+ .debug_info    0x00019a5a      0x593 common/libcommon.a(stdio.o)
+ .debug_info    0x00019fed      0x923 common/libcommon.a(xyzModem.o)
+ .debug_info    0x0001a910      0xade board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .debug_info    0x0001b3ee      0x10b lib_generic/libgeneric.a(crc16.o)
+ .debug_info    0x0001b4f9      0x18d lib_generic/libgeneric.a(crc32.o)
+ .debug_info    0x0001b686      0x3f4 lib_generic/libgeneric.a(gunzip.o)
+ .debug_info    0x0001ba7a      0x93f lib_generic/libgeneric.a(lmb.o)
+ .debug_info    0x0001c3b9      0xfe0 lib_generic/libgeneric.a(zlib.o)
+ .debug_info    0x0001d399       0xee board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .debug_info    0x0001d487      0x223 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .debug_info    0x0001d6aa      0xd78 lib_arm/libarm.a(bootm.o)
+ .debug_info    0x0001e422       0xa2 lib_arm/libarm.a(cache.o)
+ .debug_info    0x0001e4c4     0x1404 fs/fat/libfat.a(fat.o)
+ .debug_info    0x0001f8c8      0xf21 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_info    0x000207e9      0x3f8 fs/ext2/libext2fs.a(dev.o)
+ .debug_info    0x00020be1      0x6a9 disk/libdisk.a(part.o)
+ .debug_info    0x0002128a      0x6a6 disk/libdisk.a(part_dos.o)
+ .debug_info    0x00021930     0x2186 drivers/block/libblock.a(dwc_ahsata.o)
+ .debug_info    0x00023ab6      0x989 drivers/block/libblock.a(libata.o)
+ .debug_info    0x0002443f      0x35e drivers/gpio/libgpio.a(mxc_gpio.o)
+ .debug_info    0x0002479d      0x4e3 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .debug_info    0x00024c80     0x1fa5 drivers/mmc/libmmc.a(mmc.o)
+ .debug_info    0x00026c25     0x1090 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .debug_info    0x00027cb5      0x938 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .debug_info    0x000285ed      0x4e4 drivers/power/libpower.a(anatop.o)
+ .debug_info    0x00028ad1      0x69c drivers/spi/libspi.a(imx_ecspi.o)
+ .debug_info    0x0002916d      0x1da cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .debug_info    0x00029347       0x9c /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .debug_info    0x000293e3       0xdd /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .debug_info    0x000294c0       0xdd /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+ .debug_info    0x0002959d       0xdd /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+ .debug_info    0x0002967a       0xdd /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+ .debug_info    0x00029757       0xdd /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+
+.debug_abbrev   0x00000000     0xa9c6
+ .debug_abbrev  0x00000000       0x14 board/freescale/mx6q_sabreauto/flash_header.o
+ .debug_abbrev  0x00000014       0x14 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+ .debug_abbrev  0x00000028      0x227 lib_arm/libarm.a(board.o)
+ .debug_abbrev  0x0000024f       0xf5 lib_arm/libarm.a(interrupts.o)
+ .debug_abbrev  0x00000344      0x4d1 net/libnet.a(net.o)
+ .debug_abbrev  0x00000815      0x344 net/libnet.a(nfs.o)
+ .debug_abbrev  0x00000b59      0x135 net/libnet.a(rarp.o)
+ .debug_abbrev  0x00000c8e      0x242 net/libnet.a(tftp.o)
+ .debug_abbrev  0x00000ed0      0x341 net/libnet.a(bootp.o)
+ .debug_abbrev  0x00001211      0x338 net/libnet.a(eth.o)
+ .debug_abbrev  0x00001549       0x2a common/env_embedded.o
+ .debug_abbrev  0x00001573       0xf1 lib_generic/libgeneric.a(display_options.o)
+ .debug_abbrev  0x00001664      0x1b1 lib_generic/libgeneric.a(string.o)
+ .debug_abbrev  0x00001815      0x316 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_abbrev  0x00001b2b       0x53 lib_generic/libgeneric.a(ctype.o)
+ .debug_abbrev  0x00001b7e       0x95 lib_generic/libgeneric.a(div64.o)
+ .debug_abbrev  0x00001c13       0x7f cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .debug_abbrev  0x00001c92      0x38a cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .debug_abbrev  0x0000201c      0x1ca cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .debug_abbrev  0x000021e6       0xa5 lib_arm/libarm.a(reset.o)
+ .debug_abbrev  0x0000228b      0x15f drivers/misc/libmisc.a(imx_otp.o)
+ .debug_abbrev  0x000023ea      0x34b drivers/net/libnet.a(mxc_fec.o)
+ .debug_abbrev  0x00002735      0x153 drivers/serial/libserial.a(serial_mxc.o)
+ .debug_abbrev  0x00002888      0x1e1 common/libcommon.a(cmd_bdinfo.o)
+ .debug_abbrev  0x00002a69       0xe7 common/libcommon.a(cmd_boot.o)
+ .debug_abbrev  0x00002b50      0x3f5 common/libcommon.a(cmd_bootm.o)
+ .debug_abbrev  0x00002f45       0xfd common/libcommon.a(cmd_clk.o)
+ .debug_abbrev  0x00003042      0x150 common/libcommon.a(cmd_console.o)
+ .debug_abbrev  0x00003192      0x1df common/libcommon.a(cmd_ext2.o)
+ .debug_abbrev  0x00003371      0x19a common/libcommon.a(cmd_fat.o)
+ .debug_abbrev  0x0000350b      0x164 common/libcommon.a(cmd_flash.o)
+ .debug_abbrev  0x0000366f      0x271 common/libcommon.a(cmd_i2c.o)
+ .debug_abbrev  0x000038e0      0x16a common/libcommon.a(cmd_imxotp.o)
+ .debug_abbrev  0x00003a4a      0x1f7 common/libcommon.a(cmd_itest.o)
+ .debug_abbrev  0x00003c41      0x3de common/libcommon.a(cmd_load.o)
+ .debug_abbrev  0x0000401f      0x2a1 common/libcommon.a(cmd_mem.o)
+ .debug_abbrev  0x000042c0      0x248 common/libcommon.a(cmd_mii.o)
+ .debug_abbrev  0x00004508       0xe7 common/libcommon.a(cmd_misc.o)
+ .debug_abbrev  0x000045ef      0x2b0 common/libcommon.a(cmd_mmc.o)
+ .debug_abbrev  0x0000489f      0x1fe common/libcommon.a(cmd_net.o)
+ .debug_abbrev  0x00004a9d      0x2f7 common/libcommon.a(cmd_nvedit.o)
+ .debug_abbrev  0x00004d94       0xd8 common/libcommon.a(cmd_regul.o)
+ .debug_abbrev  0x00004e6c      0x157 common/libcommon.a(cmd_sata.o)
+ .debug_abbrev  0x00004fc3      0x1e9 common/libcommon.a(cmd_sf.o)
+ .debug_abbrev  0x000051ac      0x1f9 common/libcommon.a(cmd_source.o)
+ .debug_abbrev  0x000053a5      0x117 common/libcommon.a(cmd_spi.o)
+ .debug_abbrev  0x000054bc      0x17c common/libcommon.a(cmd_ximg.o)
+ .debug_abbrev  0x00005638      0x2f9 common/libcommon.a(command.o)
+ .debug_abbrev  0x00005931      0x36b common/libcommon.a(console.o)
+ .debug_abbrev  0x00005c9c      0x270 common/libcommon.a(dlmalloc.o)
+ .debug_abbrev  0x00005f0c      0x208 common/libcommon.a(env_common.o)
+ .debug_abbrev  0x00006114      0x24d common/libcommon.a(env_mmc.o)
+ .debug_abbrev  0x00006361      0x12b common/libcommon.a(exports.o)
+ .debug_abbrev  0x0000648c      0x42f common/libcommon.a(image.o)
+ .debug_abbrev  0x000068bb      0x315 common/libcommon.a(main.o)
+ .debug_abbrev  0x00006bd0      0x21a common/libcommon.a(miiphyutil.o)
+ .debug_abbrev  0x00006dea       0xf3 common/libcommon.a(s_record.o)
+ .debug_abbrev  0x00006edd      0x1f0 common/libcommon.a(stdio.o)
+ .debug_abbrev  0x000070cd      0x2ad common/libcommon.a(xyzModem.o)
+ .debug_abbrev  0x0000737a      0x376 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .debug_abbrev  0x000076f0       0xbd lib_generic/libgeneric.a(crc16.o)
+ .debug_abbrev  0x000077ad       0xc5 lib_generic/libgeneric.a(crc32.o)
+ .debug_abbrev  0x00007872      0x156 lib_generic/libgeneric.a(gunzip.o)
+ .debug_abbrev  0x000079c8      0x301 lib_generic/libgeneric.a(lmb.o)
+ .debug_abbrev  0x00007cc9      0x275 lib_generic/libgeneric.a(zlib.o)
+ .debug_abbrev  0x00007f3e       0xa5 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .debug_abbrev  0x00007fe3      0x102 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .debug_abbrev  0x000080e5      0x33a lib_arm/libarm.a(bootm.o)
+ .debug_abbrev  0x0000841f       0x4e lib_arm/libarm.a(cache.o)
+ .debug_abbrev  0x0000846d      0x33e fs/fat/libfat.a(fat.o)
+ .debug_abbrev  0x000087ab      0x2d0 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_abbrev  0x00008a7b      0x138 fs/ext2/libext2fs.a(dev.o)
+ .debug_abbrev  0x00008bb3      0x1e9 disk/libdisk.a(part.o)
+ .debug_abbrev  0x00008d9c      0x201 disk/libdisk.a(part_dos.o)
+ .debug_abbrev  0x00008f9d      0x385 drivers/block/libblock.a(dwc_ahsata.o)
+ .debug_abbrev  0x00009322      0x1c5 drivers/block/libblock.a(libata.o)
+ .debug_abbrev  0x000094e7      0x17c drivers/gpio/libgpio.a(mxc_gpio.o)
+ .debug_abbrev  0x00009663      0x20c drivers/i2c/libi2c.a(mxc_i2c.o)
+ .debug_abbrev  0x0000986f      0x4f8 drivers/mmc/libmmc.a(mmc.o)
+ .debug_abbrev  0x00009d67      0x3ca drivers/mmc/libmmc.a(imx_esdhc.o)
+ .debug_abbrev  0x0000a131      0x2f0 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .debug_abbrev  0x0000a421      0x18c drivers/power/libpower.a(anatop.o)
+ .debug_abbrev  0x0000a5ad      0x26a drivers/spi/libspi.a(imx_ecspi.o)
+ .debug_abbrev  0x0000a817       0xfb cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .debug_abbrev  0x0000a912       0x50 /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .debug_abbrev  0x0000a962       0x14 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000a976       0x14 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x0000a98a       0x14 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x0000a99e       0x14 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x0000a9b2       0x14 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+
+.debug_aranges  0x00000000      0xb00
+ .debug_aranges
+                0x00000000       0x20 board/freescale/mx6q_sabreauto/flash_header.o
+ .debug_aranges
+                0x00000020       0x20 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(lowlevel_init.o)
+ .debug_aranges
+                0x00000040       0x20 lib_arm/libarm.a(board.o)
+ .debug_aranges
+                0x00000060       0x20 lib_arm/libarm.a(interrupts.o)
+ .debug_aranges
+                0x00000080       0x20 net/libnet.a(net.o)
+ .debug_aranges
+                0x000000a0       0x20 net/libnet.a(nfs.o)
+ .debug_aranges
+                0x000000c0       0x20 net/libnet.a(rarp.o)
+ .debug_aranges
+                0x000000e0       0x20 net/libnet.a(tftp.o)
+ .debug_aranges
+                0x00000100       0x20 net/libnet.a(bootp.o)
+ .debug_aranges
+                0x00000120       0x20 net/libnet.a(eth.o)
+ .debug_aranges
+                0x00000140       0x20 lib_generic/libgeneric.a(display_options.o)
+ .debug_aranges
+                0x00000160       0x20 lib_generic/libgeneric.a(string.o)
+ .debug_aranges
+                0x00000180       0x20 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_aranges
+                0x000001a0       0x20 lib_generic/libgeneric.a(div64.o)
+ .debug_aranges
+                0x000001c0       0x20 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .debug_aranges
+                0x000001e0       0x20 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .debug_aranges
+                0x00000200       0x20 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .debug_aranges
+                0x00000220       0x20 lib_arm/libarm.a(reset.o)
+ .debug_aranges
+                0x00000240       0x20 drivers/misc/libmisc.a(imx_otp.o)
+ .debug_aranges
+                0x00000260       0x20 drivers/net/libnet.a(mxc_fec.o)
+ .debug_aranges
+                0x00000280       0x20 drivers/serial/libserial.a(serial_mxc.o)
+ .debug_aranges
+                0x000002a0       0x20 common/libcommon.a(cmd_bdinfo.o)
+ .debug_aranges
+                0x000002c0       0x20 common/libcommon.a(cmd_boot.o)
+ .debug_aranges
+                0x000002e0       0x20 common/libcommon.a(cmd_bootm.o)
+ .debug_aranges
+                0x00000300       0x20 common/libcommon.a(cmd_clk.o)
+ .debug_aranges
+                0x00000320       0x20 common/libcommon.a(cmd_console.o)
+ .debug_aranges
+                0x00000340       0x20 common/libcommon.a(cmd_ext2.o)
+ .debug_aranges
+                0x00000360       0x20 common/libcommon.a(cmd_fat.o)
+ .debug_aranges
+                0x00000380       0x20 common/libcommon.a(cmd_flash.o)
+ .debug_aranges
+                0x000003a0       0x20 common/libcommon.a(cmd_i2c.o)
+ .debug_aranges
+                0x000003c0       0x20 common/libcommon.a(cmd_imxotp.o)
+ .debug_aranges
+                0x000003e0       0x20 common/libcommon.a(cmd_itest.o)
+ .debug_aranges
+                0x00000400       0x20 common/libcommon.a(cmd_load.o)
+ .debug_aranges
+                0x00000420       0x20 common/libcommon.a(cmd_mem.o)
+ .debug_aranges
+                0x00000440       0x20 common/libcommon.a(cmd_mii.o)
+ .debug_aranges
+                0x00000460       0x20 common/libcommon.a(cmd_misc.o)
+ .debug_aranges
+                0x00000480       0x20 common/libcommon.a(cmd_mmc.o)
+ .debug_aranges
+                0x000004a0       0x20 common/libcommon.a(cmd_net.o)
+ .debug_aranges
+                0x000004c0       0x20 common/libcommon.a(cmd_nvedit.o)
+ .debug_aranges
+                0x000004e0       0x20 common/libcommon.a(cmd_regul.o)
+ .debug_aranges
+                0x00000500       0x20 common/libcommon.a(cmd_sata.o)
+ .debug_aranges
+                0x00000520       0x20 common/libcommon.a(cmd_sf.o)
+ .debug_aranges
+                0x00000540       0x20 common/libcommon.a(cmd_source.o)
+ .debug_aranges
+                0x00000560       0x20 common/libcommon.a(cmd_spi.o)
+ .debug_aranges
+                0x00000580       0x20 common/libcommon.a(cmd_ximg.o)
+ .debug_aranges
+                0x000005a0       0x20 common/libcommon.a(command.o)
+ .debug_aranges
+                0x000005c0       0x20 common/libcommon.a(console.o)
+ .debug_aranges
+                0x000005e0       0x20 common/libcommon.a(dlmalloc.o)
+ .debug_aranges
+                0x00000600       0x20 common/libcommon.a(env_common.o)
+ .debug_aranges
+                0x00000620       0x20 common/libcommon.a(env_mmc.o)
+ .debug_aranges
+                0x00000640       0x20 common/libcommon.a(exports.o)
+ .debug_aranges
+                0x00000660       0x20 common/libcommon.a(image.o)
+ .debug_aranges
+                0x00000680       0x20 common/libcommon.a(main.o)
+ .debug_aranges
+                0x000006a0       0x20 common/libcommon.a(miiphyutil.o)
+ .debug_aranges
+                0x000006c0       0x20 common/libcommon.a(s_record.o)
+ .debug_aranges
+                0x000006e0       0x20 common/libcommon.a(stdio.o)
+ .debug_aranges
+                0x00000700       0x20 common/libcommon.a(xyzModem.o)
+ .debug_aranges
+                0x00000720       0x20 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .debug_aranges
+                0x00000740       0x20 lib_generic/libgeneric.a(crc16.o)
+ .debug_aranges
+                0x00000760       0x20 lib_generic/libgeneric.a(crc32.o)
+ .debug_aranges
+                0x00000780       0x20 lib_generic/libgeneric.a(gunzip.o)
+ .debug_aranges
+                0x000007a0       0x20 lib_generic/libgeneric.a(lmb.o)
+ .debug_aranges
+                0x000007c0       0x20 lib_generic/libgeneric.a(zlib.o)
+ .debug_aranges
+                0x000007e0       0x20 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .debug_aranges
+                0x00000800       0x20 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .debug_aranges
+                0x00000820       0x20 lib_arm/libarm.a(bootm.o)
+ .debug_aranges
+                0x00000840       0x20 lib_arm/libarm.a(cache.o)
+ .debug_aranges
+                0x00000860       0x20 fs/fat/libfat.a(fat.o)
+ .debug_aranges
+                0x00000880       0x20 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_aranges
+                0x000008a0       0x20 fs/ext2/libext2fs.a(dev.o)
+ .debug_aranges
+                0x000008c0       0x20 disk/libdisk.a(part.o)
+ .debug_aranges
+                0x000008e0       0x20 disk/libdisk.a(part_dos.o)
+ .debug_aranges
+                0x00000900       0x20 drivers/block/libblock.a(dwc_ahsata.o)
+ .debug_aranges
+                0x00000920       0x20 drivers/block/libblock.a(libata.o)
+ .debug_aranges
+                0x00000940       0x20 drivers/gpio/libgpio.a(mxc_gpio.o)
+ .debug_aranges
+                0x00000960       0x20 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .debug_aranges
+                0x00000980       0x20 drivers/mmc/libmmc.a(mmc.o)
+ .debug_aranges
+                0x000009a0       0x20 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .debug_aranges
+                0x000009c0       0x20 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .debug_aranges
+                0x000009e0       0x20 drivers/power/libpower.a(anatop.o)
+ .debug_aranges
+                0x00000a00       0x20 drivers/spi/libspi.a(imx_ecspi.o)
+ .debug_aranges
+                0x00000a20       0x20 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .debug_aranges
+                0x00000a40       0x20 /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .debug_aranges
+                0x00000a60       0x20 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000a80       0x20 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x00000aa0       0x20 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x00000ac0       0x20 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x00000ae0       0x20 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_dvmd_lnx.o)
+
+.debug_loc      0x00000000    0x1ee4f
+ .debug_loc     0x00000000       0xfa lib_arm/libarm.a(board.o)
+ .debug_loc     0x000000fa      0x21d lib_arm/libarm.a(interrupts.o)
+ .debug_loc     0x00000317      0xf20 net/libnet.a(net.o)
+ .debug_loc     0x00001237      0xcd4 net/libnet.a(nfs.o)
+ .debug_loc     0x00001f0b      0x12d net/libnet.a(rarp.o)
+ .debug_loc     0x00002038      0x4f6 net/libnet.a(tftp.o)
+ .debug_loc     0x0000252e      0x8b0 net/libnet.a(bootp.o)
+ .debug_loc     0x00002dde      0x60b net/libnet.a(eth.o)
+ .debug_loc     0x000033e9      0x260 lib_generic/libgeneric.a(display_options.o)
+ .debug_loc     0x00003649      0x90e lib_generic/libgeneric.a(string.o)
+ .debug_loc     0x00003f57     0x1241 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_loc     0x00005198      0x194 lib_generic/libgeneric.a(div64.o)
+ .debug_loc     0x0000532c      0xe78 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .debug_loc     0x000061a4      0x177 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .debug_loc     0x0000631b       0x6c lib_arm/libarm.a(reset.o)
+ .debug_loc     0x00006387      0x377 drivers/misc/libmisc.a(imx_otp.o)
+ .debug_loc     0x000066fe      0x9a3 drivers/net/libnet.a(mxc_fec.o)
+ .debug_loc     0x000070a1       0x86 drivers/serial/libserial.a(serial_mxc.o)
+ .debug_loc     0x00007127      0x10e common/libcommon.a(cmd_bdinfo.o)
+ .debug_loc     0x00007235      0x190 common/libcommon.a(cmd_boot.o)
+ .debug_loc     0x000073c5      0xa9f common/libcommon.a(cmd_bootm.o)
+ .debug_loc     0x00007e64      0x151 common/libcommon.a(cmd_clk.o)
+ .debug_loc     0x00007fb5       0xd2 common/libcommon.a(cmd_console.o)
+ .debug_loc     0x00008087      0x510 common/libcommon.a(cmd_ext2.o)
+ .debug_loc     0x00008597      0x4f2 common/libcommon.a(cmd_fat.o)
+ .debug_loc     0x00008a89       0xbe common/libcommon.a(cmd_flash.o)
+ .debug_loc     0x00008b47      0xb39 common/libcommon.a(cmd_i2c.o)
+ .debug_loc     0x00009680      0x27f common/libcommon.a(cmd_imxotp.o)
+ .debug_loc     0x000098ff      0x53c common/libcommon.a(cmd_itest.o)
+ .debug_loc     0x00009e3b      0xbfd common/libcommon.a(cmd_load.o)
+ .debug_loc     0x0000aa38      0xd74 common/libcommon.a(cmd_mem.o)
+ .debug_loc     0x0000b7ac      0x873 common/libcommon.a(cmd_mii.o)
+ .debug_loc     0x0000c01f       0xab common/libcommon.a(cmd_misc.o)
+ .debug_loc     0x0000c0ca      0x464 common/libcommon.a(cmd_mmc.o)
+ .debug_loc     0x0000c52e      0x3e0 common/libcommon.a(cmd_net.o)
+ .debug_loc     0x0000c90e      0x993 common/libcommon.a(cmd_nvedit.o)
+ .debug_loc     0x0000d2a1      0x18b common/libcommon.a(cmd_regul.o)
+ .debug_loc     0x0000d42c      0x36f common/libcommon.a(cmd_sata.o)
+ .debug_loc     0x0000d79b      0x4cc common/libcommon.a(cmd_sf.o)
+ .debug_loc     0x0000dc67      0x2f7 common/libcommon.a(cmd_source.o)
+ .debug_loc     0x0000df5e      0x132 common/libcommon.a(cmd_spi.o)
+ .debug_loc     0x0000e090      0x1d0 common/libcommon.a(cmd_ximg.o)
+ .debug_loc     0x0000e260      0xe08 common/libcommon.a(command.o)
+ .debug_loc     0x0000f068      0x5cf common/libcommon.a(console.o)
+ .debug_loc     0x0000f637     0x138f common/libcommon.a(dlmalloc.o)
+ .debug_loc     0x000109c6      0x2ed common/libcommon.a(env_common.o)
+ .debug_loc     0x00010cb3      0x22b common/libcommon.a(env_mmc.o)
+ .debug_loc     0x00010ede       0x34 common/libcommon.a(exports.o)
+ .debug_loc     0x00010f12      0x941 common/libcommon.a(image.o)
+ .debug_loc     0x00011853      0xf62 common/libcommon.a(main.o)
+ .debug_loc     0x000127b5      0x659 common/libcommon.a(miiphyutil.o)
+ .debug_loc     0x00012e0e      0x34c common/libcommon.a(s_record.o)
+ .debug_loc     0x0001315a      0x1b8 common/libcommon.a(stdio.o)
+ .debug_loc     0x00013312      0x95f common/libcommon.a(xyzModem.o)
+ .debug_loc     0x00013c71      0x57c board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .debug_loc     0x000141ed       0x9f lib_generic/libgeneric.a(crc16.o)
+ .debug_loc     0x0001428c      0x182 lib_generic/libgeneric.a(crc32.o)
+ .debug_loc     0x0001440e      0x282 lib_generic/libgeneric.a(gunzip.o)
+ .debug_loc     0x00014690      0xb34 lib_generic/libgeneric.a(lmb.o)
+ .debug_loc     0x000151c4     0x2160 lib_generic/libgeneric.a(zlib.o)
+ .debug_loc     0x00017324       0x53 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .debug_loc     0x00017377      0x1c6 cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .debug_loc     0x0001753d      0x32e lib_arm/libarm.a(bootm.o)
+ .debug_loc     0x0001786b     0x1411 fs/fat/libfat.a(fat.o)
+ .debug_loc     0x00018c7c      0xb7c fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_loc     0x000197f8      0x1e6 fs/ext2/libext2fs.a(dev.o)
+ .debug_loc     0x000199de      0x290 disk/libdisk.a(part.o)
+ .debug_loc     0x00019c6e      0x3a9 disk/libdisk.a(part_dos.o)
+ .debug_loc     0x0001a017     0x10c4 drivers/block/libblock.a(dwc_ahsata.o)
+ .debug_loc     0x0001b0db      0x1db drivers/block/libblock.a(libata.o)
+ .debug_loc     0x0001b2b6      0x228 drivers/gpio/libgpio.a(mxc_gpio.o)
+ .debug_loc     0x0001b4de      0x45f drivers/i2c/libi2c.a(mxc_i2c.o)
+ .debug_loc     0x0001b93d     0x1916 drivers/mmc/libmmc.a(mmc.o)
+ .debug_loc     0x0001d253      0x933 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .debug_loc     0x0001db86      0x8df drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .debug_loc     0x0001e465      0x338 drivers/power/libpower.a(anatop.o)
+ .debug_loc     0x0001e79d      0x591 drivers/spi/libspi.a(imx_ecspi.o)
+ .debug_loc     0x0001ed2e       0xe3 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .debug_loc     0x0001ee11       0x3e /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+
+.debug_ranges   0x00000000     0x1668
+ .debug_ranges  0x00000000       0x20 lib_arm/libarm.a(board.o)
+ .debug_ranges  0x00000020      0x138 net/libnet.a(net.o)
+ .debug_ranges  0x00000158       0xc0 net/libnet.a(nfs.o)
+ .debug_ranges  0x00000218       0x18 net/libnet.a(rarp.o)
+ .debug_ranges  0x00000230       0x98 net/libnet.a(tftp.o)
+ .debug_ranges  0x000002c8       0x90 net/libnet.a(bootp.o)
+ .debug_ranges  0x00000358       0x48 net/libnet.a(eth.o)
+ .debug_ranges  0x000003a0      0x128 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_ranges  0x000004c8       0xa0 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .debug_ranges  0x00000568       0x78 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .debug_ranges  0x000005e0       0x70 drivers/misc/libmisc.a(imx_otp.o)
+ .debug_ranges  0x00000650       0xc0 drivers/net/libnet.a(mxc_fec.o)
+ .debug_ranges  0x00000710       0xb8 common/libcommon.a(cmd_bootm.o)
+ .debug_ranges  0x000007c8       0x30 common/libcommon.a(cmd_i2c.o)
+ .debug_ranges  0x000007f8       0x48 common/libcommon.a(cmd_itest.o)
+ .debug_ranges  0x00000840       0xe8 common/libcommon.a(cmd_load.o)
+ .debug_ranges  0x00000928       0xa0 common/libcommon.a(cmd_mem.o)
+ .debug_ranges  0x000009c8       0x80 common/libcommon.a(cmd_mii.o)
+ .debug_ranges  0x00000a48       0x60 common/libcommon.a(cmd_nvedit.o)
+ .debug_ranges  0x00000aa8       0x18 common/libcommon.a(cmd_sata.o)
+ .debug_ranges  0x00000ac0       0x30 common/libcommon.a(cmd_sf.o)
+ .debug_ranges  0x00000af0       0x28 common/libcommon.a(cmd_source.o)
+ .debug_ranges  0x00000b18       0xa0 common/libcommon.a(command.o)
+ .debug_ranges  0x00000bb8       0x30 common/libcommon.a(env_common.o)
+ .debug_ranges  0x00000be8       0xa8 common/libcommon.a(image.o)
+ .debug_ranges  0x00000c90      0x118 common/libcommon.a(main.o)
+ .debug_ranges  0x00000da8       0x18 common/libcommon.a(miiphyutil.o)
+ .debug_ranges  0x00000dc0       0x30 common/libcommon.a(stdio.o)
+ .debug_ranges  0x00000df0       0x18 common/libcommon.a(xyzModem.o)
+ .debug_ranges  0x00000e08       0x20 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .debug_ranges  0x00000e28       0xd8 lib_generic/libgeneric.a(lmb.o)
+ .debug_ranges  0x00000f00       0x18 lib_generic/libgeneric.a(zlib.o)
+ .debug_ranges  0x00000f18       0x30 lib_arm/libarm.a(bootm.o)
+ .debug_ranges  0x00000f48      0x100 fs/fat/libfat.a(fat.o)
+ .debug_ranges  0x00001048      0x100 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_ranges  0x00001148       0x18 fs/ext2/libext2fs.a(dev.o)
+ .debug_ranges  0x00001160      0x1a0 drivers/block/libblock.a(dwc_ahsata.o)
+ .debug_ranges  0x00001300       0xa0 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .debug_ranges  0x000013a0      0x1e0 drivers/mmc/libmmc.a(mmc.o)
+ .debug_ranges  0x00001580       0x30 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .debug_ranges  0x000015b0       0x88 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .debug_ranges  0x00001638       0x30 drivers/spi/libspi.a(imx_ecspi.o)
+
+.debug_str      0x00000000     0x8190
+ .debug_str     0x00000000      0x2cd lib_arm/libarm.a(board.o)
+                                0x337 (size before relaxing)
+ .debug_str     0x000002cd       0xcc lib_arm/libarm.a(interrupts.o)
+                                0x1ae (size before relaxing)
+ .debug_str     0x00000399      0x64b net/libnet.a(net.o)
+                                0x83d (size before relaxing)
+ .debug_str     0x000009e4      0x2a2 net/libnet.a(nfs.o)
+                                0x473 (size before relaxing)
+ .debug_str     0x00000c86       0x4c net/libnet.a(rarp.o)
+                                0x1b0 (size before relaxing)
+ .debug_str     0x00000cd2      0x131 net/libnet.a(tftp.o)
+                                0x309 (size before relaxing)
+ .debug_str     0x00000e03      0x246 net/libnet.a(bootp.o)
+                                0x4aa (size before relaxing)
+ .debug_str     0x00001049      0x235 net/libnet.a(eth.o)
+                                0x411 (size before relaxing)
+ .debug_str     0x0000127e       0x3a common/env_embedded.o
+                                 0xe5 (size before relaxing)
+ .debug_str     0x000012b8       0x8b lib_generic/libgeneric.a(display_options.o)
+                                0x198 (size before relaxing)
+ .debug_str     0x00001343       0xd9 lib_generic/libgeneric.a(string.o)
+                                0x1ea (size before relaxing)
+ .debug_str     0x0000141c      0x141 lib_generic/libgeneric.a(vsprintf.o)
+                                0x2b5 (size before relaxing)
+ .debug_str     0x0000155d        0x8 lib_generic/libgeneric.a(ctype.o)
+                                 0x7c (size before relaxing)
+ .debug_str     0x00001565       0x19 lib_generic/libgeneric.a(div64.o)
+                                0x124 (size before relaxing)
+ .debug_str     0x0000157e       0x52 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+                                0x115 (size before relaxing)
+ .debug_str     0x000015d0      0x518 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+                                0x727 (size before relaxing)
+ .debug_str     0x00001ae8       0x9d cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+                                0x1dc (size before relaxing)
+ .debug_str     0x00001b85        0x8 lib_arm/libarm.a(reset.o)
+                                0x13d (size before relaxing)
+ .debug_str     0x00001b8d      0x131 drivers/misc/libmisc.a(imx_otp.o)
+                                0x2fe (size before relaxing)
+ .debug_str     0x00001cbe      0x301 drivers/net/libnet.a(mxc_fec.o)
+                                0x603 (size before relaxing)
+ .debug_str     0x00001fbf       0x8a drivers/serial/libserial.a(serial_mxc.o)
+                                0x1f7 (size before relaxing)
+ .debug_str     0x00002049       0x3f common/libcommon.a(cmd_bdinfo.o)
+                                0x232 (size before relaxing)
+ .debug_str     0x00002088       0x45 common/libcommon.a(cmd_boot.o)
+                                0x181 (size before relaxing)
+ .debug_str     0x000020cd      0x46c common/libcommon.a(cmd_bootm.o)
+                                0x722 (size before relaxing)
+ .debug_str     0x00002539       0x25 common/libcommon.a(cmd_clk.o)
+                                0x1ad (size before relaxing)
+ .debug_str     0x0000255e       0x6a common/libcommon.a(cmd_console.o)
+                                0x1c3 (size before relaxing)
+ .debug_str     0x000025c8       0xf0 common/libcommon.a(cmd_ext2.o)
+                                0x29f (size before relaxing)
+ .debug_str     0x000026b8       0x6d common/libcommon.a(cmd_fat.o)
+                                0x264 (size before relaxing)
+ .debug_str     0x00002725       0x68 common/libcommon.a(cmd_flash.o)
+                                0x199 (size before relaxing)
+ .debug_str     0x0000278d      0x150 common/libcommon.a(cmd_i2c.o)
+                                0x2e6 (size before relaxing)
+ .debug_str     0x000028dd       0x74 common/libcommon.a(cmd_imxotp.o)
+                                0x1b2 (size before relaxing)
+ .debug_str     0x00002951       0x8a common/libcommon.a(cmd_itest.o)
+                                0x1cb (size before relaxing)
+ .debug_str     0x000029db      0x458 common/libcommon.a(cmd_load.o)
+                                0x6d3 (size before relaxing)
+ .debug_str     0x00002e33      0x1c9 common/libcommon.a(cmd_mem.o)
+                                0x394 (size before relaxing)
+ .debug_str     0x00002ffc      0x1b0 common/libcommon.a(cmd_mii.o)
+                                0x35a (size before relaxing)
+ .debug_str     0x000031ac       0x27 common/libcommon.a(cmd_misc.o)
+                                0x164 (size before relaxing)
+ .debug_str     0x000031d3      0x1a5 common/libcommon.a(cmd_mmc.o)
+                                0x417 (size before relaxing)
+ .debug_str     0x00003378       0xdd common/libcommon.a(cmd_net.o)
+                                0x2e9 (size before relaxing)
+ .debug_str     0x00003455      0x100 common/libcommon.a(cmd_nvedit.o)
+                                0x365 (size before relaxing)
+ .debug_str     0x00003555       0x2b common/libcommon.a(cmd_regul.o)
+                                0x156 (size before relaxing)
+ .debug_str     0x00003580       0x63 common/libcommon.a(cmd_sata.o)
+                                0x236 (size before relaxing)
+ .debug_str     0x000035e3       0x9d common/libcommon.a(cmd_sf.o)
+                                0x259 (size before relaxing)
+ .debug_str     0x00003680       0x55 common/libcommon.a(cmd_source.o)
+                                0x2b9 (size before relaxing)
+ .debug_str     0x000036d5       0x2f common/libcommon.a(cmd_spi.o)
+                                0x17d (size before relaxing)
+ .debug_str     0x00003704       0x2f common/libcommon.a(cmd_ximg.o)
+                                0x285 (size before relaxing)
+ .debug_str     0x00003733      0x1f4 common/libcommon.a(command.o)
+                                0x359 (size before relaxing)
+ .debug_str     0x00003927      0x12d common/libcommon.a(console.o)
+                                0x501 (size before relaxing)
+ .debug_str     0x00003a54      0x298 common/libcommon.a(dlmalloc.o)
+                                0x4ac (size before relaxing)
+ .debug_str     0x00003cec       0xe3 common/libcommon.a(env_common.o)
+                                0x2b0 (size before relaxing)
+ .debug_str     0x00003dcf       0x6d common/libcommon.a(env_mmc.o)
+                                0x4c0 (size before relaxing)
+ .debug_str     0x00003e3c       0x1f common/libcommon.a(exports.o)
+                                0x327 (size before relaxing)
+ .debug_str     0x00003e5b      0x2c2 common/libcommon.a(image.o)
+                                0x780 (size before relaxing)
+ .debug_str     0x0000411d      0x1d6 common/libcommon.a(main.o)
+                                0x418 (size before relaxing)
+ .debug_str     0x000042f3      0x16a common/libcommon.a(miiphyutil.o)
+                                0x29b (size before relaxing)
+ .debug_str     0x0000445d       0x3a common/libcommon.a(s_record.o)
+                                0x12c (size before relaxing)
+ .debug_str     0x00004497       0x5f common/libcommon.a(stdio.o)
+                                0x297 (size before relaxing)
+ .debug_str     0x000044f6      0x1b5 common/libcommon.a(xyzModem.o)
+                                0x2f7 (size before relaxing)
+ .debug_str     0x000046ab      0x300 board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+                                0x550 (size before relaxing)
+ .debug_str     0x000049ab       0x1c lib_generic/libgeneric.a(crc16.o)
+                                0x10c (size before relaxing)
+ .debug_str     0x000049c7       0x34 lib_generic/libgeneric.a(crc32.o)
+                                0x124 (size before relaxing)
+ .debug_str     0x000049fb       0xdb lib_generic/libgeneric.a(gunzip.o)
+                                0x1f8 (size before relaxing)
+ .debug_str     0x00004ad6      0x161 lib_generic/libgeneric.a(lmb.o)
+                                0x2ce (size before relaxing)
+ .debug_str     0x00004c37      0x2bc lib_generic/libgeneric.a(zlib.o)
+                                0x55d (size before relaxing)
+ .debug_str     0x00004ef3       0x7c board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+                                0x136 (size before relaxing)
+ .debug_str     0x00004f6f       0xde cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+                                0x1e8 (size before relaxing)
+ .debug_str     0x0000504d      0x2cc lib_arm/libarm.a(bootm.o)
+                                0x6ed (size before relaxing)
+ .debug_str     0x00005319       0x16 lib_arm/libarm.a(cache.o)
+                                 0xf9 (size before relaxing)
+ .debug_str     0x0000532f      0x48e fs/fat/libfat.a(fat.o)
+                                0x6bb (size before relaxing)
+ .debug_str     0x000057bd      0x56b fs/ext2/libext2fs.a(ext2fs.o)
+                                0x737 (size before relaxing)
+ .debug_str     0x00005d28       0x74 fs/ext2/libext2fs.a(dev.o)
+                                0x230 (size before relaxing)
+ .debug_str     0x00005d9c       0xb9 disk/libdisk.a(part.o)
+                                0x31d (size before relaxing)
+ .debug_str     0x00005e55      0x13f disk/libdisk.a(part_dos.o)
+                                0x31b (size before relaxing)
+ .debug_str     0x00005f94     0x158d drivers/block/libblock.a(dwc_ahsata.o)
+                               0x18e6 (size before relaxing)
+ .debug_str     0x00007521       0xbf drivers/block/libblock.a(libata.o)
+                               0x10f7 (size before relaxing)
+ .debug_str     0x000075e0      0x143 drivers/gpio/libgpio.a(mxc_gpio.o)
+                                0x213 (size before relaxing)
+ .debug_str     0x00007723       0x87 drivers/i2c/libi2c.a(mxc_i2c.o)
+                                0x29c (size before relaxing)
+ .debug_str     0x000077aa      0x34b drivers/mmc/libmmc.a(mmc.o)
+                                0x7a0 (size before relaxing)
+ .debug_str     0x00007af5      0x1ed drivers/mmc/libmmc.a(imx_esdhc.o)
+                                0x737 (size before relaxing)
+ .debug_str     0x00007ce2      0x1e8 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+                                0x33e (size before relaxing)
+ .debug_str     0x00007eca      0x199 drivers/power/libpower.a(anatop.o)
+                                0x270 (size before relaxing)
+ .debug_str     0x00008063       0xc2 drivers/spi/libspi.a(imx_ecspi.o)
+                                0x385 (size before relaxing)
+ .debug_str     0x00008125       0x50 cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+                                0x12a (size before relaxing)
+ .debug_str     0x00008175       0x1b /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+                                 0xf2 (size before relaxing)
+
+.debug_frame    0x00000000     0x46d0
+ .debug_frame   0x00000000      0x100 lib_arm/libarm.a(board.o)
+ .debug_frame   0x00000100      0x110 lib_arm/libarm.a(interrupts.o)
+ .debug_frame   0x00000210      0x2ec net/libnet.a(net.o)
+ .debug_frame   0x000004fc      0x268 net/libnet.a(nfs.o)
+ .debug_frame   0x00000764       0x60 net/libnet.a(rarp.o)
+ .debug_frame   0x000007c4       0x88 net/libnet.a(tftp.o)
+ .debug_frame   0x0000084c      0x120 net/libnet.a(bootp.o)
+ .debug_frame   0x0000096c      0x1cc net/libnet.a(eth.o)
+ .debug_frame   0x00000b38       0x74 lib_generic/libgeneric.a(display_options.o)
+ .debug_frame   0x00000bac      0x200 lib_generic/libgeneric.a(string.o)
+ .debug_frame   0x00000dac      0x15c lib_generic/libgeneric.a(vsprintf.o)
+ .debug_frame   0x00000f08       0x38 lib_generic/libgeneric.a(div64.o)
+ .debug_frame   0x00000f40       0x30 cpu/arm_cortexa8/mx6/libmx6.a(interrupts.o)
+ .debug_frame   0x00000f70      0x1d4 cpu/arm_cortexa8/mx6/libmx6.a(generic.o)
+ .debug_frame   0x00001144       0xd8 cpu/arm_cortexa8/mx6/libmx6.a(timer.o)
+ .debug_frame   0x0000121c       0x28 lib_arm/libarm.a(reset.o)
+ .debug_frame   0x00001244       0x80 drivers/misc/libmisc.a(imx_otp.o)
+ .debug_frame   0x000012c4      0x158 drivers/net/libnet.a(mxc_fec.o)
+ .debug_frame   0x0000141c       0x8c drivers/serial/libserial.a(serial_mxc.o)
+ .debug_frame   0x000014a8       0x30 common/libcommon.a(cmd_bdinfo.o)
+ .debug_frame   0x000014d8       0x44 common/libcommon.a(cmd_boot.o)
+ .debug_frame   0x0000151c      0x19c common/libcommon.a(cmd_bootm.o)
+ .debug_frame   0x000016b8       0x2c common/libcommon.a(cmd_clk.o)
+ .debug_frame   0x000016e4       0x38 common/libcommon.a(cmd_console.o)
+ .debug_frame   0x0000171c       0x5c common/libcommon.a(cmd_ext2.o)
+ .debug_frame   0x00001778       0x7c common/libcommon.a(cmd_fat.o)
+ .debug_frame   0x000017f4       0x4c common/libcommon.a(cmd_flash.o)
+ .debug_frame   0x00001840      0x148 common/libcommon.a(cmd_i2c.o)
+ .debug_frame   0x00001988       0x50 common/libcommon.a(cmd_imxotp.o)
+ .debug_frame   0x000019d8       0x64 common/libcommon.a(cmd_itest.o)
+ .debug_frame   0x00001a3c      0x1dc common/libcommon.a(cmd_load.o)
+ .debug_frame   0x00001c18      0x174 common/libcommon.a(cmd_mem.o)
+ .debug_frame   0x00001d8c       0x80 common/libcommon.a(cmd_mii.o)
+ .debug_frame   0x00001e0c       0x30 common/libcommon.a(cmd_misc.o)
+ .debug_frame   0x00001e3c       0x54 common/libcommon.a(cmd_mmc.o)
+ .debug_frame   0x00001e90       0xa0 common/libcommon.a(cmd_net.o)
+ .debug_frame   0x00001f30      0x158 common/libcommon.a(cmd_nvedit.o)
+ .debug_frame   0x00002088       0x2c common/libcommon.a(cmd_regul.o)
+ .debug_frame   0x000020b4       0x5c common/libcommon.a(cmd_sata.o)
+ .debug_frame   0x00002110       0x38 common/libcommon.a(cmd_sf.o)
+ .debug_frame   0x00002148       0x68 common/libcommon.a(cmd_source.o)
+ .debug_frame   0x000021b0       0x34 common/libcommon.a(cmd_spi.o)
+ .debug_frame   0x000021e4       0x38 common/libcommon.a(cmd_ximg.o)
+ .debug_frame   0x0000221c      0x14c common/libcommon.a(command.o)
+ .debug_frame   0x00002368      0x240 common/libcommon.a(console.o)
+ .debug_frame   0x000025a8      0x12c common/libcommon.a(dlmalloc.o)
+ .debug_frame   0x000026d4       0xc4 common/libcommon.a(env_common.o)
+ .debug_frame   0x00002798       0xc4 common/libcommon.a(env_mmc.o)
+ .debug_frame   0x0000285c       0x48 common/libcommon.a(exports.o)
+ .debug_frame   0x000028a4      0x238 common/libcommon.a(image.o)
+ .debug_frame   0x00002adc      0x11c common/libcommon.a(main.o)
+ .debug_frame   0x00002bf8      0x16c common/libcommon.a(miiphyutil.o)
+ .debug_frame   0x00002d64       0x64 common/libcommon.a(s_record.o)
+ .debug_frame   0x00002dc8       0x8c common/libcommon.a(stdio.o)
+ .debug_frame   0x00002e54      0x134 common/libcommon.a(xyzModem.o)
+ .debug_frame   0x00002f88      0x18c board/freescale/mx6q_sabreauto/libmx6q_sabreauto.a(mx6q_sabreauto.o)
+ .debug_frame   0x00003114       0x28 lib_generic/libgeneric.a(crc16.o)
+ .debug_frame   0x0000313c       0x3c lib_generic/libgeneric.a(crc32.o)
+ .debug_frame   0x00003178       0x70 lib_generic/libgeneric.a(gunzip.o)
+ .debug_frame   0x000031e8      0x128 lib_generic/libgeneric.a(lmb.o)
+ .debug_frame   0x00003310      0x128 lib_generic/libgeneric.a(zlib.o)
+ .debug_frame   0x00003438       0x44 board/freescale/common/libfreescale.a(fsl_sys_rev.o)
+ .debug_frame   0x0000347c       0x7c cpu/arm_cortexa8/mx6/libmx6.a(iomux-v3.o)
+ .debug_frame   0x000034f8       0xdc lib_arm/libarm.a(bootm.o)
+ .debug_frame   0x000035d4       0x20 lib_arm/libarm.a(cache.o)
+ .debug_frame   0x000035f4      0x1a8 fs/fat/libfat.a(fat.o)
+ .debug_frame   0x0000379c      0x158 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_frame   0x000038f4       0x54 fs/ext2/libext2fs.a(dev.o)
+ .debug_frame   0x00003948       0xa4 disk/libdisk.a(part.o)
+ .debug_frame   0x000039ec       0xd0 disk/libdisk.a(part_dos.o)
+ .debug_frame   0x00003abc      0x1e0 drivers/block/libblock.a(dwc_ahsata.o)
+ .debug_frame   0x00003c9c       0x84 drivers/block/libblock.a(libata.o)
+ .debug_frame   0x00003d20       0xa4 drivers/gpio/libgpio.a(mxc_gpio.o)
+ .debug_frame   0x00003dc4       0xe0 drivers/i2c/libi2c.a(mxc_i2c.o)
+ .debug_frame   0x00003ea4      0x3a0 drivers/mmc/libmmc.a(mmc.o)
+ .debug_frame   0x00004244       0xf0 drivers/mmc/libmmc.a(imx_esdhc.o)
+ .debug_frame   0x00004334      0x128 drivers/mtd/spi/libspi_flash.a(imx_spi_nor_m25pxx.o)
+ .debug_frame   0x0000445c      0x120 drivers/power/libpower.a(anatop.o)
+ .debug_frame   0x0000457c       0xc0 drivers/spi/libspi.a(imx_ecspi.o)
+ .debug_frame   0x0000463c       0x2c cpu/arm_cortexa8/libarm_cortexa8.a(cpu.o)
+ .debug_frame   0x00004668       0x28 /home/hjpark/avs/normal/normal_boot/lib_arm/eabi_compat.o
+ .debug_frame   0x00004690       0x20 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000046b0       0x20 /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/default/libgcc.a(_divsi3.o)

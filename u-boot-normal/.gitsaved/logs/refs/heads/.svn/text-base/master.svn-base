@@ -1,0 +1,679 @@
+0000000000000000000000000000000000000000 4150bb7e83ca804c4a0f355aed97e169a3a28065 swkim <swkim@oscompile.(none)> 1376897284 +0900	commit (initial): clean kernel
+4150bb7e83ca804c4a0f355aed97e169a3a28065 695ee55dc186eadc781e770b474a9873e888b29e swkim <swkim@oscompile.(none)> 1376897285 +0900	am: ENGR00081147 Support i.MX35 3stack board
+695ee55dc186eadc781e770b474a9873e888b29e 80e1bf08d35cffe1755c11abb03c5ac1263bc455 swkim <swkim@oscompile.(none)> 1376897285 +0900	am: ENGR00094618 Update .gitignore configure file
+80e1bf08d35cffe1755c11abb03c5ac1263bc455 a0beb15f47c0ed2973701fd401481ee142d481bb swkim <swkim@oscompile.(none)> 1376897285 +0900	am: ENGR00094619 Support i.MX31 3stack board
+a0beb15f47c0ed2973701fd401481ee142d481bb 5c6619e6dd74a8925f1ac7dd1c6295e51bac7679 swkim <swkim@oscompile.(none)> 1376897285 +0900	am: ENGR00099697 Add nand driver for mx35
+5c6619e6dd74a8925f1ac7dd1c6295e51bac7679 c47f80de96b2af36ee0d4c37cdb118b318fa002e swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00102776 Support boot from NAND on i.mx35 3stack TO1
+c47f80de96b2af36ee0d4c37cdb118b318fa002e a4acfc61760da2e97a4a9ab8fa40f70d442f6207 swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00102788 Remove CONFIG_NAND_BOOT on i.MX31 3stack
+a4acfc61760da2e97a4a9ab8fa40f70d442f6207 75e64ce2ae7e82af652e1b4f745582eec1a63b0d swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00103914 Support i.MX35 TO2 and 3stack board version 2
+75e64ce2ae7e82af652e1b4f745582eec1a63b0d 8c65e68bdc4a98722634332a8ffa314fd4e73b1e swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00104583 MX35 can not boot up kernel
+8c65e68bdc4a98722634332a8ffa314fd4e73b1e bc03729807e16b782d77d78c217a201c3f782d7e swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00107886 Porting MX31, MX35 3stack to u-boot V2009.01
+bc03729807e16b782d77d78c217a201c3f782d7e 33a31af0821ab9d7a3ab8ab3b0c44add9d5f9091 swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00108473 Porting i.MX51 3stack TO2 support to V2009.01
+33a31af0821ab9d7a3ab8ab3b0c44add9d5f9091 421a77218bad5c92e89e07443c0bb94586482ebd swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00108673 Add i.MX25 core to U-Boot
+421a77218bad5c92e89e07443c0bb94586482ebd af8a95486bf4d9e12e2c944acff15d654e6d5596 swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00107840 Add U-Boot for MX25 PDK board
+af8a95486bf4d9e12e2c944acff15d654e6d5596 c3be13f1dc0bac5953c2fb228f36ea12418e8fe4 swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00109851 Add nand driver for MX51 uboot
+c3be13f1dc0bac5953c2fb228f36ea12418e8fe4 7852a4c21110afdda10bab7fd4a34b35c07d58f7 swkim <swkim@oscompile.(none)> 1376897286 +0900	am: ENGR00110586 MX31: Resolve Copyright issue for mx31 files
+7852a4c21110afdda10bab7fd4a34b35c07d58f7 e990f754cdaa7ca2c246ca784607d26d0a097582 swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00112298 BBG2: Basic boot.
+e990f754cdaa7ca2c246ca784607d26d0a097582 15dc841f9e3b9a3af20a442ce782edc7ae790ded swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00112273 BBG2: MMC boot support.
+15dc841f9e3b9a3af20a442ce782edc7ae790ded 577b6aecfffc281b9ae8217c76fc6cb66a69745c swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00112845 spi nor boot and pmic support for BBG2.
+577b6aecfffc281b9ae8217c76fc6cb66a69745c 1420ac7be50c42b26e265895d1d8317cf5d79b3c swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00113148 Add build option to uboot for different media type
+1420ac7be50c42b26e265895d1d8317cf5d79b3c 254ad3f6d4cce626021baeb29acc4a8c051a9ba5 swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00113439: BBG2, enable SPI NOR and MMC in one image.
+254ad3f6d4cce626021baeb29acc4a8c051a9ba5 32ef626cca3b0586ded1f9feeac487bdfe4d8cd0 swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00113475: Add auto-complete and platform prompt for each platform.
+32ef626cca3b0586ded1f9feeac487bdfe4d8cd0 53a71b62fcc12c32669589708f4bfb5375cdfe93 swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00113611: Add FEC support for BBG2.
+53a71b62fcc12c32669589708f4bfb5375cdfe93 35225414b8fe7325771d481913d2dbf2ba4c148b swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00111465: Remove Watchdog disable codes in MX51 uboot.
+35225414b8fe7325771d481913d2dbf2ba4c148b 095436969444bd4eb9052af19b54793dbcdb98d7 swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00114233 Add support for programming ubifs image on nand flash
+095436969444bd4eb9052af19b54793dbcdb98d7 ece7964ce46fa4a3c73922a6a6063bbeba12d569 swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00114236 Disable NAND driver interleave mode support
+ece7964ce46fa4a3c73922a6a6063bbeba12d569 246c234eef4835bd34e50de77e437977f2c7affd swkim <swkim@oscompile.(none)> 1376897287 +0900	am: ENGR00114201: Add MMC configs to mx35 3stack config file.
+246c234eef4835bd34e50de77e437977f2c7affd ee8ce9e631e0b4b987855b884308e1e4fcd12322 swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00114178 Support MMC/SD boot and enable dhcp in uboot on MX25
+ee8ce9e631e0b4b987855b884308e1e4fcd12322 95c2f1f694e3ef4dc49e8ded70ec8bf5065da512 swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00114393: Support Atmel AT45DB321D SPI NOR flash.
+95c2f1f694e3ef4dc49e8ded70ec8bf5065da512 bfc1cbbc0afdd9f29b77f25dbd98f315d3ee9f8d swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00114367: Add BABBAGE machine id, BBG2.5 rev id for rootfs init.
+bfc1cbbc0afdd9f29b77f25dbd98f315d3ee9f8d 8a72bfd9e8ca682cc1744006122f90ff3a7e27ae swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00114746: Disable flash header for mx35 nand boot
+8a72bfd9e8ca682cc1744006122f90ff3a7e27ae 7b4dbea680c2fca1014f9732a7be7d2c2c01d82e swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00113941 MX233: Make UBOOT v2009.01 work on EVK board
+7b4dbea680c2fca1014f9732a7be7d2c2c01d82e 91fc2a7f966ecfd8ffbc21b033e036ab3d9febe9 swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00115333: Enable cp command for MMC
+91fc2a7f966ecfd8ffbc21b033e036ab3d9febe9 9b5f41940ae5a013d886a208bb1d4ad95e572e86 swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00115046: Add new MMC config option for mx35.
+9b5f41940ae5a013d886a208bb1d4ad95e572e86 6642e3688fe85a5a595d01aa44f8613ae1421dff swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00115592: Replace whitespaces with tabs in Makefile
+6642e3688fe85a5a595d01aa44f8613ae1421dff 1cbaf8916ea747fb2cf50ee08375cc5ead8058d6 swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00116140 MX51 3stack low level does not set M4IF correctly
+1cbaf8916ea747fb2cf50ee08375cc5ead8058d6 1a699d979659a265e9b64b6eb7d349f5629289f3 swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00116083: Recovery mode support for Android on mx51.
+1a699d979659a265e9b64b6eb7d349f5629289f3 65da31c7f60a2d0a3b09016de8d2f0c745b87d92 swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00116203: Change nand Makefile to use CONFIG_MXC_NAND.
+65da31c7f60a2d0a3b09016de8d2f0c745b87d92 2ba41a1682cc9912be80d58de5fae87a851bbb32 swkim <swkim@oscompile.(none)> 1376897288 +0900	am: ENGR00116243: I2C support for mx51 3ds board.
+2ba41a1682cc9912be80d58de5fae87a851bbb32 b80679819c2f8bfab4915cc5dda2214da2a86cf9 swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00116472-1 U-BOOT upgrade to V2009.08
+b80679819c2f8bfab4915cc5dda2214da2a86cf9 b27d6d65c1c4f729851487bef4e706f035437036 swkim <swkim@oscompile.(none)> 1376897289 +0900	am: u-boot v2009.08 sd/mmc support.
+b27d6d65c1c4f729851487bef4e706f035437036 a04ebdbb3c9d1201e931f73d7e796fb07fddff92 swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00116504-1: Sync clock and l2cc code with redboot.
+a04ebdbb3c9d1201e931f73d7e796fb07fddff92 2c7056aebd549715642da4d956f01e57f17f90ff swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00116504-2: Add mx51 bbg to3 support.
+2c7056aebd549715642da4d956f01e57f17f90ff 0acd9f4975dd2a54295f8d67e67b04c82fa89eb0 swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00116924 Uboot: Boot up hang at detecting NAND when cold boot
+0acd9f4975dd2a54295f8d67e67b04c82fa89eb0 4353b245ec19fe5d3ea1cead31c0f5619413f423 swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00117616: PATA support in u-boot.
+4353b245ec19fe5d3ea1cead31c0f5619413f423 ac67770014a486b692a57e2e0b01f159cff8cffa swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00116772 Workaround for ARM errata ID #468414
+ac67770014a486b692a57e2e0b01f159cff8cffa 5e08615a60034484be8cb908c48ca775c742d9be swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00118294: Misc changes for v2009.08 upgrade.
+5e08615a60034484be8cb908c48ca775c742d9be dc30b9781b68fa4223fd0bb2f9a0dd582e164393 swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00118362: Correct recovery NAND cmd
+dc30b9781b68fa4223fd0bb2f9a0dd582e164393 e58f5f5e3c7828bed90b39a6cdac1013bcf5daa7 swkim <swkim@oscompile.(none)> 1376897289 +0900	am: ENGR00118428 MX233 Uboot: reslove the build error for branch imx_v2009.08
+e58f5f5e3c7828bed90b39a6cdac1013bcf5daa7 8e424e05ade60eca0b4b8e42447ec9b4730709d8 swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118576 MX25: Support Smc911x ethernet
+8e424e05ade60eca0b4b8e42447ec9b4730709d8 6d1170b4cdf867b28a3286f50a45068dbc6c05c3 swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118647 Fix smc911x receive packet length not set correctly
+6d1170b4cdf867b28a3286f50a45068dbc6c05c3 ecb99914c701defe7f0c1043830eb51fb7dd6209 swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118682 Update the MX25 MAX Priority
+ecb99914c701defe7f0c1043830eb51fb7dd6209 6bf91b31182f84a9d519b8368ec06191b171e2a5 swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118816 Fix reboot/reset failure with image on nand
+6bf91b31182f84a9d519b8368ec06191b171e2a5 1a92343d8bf8c9d088adb3d2841767d7b5638646 swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118751: Some mmc card can't read and write from right offset.
+1a92343d8bf8c9d088adb3d2841767d7b5638646 c3aa4f81b230f2c760bd6830a38c6e8c071fa3c6 swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118801: Unknown information when booting from SPI-NOR.
+c3aa4f81b230f2c760bd6830a38c6e8c071fa3c6 73b01446be3cdf390144d573d26c940ef172bef1 swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118579 Enable MMU
+73b01446be3cdf390144d573d26c940ef172bef1 857045927d47a1031b224e4890dacb83db59995e swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118978: Timer adjustment for all platforms
+857045927d47a1031b224e4890dacb83db59995e e0f32e9a4d29c69dbedfd2d4eea71950defbf3aa swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00118789 Uboot:Update NAND scan scheme to support new nand type
+e0f32e9a4d29c69dbedfd2d4eea71950defbf3aa f3792e885977be4e11eb9f7dee21dc9bca0aa36a swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00119133: MX35 can't boot due to wrong frequency setting
+f3792e885977be4e11eb9f7dee21dc9bca0aa36a 3fb75e338194c40f5a9201ad50be74bfb82576d7 swkim <swkim@oscompile.(none)> 1376897290 +0900	am: ENGR00119171: ubifs support for android recovery mode.
+3fb75e338194c40f5a9201ad50be74bfb82576d7 ef4bf74c6d362c15fbe396836ecc57434fa1323d swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119224: mmu support for mx51 3stack and mx51 bbg
+ef4bf74c6d362c15fbe396836ecc57434fa1323d ba5098cd48bc1c08c83efc8121089dd35b99a2c6 swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00118998: Can not get ip address when kernel boot up
+ba5098cd48bc1c08c83efc8121089dd35b99a2c6 ccda8be18ca25fba877d15ee87af816406c10e2f swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119246 Add CONFIG_MXC_NAND config flag in MX25 platform
+ccda8be18ca25fba877d15ee87af816406c10e2f 57386a24a7dc44b8f61d9d5995931a41cdee390d swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119254: Add mmu header for mx51 build error
+57386a24a7dc44b8f61d9d5995931a41cdee390d c90a5a862b3de0718d2da631cd414560d8fb1a51 swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119486 MX25: Improve Lan9217 ethernet transfer speed
+c90a5a862b3de0718d2da631cd414560d8fb1a51 97ba16fadf09418e972773c0c7da3e86820c7149 swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119505 MX51 BBG: Change DDR2 settings
+97ba16fadf09418e972773c0c7da3e86820c7149 e2e745526753718647cbad889cd454ea18e8811e swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119526 MX25: Fix mmc read/write failure on mmc uboot
+e2e745526753718647cbad889cd454ea18e8811e dc40eefb2d31b70987db02a9dbd84c1c4898cd9a swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119625 i.MX35: UBoot doesn't accept commands if program uboot to NOR
+dc40eefb2d31b70987db02a9dbd84c1c4898cd9a 0230d9edc10e1ca70661be7f495b0fd67a439405 swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119660 MX35 UBOOT: Can't boot up on 2k page size nand
+0230d9edc10e1ca70661be7f495b0fd67a439405 4a0c95f4b3b9de10a1c37caf68355a56b69d53e3 swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119591 Fix SPI-NOR reset issue
+4a0c95f4b3b9de10a1c37caf68355a56b69d53e3 b4342fc1835f14f5b463ae93d922c4d224f19531 swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00118739 Correct the board version of MX51 EVK
+b4342fc1835f14f5b463ae93d922c4d224f19531 e30b36dd607daedabff22c7caf811eaea91eee20 swkim <swkim@oscompile.(none)> 1376897291 +0900	am: ENGR00119701 MX51: merge some fixes in 200908 version
+e30b36dd607daedabff22c7caf811eaea91eee20 9953cc8c0b18f90d4f6840fada9d4282e230aa1e swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00119715: Add multi network support for mx35
+9953cc8c0b18f90d4f6840fada9d4282e230aa1e 51a71c96169d18b84edbc859f767dde32a5245db swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00119716: MX28 basic support.
+51a71c96169d18b84edbc859f767dde32a5245db f7970c7db9f3ae0dad0963d5000899b6717c7a47 swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00119738: eMMC card access failed.
+f7970c7db9f3ae0dad0963d5000899b6717c7a47 ec86676759258615f9e56012cf20064fcd809e72 swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00119706: Add esdhcv1 support.
+ec86676759258615f9e56012cf20064fcd809e72 0dbd4d6e6f8bdde3589f237f4ff8acf6bb026bb0 swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00119834: Change PDR0 clock settings for mx35 TO2
+0dbd4d6e6f8bdde3589f237f4ff8acf6bb026bb0 3fd41173a062fb006c59443e0c54aff60fff058d swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00119890: Set right mac addr to FEC register in init
+3fd41173a062fb006c59443e0c54aff60fff058d 670c6eea1b4b55ae2da8c7b4e533dd38679be4a3 swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00119894: Read right value in mxc_i2c
+670c6eea1b4b55ae2da8c7b4e533dd38679be4a3 3b339a856a800dad1e0472388e57d0d1134d39fc swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00120191 MX51: Update the M4IF setting
+3b339a856a800dad1e0472388e57d0d1134d39fc 258cbf13b87cd83511db9cff56c65b3bbf7ecb39 swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00120203: Add fec_addr check for mx51
+258cbf13b87cd83511db9cff56c65b3bbf7ecb39 780eebe07911f7384c677521d56610630aaa0738 swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00120207: Change recovery mode combo keys
+780eebe07911f7384c677521d56610630aaa0738 3d6149821e432689f819f8876ed448471b74d066 swkim <swkim@oscompile.(none)> 1376897292 +0900	am: ENGR00120208: Change recovery mode boot_cmd strategy
+3d6149821e432689f819f8876ed448471b74d066 96f69021d6beb38293f5b52316e07d186180ef00 swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00120202 MX51: enable L2 cache
+96f69021d6beb38293f5b52316e07d186180ef00 53e4f0e90f5a65a6c8ff2d15e1611f8ae43fa563 swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00120206 iMX28 Enable Ethernet and MMC boot support
+53e4f0e90f5a65a6c8ff2d15e1611f8ae43fa563 0a0afd55f68cf29f2ea52816a99cd02f2d54b69d swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00120476: Add fuse support for mx51
+0a0afd55f68cf29f2ea52816a99cd02f2d54b69d 8045c55d7fc28e780466f1bb9169a784fc06728c swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00120830: Add eMMC and eSD fast boot support
+8045c55d7fc28e780466f1bb9169a784fc06728c 4d2667b43f8458ed4dc7eb3e195a7517ecd3b38a swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00121029 Add MX51-BBG Uboot Firmware support
+4d2667b43f8458ed4dc7eb3e195a7517ecd3b38a 95d309a3d825af55f548725e9167d1e0d0b2e471 swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00120520: Enable MMU for mx51 and mx35
+95d309a3d825af55f548725e9167d1e0d0b2e471 f1ed478295f393adea664af7ea587d05346e6d7f swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00121079: Unable to get IP address in uboot
+f1ed478295f393adea664af7ea587d05346e6d7f 3ef4dc8518f41aa431a8e7ff18f80fb6bfc10a5b swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00121314: Fix mx23 and mx28 u-boot build error
+3ef4dc8518f41aa431a8e7ff18f80fb6bfc10a5b c119f0201c08b0112afde24a307600112c705cfb swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00121504 Revert ENGR00120191 to restore M4IF values
+c119f0201c08b0112afde24a307600112c705cfb 601ea803c8e4d9203eb27c3c338ae0a557b866cb swkim <swkim@oscompile.(none)> 1376897293 +0900	am: ENGR00121379: MX28 U-BOOT enhancements
+601ea803c8e4d9203eb27c3c338ae0a557b866cb 5558b62cd026d653db729c8414be5066aa8dfdef swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR000121601: FEC not work in mx28 u-boot
+5558b62cd026d653db729c8414be5066aa8dfdef 21718d8a535594ff36a29465cdadd8f022043f69 swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR00121202 Add uboot support for MX53
+21718d8a535594ff36a29465cdadd8f022043f69 6ef40b27113b8ce0465d91b6616b1db1898f5c56 swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR00121731: Add mmu, l1cache, l2cache support for mx53
+6ef40b27113b8ce0465d91b6616b1db1898f5c56 8709ab6a27df00e27698942b2094f0aec0e56c5b swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR00121774 DDR 300Mhz support for MX53 uboot
+8709ab6a27df00e27698942b2094f0aec0e56c5b bfaca1a10891e81075b538bd253eea58b4affc65 swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR00121779 Support a single kernel image on MX5x parts
+bfaca1a10891e81075b538bd253eea58b4affc65 daf62a9dcf0ed0b55a2346e1276eb0b5260e1edc swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR00121832: Some code reconstructure for u-boot
+daf62a9dcf0ed0b55a2346e1276eb0b5260e1edc ed2963aad76a9b8eaa554a36b8e9257d99a6bf8d swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR00121976 UBOOT: some fix for SD/MMC card
+ed2963aad76a9b8eaa554a36b8e9257d99a6bf8d 98ebdaf6053bb8abece74c46258764f2183389cc swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR00122046 Update DDR init script for MX53 EVK
+98ebdaf6053bb8abece74c46258764f2183389cc 5142b2456b835952987384dd4dbc1cebf63ef8dd swkim <swkim@oscompile.(none)> 1376897294 +0900	am: ENGR00122050: mmc can't read data whose size exceeds 32M
+5142b2456b835952987384dd4dbc1cebf63ef8dd 1ab4ac31de8561d97d68fc8049c84102a6cf3ace swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00119033: System can not find MMC/SD card in SD slot 1
+1ab4ac31de8561d97d68fc8049c84102a6cf3ace 38bc493ae0d288b48c359827435738e128734ef3 swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00122085 MX35 Add Uboot Firmware support
+38bc493ae0d288b48c359827435738e128734ef3 4bfcb7bbc4f3f25aff65dd548ec878f60c4508a2 swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00122203 UBOOT: Add MX53 ARM2 board support
+4bfcb7bbc4f3f25aff65dd548ec878f60c4508a2 ac2bb3b25eb4ed761abc604fad79b47115035fd1 swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00122217 Missed iomem_valid_addr in updater configration
+ac2bb3b25eb4ed761abc604fad79b47115035fd1 fa87a5900334476eebca3167ca36d6caaa106e5d swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00122030 Mfg Firmware support fot imx25
+fa87a5900334476eebca3167ca36d6caaa106e5d 1cfb1e3b15f4c563f03eab463fe46a7c2d93faaa swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00122395: fix license declaration issue in fsl_esdhc.h
+1cfb1e3b15f4c563f03eab463fe46a7c2d93faaa c31080fffd446ba25aa1b2602818b65bd44ee613 swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00122342: missing mx23 evk machine ID setting
+c31080fffd446ba25aa1b2602818b65bd44ee613 e8b47a0182f47577004cda220187befdeb117fd7 swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00122643: Integrate linear PMIC
+e8b47a0182f47577004cda220187befdeb117fd7 035a0f2314822f7b7702902d750eacee62660084 swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00122980: Change default env dev to mmc for bbg
+035a0f2314822f7b7702902d750eacee62660084 28dce1aa70c91c2480fe4c91742871242f1f6420 swkim <swkim@oscompile.(none)> 1376897295 +0900	am: ENGR00123265 UBOOT:Preserve NAND bad block indication
+28dce1aa70c91c2480fe4c91742871242f1f6420 1969d33a04e6491e9be07df34b8b3bb7c188899b swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00123278: Support clock operation functions
+1969d33a04e6491e9be07df34b8b3bb7c188899b 87e6207d1c0c6ca807cffaba869e62b0486fc9e2 swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00123418: Add peripheral clock setup support
+87e6207d1c0c6ca807cffaba869e62b0486fc9e2 cf0fc49eca7d21f6c61bef024326b35714ab44f7 swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00123488 MX53 Board Identification
+cf0fc49eca7d21f6c61bef024326b35714ab44f7 40d81c16ec74936a0993cc42acf548891a4c8f14 swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00123630 Set ddr clk clock according to the board ID
+40d81c16ec74936a0993cc42acf548891a4c8f14 a3b289959d9ad79cb3e06e3514f0657d15ee1e7b swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00123641 MX53: Add DDR3 CPU board support
+a3b289959d9ad79cb3e06e3514f0657d15ee1e7b 7b6323aaa1f4ad16915717ef34a1630b04f7bb96 swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00123870 MX53: Set AXI_B clock to 200Mhz
+7b6323aaa1f4ad16915717ef34a1630b04f7bb96 081db013cac06b76b4953b4d512ee07d84b5b4d7 swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00123551: Add mx25 splash screen support
+081db013cac06b76b4953b4d512ee07d84b5b4d7 82339120656b35c998d020c5ad8f952ee8e1a5ac swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00124100: Add support for saving env data to active mmc device
+82339120656b35c998d020c5ad8f952ee8e1a5ac e97b771fc70c19a9f4d7ab5b82c4c8dec80347e4 swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00124195 Uboot:Pass EVK RevB board ID to kernel
+e97b771fc70c19a9f4d7ab5b82c4c8dec80347e4 f17d0efc13bc77dac0d1a8fd04f7dc1f1255f60b swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00123484 mx28:support saving environment into sd1
+f17d0efc13bc77dac0d1a8fd04f7dc1f1255f60b ae69bc0ddb0be9c7b7c0700c00702708ab3c86cf swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00124391 mx35: update mfg config file
+ae69bc0ddb0be9c7b7c0700c00702708ab3c86cf 298319b350746c40e3f523c59ff972d32227eca9 swkim <swkim@oscompile.(none)> 1376897296 +0900	am: ENGR00122651: Add dwc_ahsata support
+298319b350746c40e3f523c59ff972d32227eca9 81750e3d96d803c2a62e5fbdf9544400331c0998 swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00123782 Fix boot partition problem for emmc
+81750e3d96d803c2a62e5fbdf9544400331c0998 c6e1964d792d5f5a311729acf268708cf54d3105 swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124652 UBOOT: MX53 env fails to load when booting from 2nd slot
+c6e1964d792d5f5a311729acf268708cf54d3105 14646ce67a5ceffe3f88736dba199168a758d9b2 swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124710 MX53 Uboot: Add MFG tool support
+14646ce67a5ceffe3f88736dba199168a758d9b2 28f7609f34c93f3854d2374e8d14513a504a5afb swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124819 Uboot reading/writing sd card fails
+28f7609f34c93f3854d2374e8d14513a504a5afb 3aeb4394de84c305af1e7c69e12a51ad00629347 swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124908 CSPI: make spi_get_cfg platform specific
+3aeb4394de84c305af1e7c69e12a51ad00629347 1b116fd925586da4465d4a274e8d6f8c2a9ed61e swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124359 Add uboot support for MX50
+1b116fd925586da4465d4a274e8d6f8c2a9ed61e 931f8939c6605bd0210a57c510c5ef9f1ef218e5 swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124953 Uboot:Fix the build break for MX51 BBG board
+931f8939c6605bd0210a57c510c5ef9f1ef218e5 c1ac7bcf2d2b5818a8e2e4e549e70cadb8833fe7 swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124954 MX50: init sys by ROM plug-in feature
+c1ac7bcf2d2b5818a8e2e4e549e70cadb8833fe7 ec430109f741234c6c16d98232405f8aee4555b1 swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124951 Uboot cannot initialize MMC cards
+ec430109f741234c6c16d98232405f8aee4555b1 681043bdbb7cc16652cf2f030a75c8bbdd9ca084 swkim <swkim@oscompile.(none)> 1376897297 +0900	am: ENGR00124912 MX53: Fix board ID check issue
+681043bdbb7cc16652cf2f030a75c8bbdd9ca084 85570f0afa43006731a149a390a8d521c0a5653e swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00124627: Dynamic SD slot support for env data.
+85570f0afa43006731a149a390a8d521c0a5653e 19af6b2dfa1fdb0ad4deedee8f7eafd610ef6953 swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00124984 MX53:Add spi_get_cfg function support
+19af6b2dfa1fdb0ad4deedee8f7eafd610ef6953 c82093c77d6757def456a31139a96e6e8aabcc6d swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00125042 mx35: Fix error in a comment for header file
+c82093c77d6757def456a31139a96e6e8aabcc6d b903862f2ced9e45ddd75bd998e9042866c08616 swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00125045 MX53 Uboot: Adjust VDDGP voltage
+b903862f2ced9e45ddd75bd998e9042866c08616 1c44e5b9be38d98c850742a5983ec04c3082d873 swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00123924: Reconstructure fuse files and add fuse to mx53.
+1c44e5b9be38d98c850742a5983ec04c3082d873 1b9a2d359c8e4e2d0ef3903f35f2435eb866c0a4 swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00125174: MX50: change memory configurations
+1b9a2d359c8e4e2d0ef3903f35f2435eb866c0a4 72e203274ec6d262e7f7ae6158c7a32abb04b5dc swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00125036 Uboot Add eMMC 4.4 support
+72e203274ec6d262e7f7ae6158c7a32abb04b5dc 6c926fb4b26da1fe4fff28cdf1cc60173fd11af8 swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00125220 MX28: SD(slot0)boot dhcp failed
+6c926fb4b26da1fe4fff28cdf1cc60173fd11af8 11e4439e98479828277fd22d1264a18bb87852f1 swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00125613 mfg-tool: Add mx50 mfg firmware support
+11e4439e98479828277fd22d1264a18bb87852f1 264f5b33c562a55b5864212cbe958b07583a53e9 swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00125735 iMX28 read mac address from fuse
+264f5b33c562a55b5864212cbe958b07583a53e9 100094175970bcab9238e7387fcf3532a449fb74 swkim <swkim@oscompile.(none)> 1376897298 +0900	am: ENGR00125757 mx28: change the boot mode offset to TO1.2 version
+100094175970bcab9238e7387fcf3532a449fb74 2a0acba4577a2afadb4445127e231c213a097a7f swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00125324: Add splash screen code and support for epdc
+2a0acba4577a2afadb4445127e231c213a097a7f a60064c1ec00348b978bb6125bca8a66dc817aac swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00125237: Fix incorrect copyright info.
+a60064c1ec00348b978bb6125bca8a66dc817aac fdd09eecb0a37b8a93569751639f559e6919719a swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00126079: Add clk command support for mx51
+fdd09eecb0a37b8a93569751639f559e6919719a e5a0b0ce14514bca9802afc44bc8ee725fc9ff50 swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00126474 UBOOT: update DDR script on MX50 ARM2
+e5a0b0ce14514bca9802afc44bc8ee725fc9ff50 0e6bb20ee93f5c1501400941623f47b726f001ac swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00126566 MX50:Aligned LPDDR2 initialization to the latest script
+0e6bb20ee93f5c1501400941623f47b726f001ac f48b8ebf502f5ad8ddc1843acff47713197ff991 swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00126764 MX50: Set the memroy size to 512M on LPDDR2 board
+f48b8ebf502f5ad8ddc1843acff47713197ff991 ff9099f41dd68b9e1f06c1f784db704f5648b52a swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00127368 UBOOT: Make the android recovery code common for platforms
+ff9099f41dd68b9e1f06c1f784db704f5648b52a 127837a2cc7cd12b2e503ea2792342b2321cf712 swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00131619 UBOOT: Gcc 4.4.x complains weak inline
+127837a2cc7cd12b2e503ea2792342b2321cf712 f7e65260f82a7d1309cf9071cf61e934155323b5 swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00131712 UBOOT:add DDR2 support for IMX50
+f7e65260f82a7d1309cf9071cf61e934155323b5 6c5ac1ee60ae527c673e8e87859e973428371098 swkim <swkim@oscompile.(none)> 1376897299 +0900	am: ENGR00127167: Add gpmi nfc and apbh dma support for mx50.
+6c5ac1ee60ae527c673e8e87859e973428371098 0e910b328a5d0753a47894beba5bb7aaf9d4b004 swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131578: Add android recovery mode support for mx53
+0e910b328a5d0753a47894beba5bb7aaf9d4b004 859f403debee3ad50c14cbfce50c40546c662459 swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131662: Fix that iram boot don't work
+859f403debee3ad50c14cbfce50c40546c662459 5309360e428d153b16229c4fc296480a8d8df98f swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131705-1 rename mx53_evk folder as mx53_rd
+5309360e428d153b16229c4fc296480a8d8df98f d3d7241623e860bf9050db98e1c1e7f93dad162c swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131705-2 Add MX53 ARD support
+d3d7241623e860bf9050db98e1c1e7f93dad162c a6c1c8c3b28ad3e4e60b277c841d6df92894595f swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131705-3 Import new mach-type header file
+a6c1c8c3b28ad3e4e60b277c841d6df92894595f e190aa6c3e718a74c7fff376a20bd774f51019db swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131705-4 MX53: fix typo error for recovery
+e190aa6c3e718a74c7fff376a20bd774f51019db a44ac2b8fd314211726526735d156295b2722906 swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131792: Fix mx50 lpddr2 build errors
+a44ac2b8fd314211726526735d156295b2722906 6cfb1351963a608426b04c8a22b9deb0748b272f swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131779: Use serial_mxc as uart driver for all platforms
+6cfb1351963a608426b04c8a22b9deb0748b272f 65a63d082cbdf9294e360128ff8f0080e01c9af8 swkim <swkim@oscompile.(none)> 1376897300 +0900	am: ENGR00131691 MX50 RDP Uboot
+65a63d082cbdf9294e360128ff8f0080e01c9af8 bd9cfdda8c084cd4f673df3b7cc6c6e8bee0098f swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00131840 MX53 ARD:use serial_mxc as uart driver
+bd9cfdda8c084cd4f673df3b7cc6c6e8bee0098f 663337f53032e2bab8507d1cbeee1774d738d690 swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00131924: using ext4 as default recovery filesystem
+663337f53032e2bab8507d1cbeee1774d738d690 e0d183211ab8f1fa657fd16eb86a0a30b59f8fa7 swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00131936 MX5X corrent mx53_evk mx51_BBG android default env setting
+e0d183211ab8f1fa657fd16eb86a0a30b59f8fa7 93d3e9244dc1f3dda91c1dbaeeb9010de4b9a599 swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00132014: nand read and write page may fail in some pages
+93d3e9244dc1f3dda91c1dbaeeb9010de4b9a599 d8d9eab418756fad532543b23e219f4f14c40455 swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00132526 MX50 RDP Update to latest LPDDR2 script
+d8d9eab418756fad532543b23e219f4f14c40455 72b91e48c760b89d066837d8a3e3f4ff775ff3ef swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00132618 MX53 MFG:use serial_mxc as uart driver
+72b91e48c760b89d066837d8a3e3f4ff775ff3ef 9280c918efa8ac0f69617d0cb3ff00260a4c255d swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00132656 MX53 ARD: Add MFG tool support
+9280c918efa8ac0f69617d0cb3ff00260a4c255d 6474d690ea27ae45bf607571f534b8217fa046f1 swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00132617 MX53: add NAND support
+6474d690ea27ae45bf607571f534b8217fa046f1 320d6e954e7734ea93ecb45b4732950d97fd7acb swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00132709 MX53: add "clk nfc" command support
+320d6e954e7734ea93ecb45b4732950d97fd7acb c778a24b201ccee3fd5f43ac279388f7492ad2f0 swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00132727 NAND: remove REG_NFC_ONE_CYCLE calling
+c778a24b201ccee3fd5f43ac279388f7492ad2f0 75aac1f11b6bcfe8f0a733c579d3548082762d58 swkim <swkim@oscompile.(none)> 1376897301 +0900	am: ENGR00132758 correct NFC_CLK definition
+75aac1f11b6bcfe8f0a733c579d3548082762d58 607fb44adf29060074bb1116a630bff9a33c0747 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00132759 MX53: use 32K CLK as GPT source
+607fb44adf29060074bb1116a630bff9a33c0747 2edeffc584031c2a43b2dcca1f255c69592ffc6d swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00132886 mx50-rdp: add mx50 rdp board mfg-tool firmware defconfig
+2edeffc584031c2a43b2dcca1f255c69592ffc6d db76ca86ea8067db9f6382918656e0b31553a7b7 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00132957 mfg-tool: should add stop usb operation for mx50 rdp
+db76ca86ea8067db9f6382918656e0b31553a7b7 8e3e545b5997d766bf573af13dabf7611caf71eb swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00132965 add MT29F16G08ABACA NAND description
+8e3e545b5997d766bf573af13dabf7611caf71eb 52802f607bb3c1257b58914a3ff51dbae2e61a96 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00133049 Support nand flash for MX28
+52802f607bb3c1257b58914a3ff51dbae2e61a96 0eae58f9f7bf755514d14aa3a325f5dca8d3e0f7 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00133530 plug-in support mfgtools and sb_loader
+0eae58f9f7bf755514d14aa3a325f5dca8d3e0f7 e1b02cacafdcb3eb25729203e921f29e07e2d5c5 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00132909 MX53 Uboot: Support for TO2
+e1b02cacafdcb3eb25729203e921f29e07e2d5c5 793f1d9b28d4326121b9be17ee574bc929c713d8 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: Get common/cmd_fastboot.c and include/fastboot.h from omap uboot git. The code realized common Android USB fastboot protocol.
+793f1d9b28d4326121b9be17ee574bc929c713d8 75b9faf53b4f7f18cfcde0990f80e3b3fa2f0904 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00133743 Change code style of fastboot code to pass review-commits.
+75b9faf53b4f7f18cfcde0990f80e3b3fa2f0904 c2322aebc0f760a2c449ad485ec8e3fc92da80c4 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00133756:UBOOT:NAND:Remove the 2G limitation from NAND driver
+c2322aebc0f760a2c449ad485ec8e3fc92da80c4 990412ebb56ff8b2ed0eddbb9a823a8c20ae2080 swkim <swkim@oscompile.(none)> 1376897302 +0900	am: ENGR00133689 MX51: set MC13892 charge output voltage as 4.2V
+990412ebb56ff8b2ed0eddbb9a823a8c20ae2080 9d33c797c6174f8abbcaf2e10fbefb4558b600eb swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00133551-1 Add freescale usb udc support for i.mx51 platform.
+9d33c797c6174f8abbcaf2e10fbefb4558b600eb 349172064a8b5fa6ee3f06d2a77d192648ed707e swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00133551-2 Add fastboot driver support for android.
+349172064a8b5fa6ee3f06d2a77d192648ed707e 4946acecbf0ee9f5ede61c04949542096e5a0456 swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00133124: Add nand support for mx50 rdp
+4946acecbf0ee9f5ede61c04949542096e5a0456 6f569d835fb0bcef6e9af53ba6df682f42fbd0e8 swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00134098-1 MX51: Update fastboot usb init seq
+6f569d835fb0bcef6e9af53ba6df682f42fbd0e8 a0743f66c8877d8ab259c6fb56965a144c24ffae swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00134098-2 MX53: Add fastboot support for android.
+a0743f66c8877d8ab259c6fb56965a144c24ffae f2b19a5b52cedae127a5c3376eff57fa7261c749 swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00133579 Uboot ESDHCv3 Remove workaround for DLL
+f2b19a5b52cedae127a5c3376eff57fa7261c749 efb7a30586af683ec26d350c713f8ce3adcfd90e swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00133437 MX50 Uboot support for TO 1.1.1 precode
+efb7a30586af683ec26d350c713f8ce3adcfd90e be16b4b57345741bbd06ea2391f8b4e7b2a2f1b2 swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR12345678 Change ddr write delay in the PHY
+be16b4b57345741bbd06ea2391f8b4e7b2a2f1b2 f1f0018c26bbbf812f3501cce8f8f5f600e8a9b1 swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00025557: MX50 Add ZQ calibration support for TO1.1.1.
+f1f0018c26bbbf812f3501cce8f8f5f600e8a9b1 15a8a166b18dc1e657069eab59521812a099e340 swkim <swkim@oscompile.(none)> 1376897303 +0900	am: ENGR00133744: Merge mx50_arm2 to mx50_rdp
+15a8a166b18dc1e657069eab59521812a099e340 8025cc733079a87407d3386d20a053c0e0df17a0 swkim <swkim@oscompile.(none)> 1376897303 +0900	am: NAND: Update to support 64 bit device size
+8025cc733079a87407d3386d20a053c0e0df17a0 17a6a3b3ec92cf978f3d81acac867f8f5110af75 swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00134220-1 NAND: fix up the chip select handling
+17a6a3b3ec92cf978f3d81acac867f8f5110af75 e482f4d7c88d8dfb2fc4b69e9be4c700311d1a65 swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00134220-2 Need use CONFIG_SYS_NAND_MAX_CHIPS
+e482f4d7c88d8dfb2fc4b69e9be4c700311d1a65 964a9af94f28d4978a14e531f960173e1d389f20 swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00134220-3 Fix the nand bad command issue
+964a9af94f28d4978a14e531f960173e1d389f20 789f8a7657777d3b8541ce3581633316324af68e swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00136031 mfgtool: sync config file for mx50 rdp
+789f8a7657777d3b8541ce3581633316324af68e acae5302379acd39b789c684b819282ab79a0f6d swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00136042 Add ZQ calib config and update script for DDR2
+acae5302379acd39b789c684b819282ab79a0f6d dc4de6f1c3b5c1f7f122df78fee114d975c9bd1e swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00136081 DDR script update for MX53 TO2 ARD
+dc4de6f1c3b5c1f7f122df78fee114d975c9bd1e 32be3bcc34bb2c5099b11269c9cc08bc45dc9535 swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00136170 MX50 Add ZQ calibration revision for TO1.1
+32be3bcc34bb2c5099b11269c9cc08bc45dc9535 19061e7688105846bc244124bfee37b134ae1e30 swkim <swkim@oscompile.(none)> 1376897304 +0900	am: Add linux framebuffer header include/linux/fb.h
+19061e7688105846bc244124bfee37b134ae1e30 bd9f8563024aef7ac26f34cbbe7d4db0f8974b86 swkim <swkim@oscompile.(none)> 1376897304 +0900	am: MX51: Add IPU driver for video support
+bd9f8563024aef7ac26f34cbbe7d4db0f8974b86 a1c3870bf9081e76de0392c5b65f638717f4313e swkim <swkim@oscompile.(none)> 1376897304 +0900	am: MX51: Add video support
+a1c3870bf9081e76de0392c5b65f638717f4313e 3066e2dd6e898b414ddc47622a4ad78a72354c9b swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00136038: Remove config CONFIG_EMMC_DDR_MODE
+3066e2dd6e898b414ddc47622a4ad78a72354c9b 9eed760f4ab88a4622c0a9efd7a385869a47a86a swkim <swkim@oscompile.(none)> 1376897304 +0900	am: ENGR00133727: uart outputs messy code when kernel starts on mx51
+9eed760f4ab88a4622c0a9efd7a385869a47a86a d68bf5db69b832ecb40f64ff5c57169e91120101 swkim <swkim@oscompile.(none)> 1376897305 +0900	am: ENGR00134068 MX51 BBG:Support CLAA WVGA splashimage
+d68bf5db69b832ecb40f64ff5c57169e91120101 0036cda6c493d9eec25da6f160feee5cb26aa9df swkim <swkim@oscompile.(none)> 1376897305 +0900	am: ENGR00137214 MX50: Turn on ZQ calib config by default and fix hang problem
+0036cda6c493d9eec25da6f160feee5cb26aa9df f81a60ecf7bc2c9581cc14dadc152e7da7df1c2d swkim <swkim@oscompile.(none)> 1376897305 +0900	am: ENGR00137273 uboot: update the android default env for 2.6.35 kernel
+f81a60ecf7bc2c9581cc14dadc152e7da7df1c2d aa0544eeb4e68ff0a8550ec64e8222cbeee0d337 swkim <swkim@oscompile.(none)> 1376897305 +0900	am: ENGR00137211 U-Boot MX5x: Incorrect GPL license header on files
+aa0544eeb4e68ff0a8550ec64e8222cbeee0d337 27758a21f65f050e8c787bb71c3083394689c5c0 swkim <swkim@oscompile.(none)> 1376897305 +0900	am: ENGR00137390 UBOOT:NAND: BBT not found on MX53 board
+27758a21f65f050e8c787bb71c3083394689c5c0 7a60c02c869b7b6137d73e9dc6db1f6c2f7dc359 swkim <swkim@oscompile.(none)> 1376897305 +0900	am: ENGR00137372 MX53: Switch back to use DCD and update DDR scripts
+7a60c02c869b7b6137d73e9dc6db1f6c2f7dc359 275112b0e868d18e73cf770fe83ec0acc6ff23b7 swkim <swkim@oscompile.(none)> 1376897305 +0900	am: ENGR00137408: Add FAT32 support
+275112b0e868d18e73cf770fe83ec0acc6ff23b7 70da0e3bdae2ac37432eba436488e264204e391d swkim <swkim@oscompile.(none)> 1376897305 +0900	am: ENGR00136863-1: Change mmc framework architecture.
+70da0e3bdae2ac37432eba436488e264204e391d c289f4a6ea3896b20444d1d92377849451e25793 swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00136863-2: Fix mx53 CMD12 issue.
+c289f4a6ea3896b20444d1d92377849451e25793 0fcb3daccc81ec6421b3191e6edf614dc41c3caa swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00137410 MX53 split board files into different folders
+0fcb3daccc81ec6421b3191e6edf614dc41c3caa 348e740ac0fb401aa0c5430d966b8f05488ae1e9 swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00136075 MX53: Add SMD board support
+348e740ac0fb401aa0c5430d966b8f05488ae1e9 ca9d8ce1d9a5139328f71425ac7a990a640b947d swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00137497-1 Import new mach-type header file
+ca9d8ce1d9a5139328f71425ac7a990a640b947d b0870d93e761ff658f956a04bb4de8621abb178e swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00137497-2 MX53: Add LOCO board support
+b0870d93e761ff658f956a04bb4de8621abb178e 4b0df225e12764ba72677b024fd0abe0ac11fcdb swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00137596 MX53 Uboot SMC911X driver needs to get mac addr from IIM
+4b0df225e12764ba72677b024fd0abe0ac11fcdb 2f819c77d9ca0f51216510e91d4ee69fdef56efc swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00137642 MX53 Uboot Align DDR3 script for Loco and SMD boards
+2f819c77d9ca0f51216510e91d4ee69fdef56efc 1c73d0d74cbe01dc7ab97be7bdd641d7ab61ceef swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00137604: Change PLL4 to 455MHz for mx53
+1c73d0d74cbe01dc7ab97be7bdd641d7ab61ceef a7d37f909172433084d611a8b13223bf904a8506 swkim <swkim@oscompile.(none)> 1376897306 +0900	am: ENGR00137603 Add mx53_smd_android config for android
+a7d37f909172433084d611a8b13223bf904a8506 44425b0cab4abc631aa1de878d921cf7849c9aef swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137713 MX53 Uboot SMSC Fix order in which mac addr bytes are read from IIM
+44425b0cab4abc631aa1de878d921cf7849c9aef 01db7e41787f10570418b38635516350df6163e1 swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137766 BBG splashimage:Allocate cmap for panel_info
+01db7e41787f10570418b38635516350df6163e1 791d36b34d54a3c461e0478b732cc606dfbd31bb swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137767 IPUv3 video:Support splashimage with MMU disabled
+791d36b34d54a3c461e0478b732cc606dfbd31bb 444de7d973527f1fde4d1de3304fdacd99967119 swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137841 splashimage:Correct horizontal display position
+444de7d973527f1fde4d1de3304fdacd99967119 74c26b08091a3369b94b835394e85983807dcf8d swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00136869: SATA device can't init and a typo in sata help
+74c26b08091a3369b94b835394e85983807dcf8d da1866f5c973316949ea9f2b3921e7ecf7095715 swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137358: Add saving environment to sata device support
+da1866f5c973316949ea9f2b3921e7ecf7095715 2f946af8a28a54bcd714449df5dbdac4d312514e swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137791 MX53: Update for MFG tool
+2f946af8a28a54bcd714449df5dbdac4d312514e 52f318b97e7824ec374961fc8bb7922b18059494 swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137894-1 Add imx pwm driver support
+52f318b97e7824ec374961fc8bb7922b18059494 7a6a36918a949f8403f2ebb361d9c2a94c46296e swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137894-2 MX53: Add ipu base addr and ipu clock
+7a6a36918a949f8403f2ebb361d9c2a94c46296e 05e65623e08eda75e4c3e1c037a1cf08f851ae59 swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137894-3 IPU driver enhancement
+05e65623e08eda75e4c3e1c037a1cf08f851ae59 2806a16d7b5642c6c5abdee5abafe8c3fb69253c swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137894-4 IPUv3 FB: IPUv3 FB driver enhancement
+2806a16d7b5642c6c5abdee5abafe8c3fb69253c 159b1fcedd1193f14a00e3473a713af542cdbb9e swkim <swkim@oscompile.(none)> 1376897307 +0900	am: ENGR00137894-5 MX53 ARD:Support splashimage
+159b1fcedd1193f14a00e3473a713af542cdbb9e d1ff920c49dfb0004f5695f6b7c37b5fb3c3d081 swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00137894-6 MX53 SMD:Support splashimage
+d1ff920c49dfb0004f5695f6b7c37b5fb3c3d081 bddf7928c49a4e3ff9f781e14476d67217da4de3 swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00137552 MX53: increase VDDGP as 1.2V for 1GHZ
+bddf7928c49a4e3ff9f781e14476d67217da4de3 c218d0b20e78a055de4e9574673389e4e06143b5 swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138040-1 MX53 SMD Android:Support splashimage
+c218d0b20e78a055de4e9574673389e4e06143b5 8e7c40fbffc67af329db4d19aceb06d307c63fef swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138040-2 MX51 BBG Android:Support splashimage
+8e7c40fbffc67af329db4d19aceb06d307c63fef 45ad5b5114e5163c7c0c69905bf1dc7b4e374e9d swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138040-3 Protect splashimage related stuffs by config
+45ad5b5114e5163c7c0c69905bf1dc7b4e374e9d 0d22cc3979269f27c68427f3b66d7a631bbaefb0 swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138148 MX53 TO2.0 EVK: change the default core as 1GHZ
+0d22cc3979269f27c68427f3b66d7a631bbaefb0 7b8aa5fc6ca5e5d5cac3fbc338dd99b2f778925c swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138191 disable the SPLASH SCREEN for android
+7b8aa5fc6ca5e5d5cac3fbc338dd99b2f778925c 8ed547611017ffff5eb7f9a5a41bd72d73958c01 swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138240 Disable splashimage support for PDK
+8ed547611017ffff5eb7f9a5a41bd72d73958c01 d0d44f6f8992f003e6f9ad80a84f659fcfe61e14 swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138359 Change uramdisk from 6M byte offset of android fastboot
+d0d44f6f8992f003e6f9ad80a84f659fcfe61e14 a1b768efca7d634883bd13e0ba9309b3f8a15f47 swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138390 android recovery, enlarge uImage size
+a1b768efca7d634883bd13e0ba9309b3f8a15f47 0628dbf94eea98f3076ee4838ac704d8ed716593 swkim <swkim@oscompile.(none)> 1376897308 +0900	am: ENGR00138468-1 MX5 video:Disable DP/DC/DI/IDMAC before go to kernel
+0628dbf94eea98f3076ee4838ac704d8ed716593 bd58b6d18d52f8658e9a94ad64002809294b68e6 swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00138468-2 Enable splashimage support for several platforms
+bd58b6d18d52f8658e9a94ad64002809294b68e6 7158d879544340e46c4e6d7bb73d83e7caa5f89e swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00138422-1 Fix usb connection failure if do sata init
+7158d879544340e46c4e6d7bb73d83e7caa5f89e 7928e8fee5ab7ce65e75fb2ff38e52c3a54c541e swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00138422-2 Add SATA storage support for android fastboot
+7928e8fee5ab7ce65e75fb2ff38e52c3a54c541e fbdf0eaf6f224f0b311c3a8284810792e99ffb9e swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00138422-3 Android fastboot: Pass block offset to cmd_fastboot
+fbdf0eaf6f224f0b311c3a8284810792e99ffb9e eda221ea90dddb7af6b7d14be43af441a8460323 swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00138534 Disable splashimage support defaultly for PDK
+eda221ea90dddb7af6b7d14be43af441a8460323 7b1da0741b9c21d3c6c85644cd428a56234e760f swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00118558 MX51/MX53: change the boot command of android boards.
+7b1da0741b9c21d3c6c85644cd428a56234e760f df1165d30630fbfcac1e0ab2d685ddf888216f3d swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00138549 Android fastboot: Support eMMC4.4 on imx53_smd
+df1165d30630fbfcac1e0ab2d685ddf888216f3d 8e2feab738fb919b8e142de4aa2d07c7d02ce014 swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00138635 MX50 Update mDDR script to use more optimized settings
+8e2feab738fb919b8e142de4aa2d07c7d02ce014 17aa91795e3df52d1beeee7ab53759a8e2416268 swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00138689 MX50 Update LPDDR2 script to use more optimized settings
+17aa91795e3df52d1beeee7ab53759a8e2416268 3545f3eba275215a8bc8c47244bb3df5a426f512 swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00139120: Correct CONFIG_CMD_MMC to CONFIG_CMD_IIM for iim
+3545f3eba275215a8bc8c47244bb3df5a426f512 53e0a35918e1b082ed7ade692d7e7c98550bc337 swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00139924 mx53 smd &loco: set bootup vdd GP to 1.2v
+53e0a35918e1b082ed7ade692d7e7c98550bc337 cf25b49efd09be978807f5b9528034ef78c49d35 swkim <swkim@oscompile.(none)> 1376897309 +0900	am: ENGR00139747: Read fuse to distinguish between mx53 revA and revB
+cf25b49efd09be978807f5b9528034ef78c49d35 7b941b01c823678c30bfa69a949385af7029e714 swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00138533: Fix sata write operation random failure issue
+7b941b01c823678c30bfa69a949385af7029e714 1c57735e1ac03e984b8379699f26b5981fcb00ae swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140089 MX53_SMD: update command line.
+1c57735e1ac03e984b8379699f26b5981fcb00ae 5dc9319c4cf37126c23d2ed3ced948df263f842d swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140692 Update for DDR3-based MX53 SABRE Auto boards
+5dc9319c4cf37126c23d2ed3ced948df263f842d 29a34b93e97cdd0ae5c28c10e14b801baa61bd78 swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140750 mx53smd: set the default DDR size to 512MB for android configure
+29a34b93e97cdd0ae5c28c10e14b801baa61bd78 d3ab37cb1994120bd972e86ec34a961f6f7a65f5 swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140767: Improve mx5x DDR clock function
+d3ab37cb1994120bd972e86ec34a961f6f7a65f5 11b75c2a7d86a1bde7388a5f7bb5174397da469d swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140486 Add SPI NOR Flash M25P32 driver
+11b75c2a7d86a1bde7388a5f7bb5174397da469d fce35c041919a1a871cd4d00ab67f5432bd12394 swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140825: Add mx53 to2.1 chip id recognition
+fce35c041919a1a871cd4d00ab67f5432bd12394 b6ea9316caa6f6d664e06e7a43ff707e2c3de884 swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140824 Android: Enable fastboot support for mx50 rdp
+b6ea9316caa6f6d664e06e7a43ff707e2c3de884 6c78192a69f2ee950cecc964573782bee711f970 swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140873: MMC may wrongly regconize 2GB eMMC as high capacity
+6c78192a69f2ee950cecc964573782bee711f970 91c45543f5773058a2e0535171ab1a936338075d swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140872 Add MX50 RD3 Support
+91c45543f5773058a2e0535171ab1a936338075d 744990d55567552b9e9f7faeab566d0c4a3529d1 swkim <swkim@oscompile.(none)> 1376897310 +0900	am: ENGR00140982 MX53 Increase VDDGP to 1.25V for 1 GHz
+744990d55567552b9e9f7faeab566d0c4a3529d1 e289feb7785dcd86ca4e0285a77b8f45fe91d61e swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00140537 mx53: update vddgp according to new data sheet
+e289feb7785dcd86ca4e0285a77b8f45fe91d61e f5f9dbfb518ce3f2826713d2861988f5fd33ee41 swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141000 MX50_RDP: add android recovery support.
+f5f9dbfb518ce3f2826713d2861988f5fd33ee41 fbfdcaf744cea307690666912a42e975f68e163b swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141058 MX50_RDP: Android Fix typo in recoevry command line
+fbfdcaf744cea307690666912a42e975f68e163b 79254b0f2d79d2c608cba33aafa201c4cb3c61b1 swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141129: Add m25p32 spi_nor support for mx53_smd
+79254b0f2d79d2c608cba33aafa201c4cb3c61b1 d36402470a5a49952a3baabe4b469796ca9cac02 swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141157: Add m25p32 spi nor config to mx53_smd_android
+d36402470a5a49952a3baabe4b469796ca9cac02 8355d7f2b59860b3cf2a004f79a60395ed06bcc7 swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141363: change mx53 uart clk parent to pll2
+8355d7f2b59860b3cf2a004f79a60395ed06bcc7 a5297ad8f73d53862bca6096c971272301d2c4cc swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141410 MX50 RD3: Set GPIO4_16 to Enable DCDC_3V15
+a5297ad8f73d53862bca6096c971272301d2c4cc 3fd325a37c23c938f5e4f2928fdbd88e8ffd8406 swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141556: Fix copyright issue
+3fd325a37c23c938f5e4f2928fdbd88e8ffd8406 fa7026f529d21f08c9be3761195ae3a0a8ff9a68 swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141335-1: Use bypass way to set ddr dll in mx53
+fa7026f529d21f08c9be3761195ae3a0a8ff9a68 8df2c0fedf92bb18766e88fcf60b2351bb61243a swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141335-2: get more accurate ipg_per clock frequency
+8df2c0fedf92bb18766e88fcf60b2351bb61243a aa24ab9f8fd8c9182362ddee6645a686ebd71ab2 swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00141335-3: Add CONFIG_EMMC_DDR_PORT_DETECT to mx53 and mx50config files
+aa24ab9f8fd8c9182362ddee6645a686ebd71ab2 b3bd3d0288ad3573555f4361b50b6f5e19f5c518 swkim <swkim@oscompile.(none)> 1376897311 +0900	am: ENGR00142246 MX50 Update DDR2 script to use more optimized settings
+b3bd3d0288ad3573555f4361b50b6f5e19f5c518 96bfa6b61d0298331296c07ec786a4b9f8fc2f65 swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00142247 MX50: Add PD+3 routine for all DDR types
+96bfa6b61d0298331296c07ec786a4b9f8fc2f65 70aedcaba01e0e11870cb808eb0a3091a39298d8 swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00142259 set UART2_RXD (GP6_11) to high
+70aedcaba01e0e11870cb808eb0a3091a39298d8 61d9a359974a040492aafbd84c76e731dbc612b9 swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00141885: mx50 and mx53 reboot fail when booting from spi nor
+61d9a359974a040492aafbd84c76e731dbc612b9 50aabe89985bff68a8580f6a3cd76d4c4bfb808a swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00142322: mx53-smd: spi nor: can't erase 0x200000 size
+50aabe89985bff68a8580f6a3cd76d4c4bfb808a 7042bd72e006b63566d7ea5f4a4542fb10d539a0 swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00142497 Android: MX53_SMD: check eMMC and SD recovery file.
+7042bd72e006b63566d7ea5f4a4542fb10d539a0 d79d117e8485e0e49b9c6fa017a9ef95a9fa6ec9 swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00142740 mx50 rdp: mfg support GPMI nand by command line
+d79d117e8485e0e49b9c6fa017a9ef95a9fa6ec9 60341c31478ef3e47bcc49c6495a25e0d1a7663c swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00143178 mx53 ARD DDR3 board: add MFG tool support
+60341c31478ef3e47bcc49c6495a25e0d1a7663c 4aa38f359965d8f7bc6feda0419ca128815da402 swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00142995 MX50: Enable uSDHC instead of eSDHC for SDR mode
+4aa38f359965d8f7bc6feda0419ca128815da402 4d2647f842dbe92703b382b7c7854b75167f05db swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00143428 mx53 ard RevB: use internal clock for sata
+4d2647f842dbe92703b382b7c7854b75167f05db af26583712e1a8f8d26d56bb6a5e194e299c97b4 swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00143442 uboot: support android spi boot and mfg on mx50 rd3 board
+af26583712e1a8f8d26d56bb6a5e194e299c97b4 31ce193eebaa8822af5f5869396f64b3124039c3 swkim <swkim@oscompile.(none)> 1376897312 +0900	am: ENGR00143457: Don't let ROM copy .bss section
+31ce193eebaa8822af5f5869396f64b3124039c3 d7825b84883ff0418ebb8a89090c77a44569efb7 swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00143461 mx51 evk: increase VDDGP as 1.1v for 800MHZ
+d7825b84883ff0418ebb8a89090c77a44569efb7 e2273a4a9ad2eb113b66aedffc496060890621e4 swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00143469 mx53 smd: pull down GPIO_9 to reset the board
+e2273a4a9ad2eb113b66aedffc496060890621e4 8700f7e267558af0a7e3620b7de15109226802c5 swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00143613 uboot: update the android ramdisk load address
+8700f7e267558af0a7e3620b7de15109226802c5 e18007701f11e286d8a6c9c6be6856a244413086 swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00143570 mx53: change the default environment setting
+e18007701f11e286d8a6c9c6be6856a244413086 b199bf28fcee0bb4920ca50bea85c7670ad499f2 swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00143302 Add mc34708 pmic support on loco/Ripley board
+b199bf28fcee0bb4920ca50bea85c7670ad499f2 14dc0044f41a3e5bf8a15d222825526520b04b6c swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00143298: Reinit uart after using clk command
+14dc0044f41a3e5bf8a15d222825526520b04b6c 4d299aa7a5a62fb50c935017e4faa7e60c6030cf swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00143704: U_BOOT: Nand oobsize is wrong in some nand chips
+4d299aa7a5a62fb50c935017e4faa7e60c6030cf ba55e816088b5037ae3c16f66dfce650a3a7faff swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00143837 mx50 rd3: support android boot from RD3 NAND device
+ba55e816088b5037ae3c16f66dfce650a3a7faff c6fc06175b0b602e30743c19dcbcca412e0b504e swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00144060 MX53_SMD: recovery android, update recovery command for emmc.
+c6fc06175b0b602e30743c19dcbcca412e0b504e a58a68f35c8cf4b1e08c5b6bf2524b757647b5ca swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00144389 mx53 QS Ripley: change VCC from 1.35V to 1.3V QS Ripley board
+a58a68f35c8cf4b1e08c5b6bf2524b757647b5ca adbe5561873b221d798baa5e2b5c828039df1c6d swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00144224: MX53: Add MMU mapping for all peripherals
+adbe5561873b221d798baa5e2b5c828039df1c6d 6642a21107b30f497e56d17c6afe766e90b352fd swkim <swkim@oscompile.(none)> 1376897313 +0900	am: ENGR00151187 MX53 SMD: Kernal stopped Usb driver after reseting in stop mode
+6642a21107b30f497e56d17c6afe766e90b352fd eb6fbc52554554ebace9ac4db6393e2060fb0850 swkim <swkim@oscompile.(none)> 1376897314 +0900	am: ENGR00151892 MX50: Workaround to prevent PLL1 from losing lock
+eb6fbc52554554ebace9ac4db6393e2060fb0850 f0080e353c3877e9191d254ae07d38b44ffe2aad swkim <swkim@oscompile.(none)> 1376897314 +0900	am: ENGR00151966: MX51 - Apply SW workaround for the PLL1 unlock HW issue.
+f0080e353c3877e9191d254ae07d38b44ffe2aad 367287854a7b67106d20bc8340acdaee985ded41 swkim <swkim@oscompile.(none)> 1376897314 +0900	am: ENGR00144424 MX6: enable uboot for ARM2(SABREAUTO) CPU board
+367287854a7b67106d20bc8340acdaee985ded41 d8a238c3c7d2c5d21d194e7a76cd6c67c2da4b17 swkim <swkim@oscompile.(none)> 1376897314 +0900	am: ENGR00139198: iMX61 uBoot add ENET support
+d8a238c3c7d2c5d21d194e7a76cd6c67c2da4b17 9fe3011f2d509f2153e60f21bdf58fe62f37f06a swkim <swkim@oscompile.(none)> 1376897314 +0900	am: ENGR00152241 MX6: enable 1G speed mode for PHY and ENET
+9fe3011f2d509f2153e60f21bdf58fe62f37f06a 13bb919b029f993f135b34a4b4aa73ee913005ec swkim <swkim@oscompile.(none)> 1376897314 +0900	am: ENGR00152439: MX51: PLL workaround should be implemented only for PLL1
+13bb919b029f993f135b34a4b4aa73ee913005ec ee4a8db00ff7648d0839f3d1519700c219d7301b swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00139206 MX6 USDHC eMMC 4.4 support
+ee4a8db00ff7648d0839f3d1519700c219d7301b 65a4f9ae09235a4db29560b5d22fbcb9d57fe51a swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00152755 MX6 Switch DRAM init script from plugin to DCD for emmc fastboot
+65a4f9ae09235a4db29560b5d22fbcb9d57fe51a 007b87b8ec53899dc4603b3751f7e0b61461202a swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00152907 MX5X: update GPU default cmdline.
+007b87b8ec53899dc4603b3751f7e0b61461202a f28b92f3f175fee4a630f4a27b1b52c3eccf61ea swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00153394 mx50 rd3: make SDHC1 as default boot device for android
+f28b92f3f175fee4a630f4a27b1b52c3eccf61ea d3d218ce8b4ebfd0f02ac5c5c4a48e3c5a3f00ab swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00152843 mx51/3: align the android default env with document
+d3d218ce8b4ebfd0f02ac5c5c4a48e3c5a3f00ab 09cc7334dd0b367a77b3a627c28b85634033b9fc swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00151695 mx53 ddr3: update ESDREF and MR0
+09cc7334dd0b367a77b3a627c28b85634033b9fc ac27e2467c85ebcba9ee7e49cf82c3d7cde4fcde swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00151310 mx53 smd: force warm reset as cold reset
+ac27e2467c85ebcba9ee7e49cf82c3d7cde4fcde ee00cb336092484214034d29bdced93b44aa7889 swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00143438 [MX50 RD3]DCDC_3V15 GPIO change
+ee00cb336092484214034d29bdced93b44aa7889 e75b3aa759001268577c4713d8d6ab81de83fdc1 swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00153597 [MX6]Enbale MMDC low power
+e75b3aa759001268577c4713d8d6ab81de83fdc1 a773c5dd72b7a9214dca760ee8cae52edb415adb swkim <swkim@oscompile.(none)> 1376897315 +0900	am: ENGR00153605 fastboot: uboot cannot be burned to boot partition
+a773c5dd72b7a9214dca760ee8cae52edb415adb 8e5e34f7006475c0ed74d0ba5b2d78f100514dd8 swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00153526 mx53 pcba: add pcba board revB support in uboot
+8e5e34f7006475c0ed74d0ba5b2d78f100514dd8 49c6241578714f1ec05edcb3826c1f75625c7381 swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00153759 mx51: fix fastboot build failed without boot partition macro
+49c6241578714f1ec05edcb3826c1f75625c7381 d2c67df27e56ca8cc0f3f12f388ada7f4c6ecf99 swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00153761 imx6q ipuv3: improve display quality
+d2c67df27e56ca8cc0f3f12f388ada7f4c6ecf99 c3a9effd9c23acbaddd1dcb135b1ed0b5d33c11d swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00154400 mx53 pcba: bringup update for RevB board
+c3a9effd9c23acbaddd1dcb135b1ed0b5d33c11d bafd3206e17f42f632d0f1815c65ddd43d5dd1aa swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00154468 mx53 pcba: Add DC-IN power supply support for revB board
+bafd3206e17f42f632d0f1815c65ddd43d5dd1aa 8eeb8eab85a42e6d51bfdd4ddb774467b0d780d9 swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00154762 mx53_pcba: update Ripley/mc34708 USB/AUX charger settings
+8eeb8eab85a42e6d51bfdd4ddb774467b0d780d9 21762552b84e8f47627ac3c18969a7c5c483ab6b swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00154396: U_BOOT: Env config adjustment.
+21762552b84e8f47627ac3c18969a7c5c483ab6b 88d2fd4c6d0b31cc2541d0996bd06d678e5b9508 swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00154924 [MX6]Disable some clocks in uboot
+88d2fd4c6d0b31cc2541d0996bd06d678e5b9508 844f79dd6875d9b9663aa4fd3ab8084a5fe5a7c9 swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00154998 mx53 pcba: correct the default bootargs
+844f79dd6875d9b9663aa4fd3ab8084a5fe5a7c9 740433d394cf74ba4d58b4105eec2a09dea9c836 swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00155018 mx53_pcba: update Ripley AUX input to 950mA and charge current
+740433d394cf74ba4d58b4105eec2a09dea9c836 4034f12ae87293e3e89a533c0cc7c41f4aab226a swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00155138 mx53_smd/mx53_loco: Add i2c retry to fix DA9053 i2c NAK issue
+4034f12ae87293e3e89a533c0cc7c41f4aab226a 43edc07acd1661fc8cc5c5f47d2ba976586846cc swkim <swkim@oscompile.(none)> 1376897316 +0900	am: ENGR00155156 [MX6]Clean up debug info in uboot
+43edc07acd1661fc8cc5c5f47d2ba976586846cc 569be34c188098323d663885470d45bc24fedadc swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00151255 mx53 QS: Enable VUSB_2V5
+569be34c188098323d663885470d45bc24fedadc 4a8c7e57cfa5c5795ff1f1d1e443433102054957 swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00155133: Add sata support for imx6
+4a8c7e57cfa5c5795ff1f1d1e443433102054957 e8c18ceb08d1e7bbf7180e9e1526e9aa4e12048b swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00155240 mx53_smd: Fix a bug that hangs on printf() in board_init
+e8c18ceb08d1e7bbf7180e9e1526e9aa4e12048b 1a76b91d388c94d9a7b45271975af75bfec05cda swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00154672: Change to use rom plugins for mx53 boards
+1a76b91d388c94d9a7b45271975af75bfec05cda 76ae911a93257dc921a9baffed203563955df7ec swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00155472 mx53_loco: support both of RevA and RevB in uboot
+76ae911a93257dc921a9baffed203563955df7ec 828153ddad3457ade835665de85115e36111a7ae swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00155284 mx53_smd: move I2C access to board_init_late for system hang issue
+828153ddad3457ade835665de85115e36111a7ae bf399bccef2a67b9050821f9d602271c9af26ed6 swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00154666-1: Align u-boot mmc command with community
+bf399bccef2a67b9050821f9d602271c9af26ed6 6513931881f2cf746717eba99011775f2b132c0a swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00154666-2: Align u-boot mmc command with community
+6513931881f2cf746717eba99011775f2b132c0a 8993d6bcaf7a78d0d3063829c7c123218eb2c450 swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00154666-3: Align u-boot mmc command with community
+8993d6bcaf7a78d0d3063829c7c123218eb2c450 f2d513a45e60ed9c9596d162ea49ffbee0847dfe swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00154666-4: Align u-boot mmc command with community
+f2d513a45e60ed9c9596d162ea49ffbee0847dfe c9284b4db86354403fb832e83b9c94aedfb39fc8 swkim <swkim@oscompile.(none)> 1376897317 +0900	am: ENGR00155739: mx53 evk mmu wrong mapped two csd slots
+c9284b4db86354403fb832e83b9c94aedfb39fc8 47091d1c81341289a19c245acc830a81d84aca9a swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00155279: Change ESDCTL_0x82228080 to ESDCTL_0x82226080 for mx35
+47091d1c81341289a19c245acc830a81d84aca9a cb364e180488c02e79ff76ea5807679fd712f5ba swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00155283: Set dpgdck0_2_en to 0 when freq is lower than 300MHz
+cb364e180488c02e79ff76ea5807679fd712f5ba 5c35419c3b4c5d05174966aed11f56f42579e835 swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00139254: Enable MX6Q Uboot Splash Screen
+5c35419c3b4c5d05174966aed11f56f42579e835 3c338abd8afecf3f340530d1a6e3dc2f9db8b54f swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00156034: Fix mx53 evk build error
+3c338abd8afecf3f340530d1a6e3dc2f9db8b54f 6a9fac2e240bbe4c0c87191b619d023b81d4c89c swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00156098 mx53_smd/mx53_loco: DA9053 I2C SDA stuck low issue on bootup
+6a9fac2e240bbe4c0c87191b619d023b81d4c89c e645ba1ebc1fc4797617776d9bf30d62d7e341da swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00156304 eMMC: Need to update partition config after changing boot partition
+e645ba1ebc1fc4797617776d9bf30d62d7e341da fcc83f26e45334cff174134aa2196e66acb742c4 swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00156389: turn off child clocks before reconfigure perclk_root
+fcc83f26e45334cff174134aa2196e66acb742c4 b4a885476a95aaf7e4ae2378e9ac2a72766a891c swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00156405 ESDHC: Add workaround for auto-clock gate errata ENGcm03648
+b4a885476a95aaf7e4ae2378e9ac2a72766a891c dfedbeb8db9a12a8c87e154fb490d49fd12f41a8 swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00156670-1 ESDHC/USDHC: Remove delay before each cmd and some bug fixes
+dfedbeb8db9a12a8c87e154fb490d49fd12f41a8 74e24f740a5bb46658007b72f1c83c342c30daa5 swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00156670-2 MMC: Fixed some bugs in common code
+74e24f740a5bb46658007b72f1c83c342c30daa5 72dac9a77939cdd9a77ff7297b3563c7dabd59d1 swkim <swkim@oscompile.(none)> 1376897318 +0900	am: ENGR00155569 mc34708: change global reset time as 4s of LOCO and PCBA
+72dac9a77939cdd9a77ff7297b3563c7dabd59d1 267d3ddbc11b718097f560bba13f0a2d89e45f69 swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00157419: Correct default environment's mmc device in mx6q
+267d3ddbc11b718097f560bba13f0a2d89e45f69 f7793add6bb444552034ad264e502873b6aaa1e5 swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00157468: Fix default environment's "mmc dev" type error
+f7793add6bb444552034ad264e502873b6aaa1e5 ece096271efd36443de27d46cd53986ffd34ace4 swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00157538 remove VDIG_PLL setting in plug-in code
+ece096271efd36443de27d46cd53986ffd34ace4 ef26c03907117f83eaf913a2375b2fcc988a1bb1 swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00158184 mx53 smd: use highest value for unknown board revision value
+ef26c03907117f83eaf913a2375b2fcc988a1bb1 0787f4adf0f2e91ded3ef02809504c248f99acfd swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00159696 [MX6]Enable lpddr2 board
+0787f4adf0f2e91ded3ef02809504c248f99acfd 9cf54e32187614f6eecef4256e545a4a38ac80fc swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00159740 Android: Fastboot: enlarge max image size to 148MB
+9cf54e32187614f6eecef4256e545a4a38ac80fc 357c3dd2ee48e7c9d66b88570e1f79b21b38970e swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00159845 [MX6]lpddr2 board, put MMDC into power saving mode
+357c3dd2ee48e7c9d66b88570e1f79b21b38970e 3a19841df17119a664d66ed0a84a59cf1de14fa9 swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00139279-1 MX6Q: add env_embedded module for CONFIG_ENV_IS_NOWHERE
+3a19841df17119a664d66ed0a84a59cf1de14fa9 561dd90f2af21632c8c86fa55b187df4f4edd4ba swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00139279-2 MX6Q: add mfgtool support
+561dd90f2af21632c8c86fa55b187df4f4edd4ba 31e53201b26f361467c0f8e5279d2126b525acd1 swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00139279-3 MX6Q: invalidate the D-CACHE
+31e53201b26f361467c0f8e5279d2126b525acd1 5156ce6020f6d8fdc28ea1d61dc73a1430c0b847 swkim <swkim@oscompile.(none)> 1376897319 +0900	am: ENGR00156930: Update MX35 DDR2 scripts
+5156ce6020f6d8fdc28ea1d61dc73a1430c0b847 604a8723ca4507e851af1f1cc7a7593e1460edd6 swkim <swkim@oscompile.(none)> 1376897320 +0900	am: ENGR00156934: Update mx35 AIPS max dbg m3if esdctl settings
+604a8723ca4507e851af1f1cc7a7593e1460edd6 ee95a9269bfbe3a932c0f45c683a915f3d55c2aa swkim <swkim@oscompile.(none)> 1376897320 +0900	am: ENGR00160507 Update the IOMUX implementation for MX6
+ee95a9269bfbe3a932c0f45c683a915f3d55c2aa 8253bbbaa1161a50d5117831bbbacdfd0bd7ddfd swkim <swkim@oscompile.(none)> 1376897320 +0900	am: ENGR00160725 fastboot: fix the serial number display error
+8253bbbaa1161a50d5117831bbbacdfd0bd7ddfd f92b46e428f5350b03eb6152772532c0d0ab583c swkim <swkim@oscompile.(none)> 1376897320 +0900	am: ENGR00160399 Added support for the MX6Q Sabre-lite board
+f92b46e428f5350b03eb6152772532c0d0ab583c 29b6c8057b3fcd151fae0c91984b8ff7ec2d2d88 swkim <swkim@oscompile.(none)> 1376897320 +0900	am: ENGR00160514: clean up compiler warning for mx6q
+29b6c8057b3fcd151fae0c91984b8ff7ec2d2d88 d81e5b683b933c9887421c3736b6f35a29a7eb41 swkim <swkim@oscompile.(none)> 1376897320 +0900	am: ENGR00139221 USDHC Add SDXC UHS-I support
+d81e5b683b933c9887421c3736b6f35a29a7eb41 af651824f4c6a2de72e866a2895edee418a35ba3 swkim <swkim@oscompile.(none)> 1376897320 +0900	am: ENGR00161004 MX6Q Uboot Rename sabreauto to arm2 board
+af651824f4c6a2de72e866a2895edee418a35ba3 c520a18c8d2b902a16d3e1e311defa2cdf868698 swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161125 Update MX6Q Sabrelite config to boot from MMC by default
+c520a18c8d2b902a16d3e1e311defa2cdf868698 13b425bdd6071ea8ebdb3e33072fbae0665259ee swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161133: Add spi-nor support for mx6q
+13b425bdd6071ea8ebdb3e33072fbae0665259ee 6c8c02e525b1bc32efba59e8fe01385985e1d487 swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161126 Enable Hush parser in MX6Q Sabrelite config
+6c8c02e525b1bc32efba59e8fe01385985e1d487 04bef60c5cb303c54edb48b20b02a9bdc5ab3eb3 swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00139215 iMX61 Uboot support blow fuse
+04bef60c5cb303c54edb48b20b02a9bdc5ab3eb3 ef36d5098437b118d154720d4a659877603d91ab swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161277 Add fuse access capability for MX6 Sabre-lite
+ef36d5098437b118d154720d4a659877603d91ab be3a13cf464f657aee9dd0c51617a6cb5eb0fa8c swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161294 Update MX6 code to read MAC address from fuses
+be3a13cf464f657aee9dd0c51617a6cb5eb0fa8c a6a3bb869e2b30dca78269b215d9e32b6d034269 swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161254 MX6Q: Add NAND support in Uboot
+a6a3bb869e2b30dca78269b215d9e32b6d034269 74eb5b8b6c90044053cfee5dd5a446e768f1e7f2 swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161296 Update the MX6 Sabre-lite environment option in the config file
+74eb5b8b6c90044053cfee5dd5a446e768f1e7f2 f62d6112c9469f323275159daaf1a60cf61e7272 swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161373 Move the MAC address read from fuse code to MX6 SoC file
+f62d6112c9469f323275159daaf1a60cf61e7272 b285090b1b6b87eace5dfe956176df3978f2a0de swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00161317 - MX6Q: Integrate plugin and dcd DRAM init script in uboot.
+b285090b1b6b87eace5dfe956176df3978f2a0de c703cf3250b5296ad7c1dab13f12c38ca7c72ab0 swkim <swkim@oscompile.(none)> 1376897321 +0900	am: ENGR00157106 uboot mx6q: adjust IPU axi-id0/1 Qos value
+c703cf3250b5296ad7c1dab13f12c38ca7c72ab0 92424e507cfef494f62646c7dab10c7bef5c0c4d swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00161415: mc34708: set 1p5
+92424e507cfef494f62646c7dab10c7bef5c0c4d 1939f9bf4bcd3ac2ee5caf13e080f4a9742604ca swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00161354 MX6Q ARM2 U_BOOT: "mmc dev 0" or "mmc dev 1" cmds will hang
+1939f9bf4bcd3ac2ee5caf13e080f4a9742604ca a63e12ee54a9b995fbb103dbf23ddeb74e31f228 swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00161691 Manufacturing update for Sabre-lite
+a63e12ee54a9b995fbb103dbf23ddeb74e31f228 0063cfbd7733ae10f46eb9927caad08534229ce2 swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00161846 uboot mx6q_arm2: adjust IPU axi-id0/1 Qos value
+0063cfbd7733ae10f46eb9927caad08534229ce2 a25a28da1344dcd19ec53670a9b5be726e23868d swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00161860 Fix build issue when enable NAND in Uboot
+a25a28da1344dcd19ec53670a9b5be726e23868d a5efd9a231d249487f11274307c81243b5dcfb38 swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00161852: remove u-boot build warnings for mx6q
+a5efd9a231d249487f11274307c81243b5dcfb38 443447063c2e5100ba59cb853aa2c6f37e5f2b78 swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00155891 : Fix reboot stress test failed issue
+443447063c2e5100ba59cb853aa2c6f37e5f2b78 0725f8b77029a5823d9d97a3bf0398b8c0fd5bfe swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00162437 uboot mc34708 pcba : add spi support on mc34708
+0725f8b77029a5823d9d97a3bf0398b8c0fd5bfe 4e290c0b103ee3a4e6e22a8918be56543345fbd2 swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00162570: MX6-Increase VDDSOC_CAP voltage to 1.2V
+4e290c0b103ee3a4e6e22a8918be56543345fbd2 e788fddb968e2dd1f4a8ba3397f1de0542913a52 swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00162491 Android: MX53_SMD: enter recovery mode by key.
+e788fddb968e2dd1f4a8ba3397f1de0542913a52 f1e4ba0fb2064c1f6a9deb53e03cd689bb782715 swkim <swkim@oscompile.(none)> 1376897322 +0900	am: ENGR00162709 Add Support for MX6Q Sabre Auto
+f1e4ba0fb2064c1f6a9deb53e03cd689bb782715 47d1d8a75dfcad14fc82adcb3b8834bb4c4f4735 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00162874: Add enet clk change support for mx6
+47d1d8a75dfcad14fc82adcb3b8834bb4c4f4735 7abb8499d24e77e2145b591be8205215c9603ef2 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00162938 MX5: Add download_mode command in uboot to enter MFG download mode.
+7abb8499d24e77e2145b591be8205215c9603ef2 e01c30465fee7f7c67ab2a3b42830474320bca04 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00162937 - FEC: Fix FEC cannot load kernel accroding tftp.
+e01c30465fee7f7c67ab2a3b42830474320bca04 099cf34ce82aca1cd2ba262224b1fe7a94063b09 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00162717 mx53_smd/mx53_loco DA9053: reset da9053 i2c and add dummy write
+099cf34ce82aca1cd2ba262224b1fe7a94063b09 3165989348a79a35a4e917868ddf8713cecf2e44 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00163040 - FEC : Fix ethernet cannot work after system sleep.
+3165989348a79a35a4e917868ddf8713cecf2e44 f64393f3f56d928eb029e6dbf5eda19e06d1706f swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00163239-1 mc34708: fix not charging issue in uboot
+f64393f3f56d928eb029e6dbf5eda19e06d1706f 35e36097134a1622427913393ceda015e97f4e90 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00163239-2 mc34708: enable extra charging circuit
+35e36097134a1622427913393ceda015e97f4e90 c48c0ca6c97f52377329d8e4cad398ab0310a07c swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00163370 Android: uboot: mx53_smd fix warnning message
+c48c0ca6c97f52377329d8e4cad398ab0310a07c 071b5225822261b4761faf1a30783bf78944b1e3 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00163513 MX6Q-UBOOT : Add download_mode cmd
+071b5225822261b4761faf1a30783bf78944b1e3 46c8d05531eda6fa9eab254b2d43c2514e26db68 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00163704: MX5X: add i2c recovery function in board_lateinit.
+46c8d05531eda6fa9eab254b2d43c2514e26db68 74d2465b61bb00cf9427deda9d1cae4f4278fc3a swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00169500 mc34708 mx53_loco: 4s power off in QS board
+74d2465b61bb00cf9427deda9d1cae4f4278fc3a b15da5932bda3d444fa13ac490c06bd83ce9be46 swkim <swkim@oscompile.(none)> 1376897323 +0900	am: ENGR00169654 mx53_pcba: enable DDR auto-calibration
+b15da5932bda3d444fa13ac490c06bd83ce9be46 6e278591c2b261fd40549f460abdf2c239a4c766 swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00169655 pcba : merge i2c recovery patch to pcba
+6e278591c2b261fd40549f460abdf2c239a4c766 27e38f2da6c3220da164854ce6900321f7f2e74e swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00169741 UBOOT : DDR3 initialization based on the MX6Q ARD
+27e38f2da6c3220da164854ce6900321f7f2e74e fd2b659c1b4df7e2d3d97fab99b0e561c893d6cf swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00169919 MX6Q ARM2 U-Boot : Support Pop CPU Board
+fd2b659c1b4df7e2d3d97fab99b0e561c893d6cf 098b8a2286b3d86919e29c0ed986c0e183021d6c swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00170299-1 Android: add support fastboot function
+098b8a2286b3d86919e29c0ed986c0e183021d6c 1e3390f1123365e8b335655e4c4d19bfcadfaf18 swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00170299-2 Android:MX6Q_SL: add board support for recovery and fastboot.
+1e3390f1123365e8b335655e4c4d19bfcadfaf18 4b6da571dcc03bd371752ad2d9ec2ec7da21fa4b swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00170299-3 Android: add android board configure file.
+4b6da571dcc03bd371752ad2d9ec2ec7da21fa4b 8c9eb31277640bce7ec113e958a8406a4201c357 swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00170372 mx6q sabrelite: make TF card as default boot media
+8c9eb31277640bce7ec113e958a8406a4201c357 bfb15ba15f58c27e275a7a9bb0e3b62d32909c3e swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00170405 Android: MX6Q_SL: Fix recovery key detection
+bfb15ba15f58c27e275a7a9bb0e3b62d32909c3e 95453b1175ed01295aea9d1dc9fb583ad3276139 swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00170516 Enable the master mode for ENET PHY on MX6 Sabrelite
+95453b1175ed01295aea9d1dc9fb583ad3276139 41f5058c738104b3e57a3a5409e5ea5263c87b78 swkim <swkim@oscompile.(none)> 1376897324 +0900	am: ENGR00170644: Enlarge mmc read size to 4M in default env
+41f5058c738104b3e57a3a5409e5ea5263c87b78 5bec0562b91703d35cef888152cb706304fbf372 swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00169544 - FEC : fix "imx5x bootp command cannot work well".
+5bec0562b91703d35cef888152cb706304fbf372 f571a7d9facc82e48f31936e2ff7dcabb5670dbf swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00163697 - FEC : Adjust MX53 Network stream throughput.
+f571a7d9facc82e48f31936e2ff7dcabb5670dbf 1d0689bc33abff42193a61a5879d45c198c4079b swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00160621 [MX6]Workaround for reset issue
+1d0689bc33abff42193a61a5879d45c198c4079b d19bccfe87052a4a1de972ca0d602ce780572ad8 swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00162642: Fix bug in setting VDDSOC voltage
+d19bccfe87052a4a1de972ca0d602ce780572ad8 e12e7fd0c74d885677e0e2ec30b502482936c34b swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00170768 Android: Fix fastboot can't used on MX6Q SL MMC1 device.
+e12e7fd0c74d885677e0e2ec30b502482936c34b cf2e058dd8ecc6019307cad8702cab6615821be0 swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00170837 [MX6]Add temperatuer check into uboot
+cf2e058dd8ecc6019307cad8702cab6615821be0 3c73b0d980b39477401c00905dc8fa984d08ac2e swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00170876 Android: align boot commands with user guide.
+3c73b0d980b39477401c00905dc8fa984d08ac2e 178b780719a9e247270b95dbe22f8d6c0bd3d54a swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00171008 MX6Q/MFGTOOL : disable the workaround for MFGTOOL
+178b780719a9e247270b95dbe22f8d6c0bd3d54a 7085fee4cdf89a9695ad3199af1678545edd53ec swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00171091 [MX6]Remove workaround for reset issue
+7085fee4cdf89a9695ad3199af1678545edd53ec 22158cab5e5576bd367ef3a7ae01f9757d34dfeb swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00171115 add fec support in mx6q sabreauto board
+22158cab5e5576bd367ef3a7ae01f9757d34dfeb 172ae97de44b3383c6eb84ac33b79a7f282283f3 swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00171622 - FEC : workaround for Gb enet in sabrelite board.
+172ae97de44b3383c6eb84ac33b79a7f282283f3 70490349ed1ec34c77db5275b086de0c93cc5ad7 swkim <swkim@oscompile.(none)> 1376897325 +0900	am: ENGR00171633 MX6Q: config: android: update default config.
+70490349ed1ec34c77db5275b086de0c93cc5ad7 63cb1da0018f564b2a538429b958dd765225afa0 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00171872 Android: update sabrelite default config fix a typo.
+63cb1da0018f564b2a538429b958dd765225afa0 7053c8c9abe6d447b486b83b9b1a1b6f44825883 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00171771 [MX6]Need to power down PCIe by default
+7053c8c9abe6d447b486b83b9b1a1b6f44825883 417d4c9a4d44500b8d4ebbb4f3d949cdbdef89cc swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00171968 mx6q sabrelite: fixup the sabrelite default bootargs typo
+417d4c9a4d44500b8d4ebbb4f3d949cdbdef89cc c20cc3013e0eb7b1c577a2ed6aa8087bdcf50947 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00172490: FIX: PMIC registers may not be accessible in u-boot via SPI
+c20cc3013e0eb7b1c577a2ed6aa8087bdcf50947 55ca3c11ddd5a0b6c555eee2617d60f39a65f4e1 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00172541 Delete bootcmd_base from the MX6 Sabre-lite config
+55ca3c11ddd5a0b6c555eee2617d60f39a65f4e1 8bafc0f4a937ef16f040afcb0491b789dd551541 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00172343 Add suport for i.MX 6Q Sabre Smart Device
+8bafc0f4a937ef16f040afcb0491b789dd551541 2af1b24440ff6633a89832b00fe6d768c0e438d8 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00173579 Revert FEC: Fix FEC cannot load kernel accroding tftp.
+2af1b24440ff6633a89832b00fe6d768c0e438d8 3b788d99b01dca3bcd70a3d2a5562953a7704908 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00173659 MX6Q_UART Change Phyisical to Virtural Port Mapping
+3b788d99b01dca3bcd70a3d2a5562953a7704908 bc9d63efcd8f5ac73214f37c1a930c3f48642f50 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00173966-1: i.mx6dl: add the iomux head file
+bc9d63efcd8f5ac73214f37c1a930c3f48642f50 7de3f012333e0cd35773e09d7b7715a8514226c5 swkim <swkim@oscompile.(none)> 1376897326 +0900	am: ENGR00173966-2: fec: add i.mx6dl support
+7de3f012333e0cd35773e09d7b7715a8514226c5 41638d98586541a7b689e6601d06baf371f8d549 swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00173966-3: ARM2: i.mx6dl: add the DDR script
+41638d98586541a7b689e6601d06baf371f8d549 d57054f912f5f47c1a6054c67bd2e31de6e485b1 swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00173966-4: ARM2: add initial support for i.mx6sdl
+d57054f912f5f47c1a6054c67bd2e31de6e485b1 c7466d1d1268b9c43d9271d6c6b157084bfa73df swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174055: i.mx6dl: ddr: update ddr script to 400M_64bit_v1.1
+c7466d1d1268b9c43d9271d6c6b157084bfa73df 6dd0541ce9484c3e96b7b75d19f9caaad9eac1b7 swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174155: i.mx6sdl: add 32bit DDR support on ARM2 board
+6dd0541ce9484c3e96b7b75d19f9caaad9eac1b7 0e7f47b554ba49ee5adc70f440f16bcda4de725e swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174155-2 i.mx6sdl: enable i.mx6solo config by default
+0e7f47b554ba49ee5adc70f440f16bcda4de725e a61b30176a157e49fe8a1f6e1a5620f8dfa02571 swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174155-3 i.mx6sdl: enable i.mx6solo config by default
+a61b30176a157e49fe8a1f6e1a5620f8dfa02571 938e1e10eae43093d7276b1dd554f96cb03339df swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174221 imx6dl remove unnecessary configs for NAND
+938e1e10eae43093d7276b1dd554f96cb03339df 23530474cfb923c2e6fd28fef2da3e7dfe9c930b swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174104-1: Add conditional CONFIG to fix build break
+23530474cfb923c2e6fd28fef2da3e7dfe9c930b 20f0d3003c676a38f14dba94ecfdb9e33be4ff81 swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174104-2: Add mx6dl iram boot config
+20f0d3003c676a38f14dba94ecfdb9e33be4ff81 4efc1b29af5cc74658a1fa664af6126d37e952d6 swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174104-3: Fix mx6 iram boot configs' issue
+4efc1b29af5cc74658a1fa664af6126d37e952d6 82dd7c47df7b1983ed11ca7d142019af37c2b09c swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174104-4: Fix iram build error in imx6
+82dd7c47df7b1983ed11ca7d142019af37c2b09c 236c16e8fbcf22b806dded621bd48d824a415361 swkim <swkim@oscompile.(none)> 1376897327 +0900	am: ENGR00174230: Move partition command from nand to sata in mx6
+236c16e8fbcf22b806dded621bd48d824a415361 516dc1c69d4ca0543441ed4807083bae61e2795e swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174407 imx6dl: add MFG tool support
+516dc1c69d4ca0543441ed4807083bae61e2795e 3a5e4712f943af6be979c5e85063b6a2de93915b swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174326 MX6Q_SABRESD: add android related function and config.
+3a5e4712f943af6be979c5e85063b6a2de93915b f1ebc5c108722c96d9e4d6a7bbbeefd2dada1c33 swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00139213: Add read and change voltage support for mx6
+f1ebc5c108722c96d9e4d6a7bbbeefd2dada1c33 a00e8558d5ff82a751bc79eb080cc339e95aa040 swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174626: Fix cmd_regul build error
+a00e8558d5ff82a751bc79eb080cc339e95aa040 ff717bcebacbf021e10faa90821ee6068bd0fe4d swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174625: Remove build warnings for mx6q
+ff717bcebacbf021e10faa90821ee6068bd0fe4d 19e2caae37927645bf8f81d9a4c0cbec3a0e330a swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174536-1 booti: add booti command support.
+19e2caae37927645bf8f81d9a4c0cbec3a0e330a 3792945842db6c4010da48c1881c658eb4b9bd29 swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174536-2 MX6Q_SABRE[SD/Lite]: change bootcmd to booti
+3792945842db6c4010da48c1881c658eb4b9bd29 056714b7269a22fa309beb6d8cff452ec8a5e86c swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174821 booti: fix build error when not configure android partition.
+056714b7269a22fa309beb6d8cff452ec8a5e86c 816887b636dccd369d36b50edb88ce20f07cd206 swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174841 [U-Boot]Add a command to erase any pre-saved environment
+816887b636dccd369d36b50edb88ce20f07cd206 ac6705b98c20afc3228a49bfa5da9744b30108b1 swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00174868 mx6dl arm2: change the default console as ttymxc3
+ac6705b98c20afc3228a49bfa5da9744b30108b1 97abfc834c029b1f38673b9f439e080530f0f331 swkim <swkim@oscompile.(none)> 1376897328 +0900	am: ENGR00175091 MX6Q_SABRESD: android: add recovery check
+97abfc834c029b1f38673b9f439e080530f0f331 49c528ef53c9b7b99a23564eb0c9c06b916160e6 swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00175117 [MX6DL LPDDR2 Board] Apply Initializtion script and enable U-Boot
+49c528ef53c9b7b99a23564eb0c9c06b916160e6 7b2d339a2d86cdfd5a162928ea96d036e4cb7f7a swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00175981-1 mx53 smd: add CPU 1.2GHz configuration
+7b2d339a2d86cdfd5a162928ea96d036e4cb7f7a 302825ef8158548076e4b5219fee085f8158dd6a swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00175981-2 mx53 smd android: fix build error
+302825ef8158548076e4b5219fee085f8158dd6a 23a805edf1661658180c051e92326f82232cf159 swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00176186 mx6dq ARD: add MFG tool support
+23a805edf1661658180c051e92326f82232cf159 1f4f6886404a9e99210d5db6bdc8ec4625155ab7 swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00176235 mx6 ARD: Add splash screen support
+1f4f6886404a9e99210d5db6bdc8ec4625155ab7 560adbd25474c66d8afcad41c71006896877ab6f swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00176328 change fastboot vid to google orignal
+560adbd25474c66d8afcad41c71006896877ab6f bbe2f62d253e2b9c70df62420d646a5137eb5787 swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00176347-1 mx6solo sabreauto: add configuration support
+bbe2f62d253e2b9c70df62420d646a5137eb5787 fcc315547f6f6365e2cd868ac4296172d152a394 swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00176347-2 mx6solo sabreauto: add DDR3 support
+fcc315547f6f6365e2cd868ac4296172d152a394 0af0ce6492f5a7766379c5585fb322382568da78 swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00176347-3 mx6solo sabreauto: add board support
+0af0ce6492f5a7766379c5585fb322382568da78 8bc45d525df518d42e313f7b31c0ddd347617081 swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00176347-4 anatop: add support for mx6solo/dl
+8bc45d525df518d42e313f7b31c0ddd347617081 ca618daacf86d0b65966fc167eb4579003496104 swkim <swkim@oscompile.(none)> 1376897329 +0900	am: ENGR00176347-5 mx6solo sabreauto: set system_rev
+ca618daacf86d0b65966fc167eb4579003496104 4c3db2166e38bc7534c5cd9b99bbf25e9162c82a swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00176347-6 mx6solo sabreauto: remove build warning
+4c3db2166e38bc7534c5cd9b99bbf25e9162c82a cb459cd3fd139e12997afd55d43df186215f8833 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00176347-7 bootm: remove build warning
+cb459cd3fd139e12997afd55d43df186215f8833 3440c2f30fa05397360fd9d406d9fa99fe1a57b2 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00176347-8 cmd_bootm: remove build warning
+3440c2f30fa05397360fd9d406d9fa99fe1a57b2 12d2a84f8227e031f508be73bbe7f54bc6b55c53 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00176347-9 fec : increase wait time for phy link
+12d2a84f8227e031f508be73bbe7f54bc6b55c53 8053cf71201a1f0e8996d2b8c5213de827aaaff1 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00177070 android: isolate booti command to fix build.
+8053cf71201a1f0e8996d2b8c5213de827aaaff1 e37a89582f85c0d83409b8b2ae614a04d39a8eb7 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00176834-1 - [imx6] : add fsl_system_rev to check chip and board.
+e37a89582f85c0d83409b8b2ae614a04d39a8eb7 15a97341b0a5eca5b80117e558d4e9ab32fc17ab swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00176834-2 - i.MX6DL sabresd: board bringup
+15a97341b0a5eca5b80117e558d4e9ab32fc17ab dfcfab325c58898d3afe1e5941166870050b46a6 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00176834-3 - i.MX6DL sabresd : DDR init script update
+dfcfab325c58898d3afe1e5941166870050b46a6 ea8fc860fcb71fb9c18799cc19ddf0dad1c11a18 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00177244 - imx6 : Use common fsl_sys_rev to check board reversion
+ea8fc860fcb71fb9c18799cc19ddf0dad1c11a18 55f5469054ae5573575a48e6ece7404bbb126a98 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00177587 MX6Q_ARM2: add android config for this board.
+55f5469054ae5573575a48e6ece7404bbb126a98 38a94fa24633634cc0f6db73750f83f257789c06 swkim <swkim@oscompile.(none)> 1376897330 +0900	am: ENGR00176837-1 - imx6 sabreauto : add net support for revb boards.
+38a94fa24633634cc0f6db73750f83f257789c06 a56b11cccd63a19c47ff58288d34593c975fe89a swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00176837-2 - imx6 sabreauto : add i2c3 support for revb board.
+a56b11cccd63a19c47ff58288d34593c975fe89a 15d7c7737226636523c3c42b759fc59b9eb7f871 swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00176837-3 - FEC : detect phy ID to match the phy type.
+15d7c7737226636523c3c42b759fc59b9eb7f871 d40ddbc3107acecf53aa0fd25f87e6685bf9dff3 swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00176837-4 - imx6solo sabreauto : remove Ethernet phy MICREL macro.
+d40ddbc3107acecf53aa0fd25f87e6685bf9dff3 57ed66b9d45080a555f3c693338f3045fd6e0e9f swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00177657: Add mfg configs for mx6dl sabresd and mx6solo sabreauto
+57ed66b9d45080a555f3c693338f3045fd6e0e9f a35623128606748240b62d7ef8d3344e382c0c33 swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00177783: i.mx6dl: sabresd revB: update DD3 init script
+a35623128606748240b62d7ef8d3344e382c0c33 e37b9e5a9ecd78f425c5d0856c749e48c3ab4660 swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00177905 : i.mx6q sabresd: add fec auto discover phy configuration.
+e37b9e5a9ecd78f425c5d0856c749e48c3ab4660 508e5b3367e2d0d23102fbc6c23766991721d60d swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00177909: mx6q/mx6dl SabreSD: SPI-NOR flash not probed as expected
+508e5b3367e2d0d23102fbc6c23766991721d60d 7377652ba432da64b848d7645414a842c9da8428 swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00177954 mx6solo sabreauto: remove MMDC1 setting
+7377652ba432da64b848d7645414a842c9da8428 12c55f406f90717b6ae5bca60b830ca77184194a swkim <swkim@oscompile.(none)> 1376897331 +0900	am: mmc: CMD7:MMC_CMD_SELECT_CARD response fix
+12c55f406f90717b6ae5bca60b830ca77184194a e4fb1a650ab5d0a90a008c1efa1ec6f56303ac93 swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00178547 i.mx6dl sabresd: add android config file
+e4fb1a650ab5d0a90a008c1efa1ec6f56303ac93 d4b50ca692d839e98ebed3bff45feff806b7958f swkim <swkim@oscompile.(none)> 1376897331 +0900	am: ENGR00178024 mx6solo sabreauto: add nosmp arm_freq=800 by default
+d4b50ca692d839e98ebed3bff45feff806b7958f a7b7fda5a07005064ba165015f4803425dafc871 swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00178558 mx6solo sabreauto: integrate DDR3 script V1.1
+a7b7fda5a07005064ba165015f4803425dafc871 26e3d17002971ac4c5c87192c056aeead69fa924 swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00176834-4 - [imx]:add macro define to include chip head file
+26e3d17002971ac4c5c87192c056aeead69fa924 63dee70eee569f6e9364aef06a358b26ab1af7cf swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00176837-4 - FEC:enable some macro define for all chip
+63dee70eee569f6e9364aef06a358b26ab1af7cf 3f5c930f0b61f98771b23dc5370bffd07efc5c34 swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00139223-1 [MX6Q] Secure Boot, enable HAB on ARM2 platform (Stage 1)
+3f5c930f0b61f98771b23dc5370bffd07efc5c34 74799f31e4daa2541e771555c05f1d9b0b85d8c3 swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00139223-2 [MX6Q] Secure Boot, enable HAB on ARM2 platform (Stage 2)
+74799f31e4daa2541e771555c05f1d9b0b85d8c3 4c1e02cfe58c05e27db52108e044c126fcf7da7e swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00178989: Disable secrity boot configs.
+4c1e02cfe58c05e27db52108e044c126fcf7da7e c553fad295fb5c167227fb95aa80120f3a9a1828 swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00176537 mx6qsabreauto: i2c3_sda route setting
+c553fad295fb5c167227fb95aa80120f3a9a1828 d7cfa21b2e24dba67692d14b4cdb30191acbcb57 swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00179150 MX6Q_ARM2 HAB Boot : avoid uImage authentication on un-fused chip
+d7cfa21b2e24dba67692d14b4cdb30191acbcb57 af0f885b09884720c82549df3cb86c1f2031032e swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00179437-1: u-boot: iomux: NO_PAD_I/NO_PAD_MUX not set corretly
+af0f885b09884720c82549df3cb86c1f2031032e 5c28cedbaf321c8c47a48074e251cfcc1417496a swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00179437-2 u-boot: mx6q: iomux: code clean up
+5c28cedbaf321c8c47a48074e251cfcc1417496a c08a86c30c5be4c7ecc4f14756ed08cad29d5e40 swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00179000 i.mx6q/dl: sabresd: Add the splash screen support
+c08a86c30c5be4c7ecc4f14756ed08cad29d5e40 2bf9b2c3ae5b000b2c179917f7a8f13312fa50bd swkim <swkim@oscompile.(none)> 1376897332 +0900	am: ENGR00179013 : MX6Solo/Quad : SABREAUTO: Add Parallel NOR Support
+2bf9b2c3ae5b000b2c179917f7a8f13312fa50bd a13375e627b875a4ad96f623c026a2b46052e330 swkim <swkim@oscompile.(none)> 1376897333 +0900	am: ENGR00179762: i.MX6: print the SOC revision correctly
+a13375e627b875a4ad96f623c026a2b46052e330 c2477ab6948bd9abb82d5aaa0f3c4996362eb7cf swkim <swkim@oscompile.(none)> 1376897333 +0900	am: MX: Added Freescale Power Management Driver
+c2477ab6948bd9abb82d5aaa0f3c4996362eb7cf 781224d9beef0b08c145de027da768b7b5e6dbee swkim <swkim@oscompile.(none)> 1376897333 +0900	am: misc:pmic:core New generic PMIC driver
+781224d9beef0b08c145de027da768b7b5e6dbee ad2d211ec843d11058f8cf292a3e718935c73963 swkim <swkim@oscompile.(none)> 1376897333 +0900	am: misc: pmic: use I2C_SET_BUS in pmic I2C
+ad2d211ec843d11058f8cf292a3e718935c73963 c3eeebf022d707590ebe706a6f08ba7fde864ae0 swkim <swkim@oscompile.(none)> 1376897333 +0900	am: misc: pmic: addI2C support to pmic_fsl driver
+c3eeebf022d707590ebe706a6f08ba7fde864ae0 391a0935f935955dbf4e5579552fad26dca45f83 swkim <swkim@oscompile.(none)> 1376897333 +0900	am: misc: pmic: fix regression in pmic_fsl.c (SPI)
+391a0935f935955dbf4e5579552fad26dca45f83 4a77dbb982a754abbda9d42ec7ad83fb5ab5d7fc swkim <swkim@oscompile.(none)> 1376897333 +0900	am: Add generic gpio.h in asm-generic
+4a77dbb982a754abbda9d42ec7ad83fb5ab5d7fc f645f23aee1807d961dd5b8d4861bdaf00e96717 swkim <swkim@oscompile.(none)> 1376897333 +0900	am: IMX: uniform GPIO interface using GPIO framework
+f645f23aee1807d961dd5b8d4861bdaf00e96717 fc9d30b9aafb68273a1d90dc96331e278079b36b swkim <swkim@oscompile.(none)> 1376897333 +0900	am: MX: Added definition file for MC13892
+fc9d30b9aafb68273a1d90dc96331e278079b36b 97519502cfb9e175e36b9cc1699b3097fcd6d0c2 swkim <swkim@oscompile.(none)> 1376897333 +0900	am: ENGR00180623 fastboot: add fastboot in MX6Q_SABERSD boards
+97519502cfb9e175e36b9cc1699b3097fcd6d0c2 f4fa6bf71e2b12d0bd8837ffcd4c531bb40a4016 swkim <swkim@oscompile.(none)> 1376897333 +0900	am: ENGR00180955 mx6q sabresd snvs TKT104835: fix long press ONOFF failed in u-boot
+f4fa6bf71e2b12d0bd8837ffcd4c531bb40a4016 158ff7cca94e30365752a7e8b50fd9b0f0889a5d swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00181337-1 i.mx6 : add initial support for i.mx6sl
+158ff7cca94e30365752a7e8b50fd9b0f0889a5d 9c83f1e01ff2265b7961c3e4dfb117734962acc8 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00181337-2 i.mx6 : i.mx6sl arm2 add EPDC support
+9c83f1e01ff2265b7961c3e4dfb117734962acc8 a6ed71f19222e091737df1d5b0e8a637637b7b3b swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00181337-3 i.mx6: i.mx6sl: add initial support for i.mx6sl ARM2 board
+a6ed71f19222e091737df1d5b0e8a637637b7b3b 677129e9486649e9f6373ef00b49b03cf5e654f2 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00181337-4 i.mx6 : i.mx6sl: Fix FEC RX CRC Error
+677129e9486649e9f6373ef00b49b03cf5e654f2 fbcab289366af39ca48081bf172d8c49fc1c52c7 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00181621 : MX6Solo SABREAI - Set default boot up to SD Card
+fbcab289366af39ca48081bf172d8c49fc1c52c7 4878a74ba5b151cf65f78844393f259a3a42ecf5 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00181348 pfuze sabresd: pfuze support in u-boot
+4878a74ba5b151cf65f78844393f259a3a42ecf5 141294f766509b462971fac19a27049cd1e2e047 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00182017 mx6dl sabresd I2C: fix build error and support mx6dl_sabresd
+141294f766509b462971fac19a27049cd1e2e047 f94a47ab7437d941814f32a7d5c860275015c5c0 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00182426 MX6DL: add fastboot support for MX6DL.
+f94a47ab7437d941814f32a7d5c860275015c5c0 6d476fc300dcab6cf69872f9cc5085bcf4da0598 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00182739 sabresd I2C:add i2c recovery function in board_lateinit
+6d476fc300dcab6cf69872f9cc5085bcf4da0598 8d5d2f32e4db25d2ec04d8f466703b29642f5ed2 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00182459 fastboot: change vid pid to align with winXP fastboot driver.
+8d5d2f32e4db25d2ec04d8f466703b29642f5ed2 3ccc55e2d9380fd094756e6de722def8c2a32190 swkim <swkim@oscompile.(none)> 1376897334 +0900	am: ENGR00209059 android: refine fastboot and recovery support.
+3ccc55e2d9380fd094756e6de722def8c2a32190 55e16371f78d31abcb928ea9f17d2e2318ed5302 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00209306 i.mx6:i.mx6sl: fixup the load address for i.mx6sl uImage
+55e16371f78d31abcb928ea9f17d2e2318ed5302 1f9bc8bbef14787c67996d052553a251e5e78767 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00180103 MX6 sabreauto: Adjust IPU AXI-id0/1 Qos value
+1f9bc8bbef14787c67996d052553a251e5e78767 a4975d3276797d81fe5b77d2d7923c7331e7bcb9 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00210014 i.mx6 : i.mx6sl : add PAD_CTL_LVE support for pad configuration
+a4975d3276797d81fe5b77d2d7923c7331e7bcb9 6fdc5ed9910c19e556e7e4a4ab022366738e4b5d swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00209899-1 mx6x: add generic gpio interface.
+6fdc5ed9910c19e556e7e4a4ab022366738e4b5d 28a95fa5da1fdb1db334907544cb5447c8481316 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00209899-2 MX6Q: cleanup: cleanup fastboot, udc warnning.
+28a95fa5da1fdb1db334907544cb5447c8481316 4cc342449ffa0aa38bf4a49a4e48d976fb5a3678 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00209910 Add support for MX6SL mfgtools firmware support
+4cc342449ffa0aa38bf4a49a4e48d976fb5a3678 60d1fafc27cfa77294e6a8f15971216722b27755 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00210918-1 android: add mx6sl android support
+60d1fafc27cfa77294e6a8f15971216722b27755 7da6844b347c3a6bb29a7205dd14869a71ac4aa0 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00210918-2 cleanup android support, build pass all boards
+7da6844b347c3a6bb29a7205dd14869a71ac4aa0 c2fd82f58d5a73e9847f253d9146ac8d46960b03 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00211038 Fix the PAD_LVE implementation
+c2fd82f58d5a73e9847f253d9146ac8d46960b03 a0b2abf96963f1308dce1c5aaab8a3a062a47252 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00211117 - U-Boot: Add EPDC splash screen for MX 6DL/S platforms
+a0b2abf96963f1308dce1c5aaab8a3a062a47252 378e95e4372a9830e57184ca148b21fffedc4252 swkim <swkim@oscompile.(none)> 1376897335 +0900	am: ENGR00212287 - U-Boot EPDC splash screen: Disable EPDC splash by default
+378e95e4372a9830e57184ca148b21fffedc4252 cd329a201fb7d78936840f983f9c8f6eb0c0a191 swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00212571 [MX6]Change DRAM ODT setting to save power
+cd329a201fb7d78936840f983f9c8f6eb0c0a191 cd43ebc41e24050aa7fb7f35d13fc1885e56787a swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00212229 [MX6SL_ARM2]uboot: 8bit MMC cards failed to boot on SD1.
+cd43ebc41e24050aa7fb7f35d13fc1885e56787a cd1ab95f84db1767339abea139b44357e24a9cca swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00213689 - U-Boot: EPDC Splash Screen failing for MX 6DL/S
+cd1ab95f84db1767339abea139b44357e24a9cca 04c8dec898dadc451e97c01cdad811b1cb54cd03 swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00214866 MX6SL ARM2, UBoot : Apply V0.91 LPDDR2 Script
+04c8dec898dadc451e97c01cdad811b1cb54cd03 7d384492481100f03b28e4aecf1d0398b0d7f1dd swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00214947 MX6 UBOOT : default enable wait mode as default parameters
+7d384492481100f03b28e4aecf1d0398b0d7f1dd b47d1962f6cc4d3c938c71fd5bda4ecdf4b2dbcf swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00215515 MX6: Move IPU QoS and VDOA/IPU/VPU AXI Cache config to kernel
+b47d1962f6cc4d3c938c71fd5bda4ecdf4b2dbcf 59983c8adb3105eaf07579171a3d316027de626d swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00215633 MX6DL LPDDR2 : enable plugin mode of system boot
+59983c8adb3105eaf07579171a3d316027de626d f2a5621463246f3f6e3d501bde4bd95c1d59be31 swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00215367 MX6 Platforms, remove "nosmp" in default parameters
+f2a5621463246f3f6e3d501bde4bd95c1d59be31 2584db0ce96f1c7bfe05fe4dd694e7380d4afebf swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00215197 pfuze MX6SL_ARM2: enable LDO bypass on u-boot
+2584db0ce96f1c7bfe05fe4dd694e7380d4afebf a953fcaf48444bc6c2e2efe84d57e8375eac455a swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00216852 MX6SL ARM2, UBoot : Apply V0.93 LPDDR2 Script
+a953fcaf48444bc6c2e2efe84d57e8375eac455a 678f39d85d3a287b0466dc41e1ca439f817a8992 swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00217114-1 MX6 U-Boot, Secure Boot, one code base for MX6Q/DL/SL
+678f39d85d3a287b0466dc41e1ca439f817a8992 4c5455fa077a2a9263f006748e62ecae63f6d681 swkim <swkim@oscompile.(none)> 1376897336 +0900	am: ENGR00217114-2 MX6 U-Boot, Secure Boot, one code base for MX6Q/DL/SL
+4c5455fa077a2a9263f006748e62ecae63f6d681 74fd1a8ec90e6c4348002dfc1711f45bf4544c23 swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00217381-01: mx6sl add sd1 and sd2 to support SD3.0
+74fd1a8ec90e6c4348002dfc1711f45bf4544c23 8cd31c5e9993ed3f36a02e919e36bdbc48523682 swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00217381-02: show sd/mmc clk freq for mmcinfo
+8cd31c5e9993ed3f36a02e919e36bdbc48523682 a4e9be3a474bf1193263a41c6bddcef764fb16e2 swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00217764 MX6 Secure Boot : Fix NAND BOOT Failure due to secure patch
+a4e9be3a474bf1193263a41c6bddcef764fb16e2 3db4aaaa5be880e99d918a3114f04e92b400b7f9 swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00218067 mx6sl LDO_BYPASS: enable LDO BYPASS in mx6sl by default
+3db4aaaa5be880e99d918a3114f04e92b400b7f9 99f62d2451aa16cde433976ebf051914e124a85e swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00218282 MX6Q: fix linker error when more configure enabled.
+99f62d2451aa16cde433976ebf051914e124a85e f7fb255ec50b17c20dcf50f0d5a935e16eefa1f2 swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00217401 common: fix build warning
+f7fb255ec50b17c20dcf50f0d5a935e16eefa1f2 ec4b79031e09babffe23aed8f57063d7b6e7f7d6 swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00218465 Android: mx6sl-arm2: fix fastboot crash issue
+ec4b79031e09babffe23aed8f57063d7b6e7f7d6 f2aa07749341f3ef732fb87e959d7c6db18528de swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00218805 imx6: print the silicon revision correctly
+f2aa07749341f3ef732fb87e959d7c6db18528de 941d8731ac55939ef5a55d80997d10d6957a3cbb swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00218583-1 MX6Q/DL SabreSD:Support LVDS1 splashimage
+941d8731ac55939ef5a55d80997d10d6957a3cbb dd1846220584b681b353090d0e2687ba153a939a swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00218583-2 MX6Q SabreSD:Enable splashimage by default
+dd1846220584b681b353090d0e2687ba153a939a 79f5672ad5d7b34630aee6d36699217d9de88839 swkim <swkim@oscompile.(none)> 1376897337 +0900	am: ENGR00218583-3 MX6DL SabreSD:Enable splashimage by default
+79f5672ad5d7b34630aee6d36699217d9de88839 df383de592ab4aa5ff17c0c9942e75e30bab9616 swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00218583-4 MX6Q SabreSD Android:Add splashimage uboot var
+df383de592ab4aa5ff17c0c9942e75e30bab9616 b94c05dfcd1c33915219f781fb543e350c237c19 swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00218583-5 MX6DL SabreSD Android:Add splashimage uboot var
+b94c05dfcd1c33915219f781fb543e350c237c19 c189b6125c3bcdb0a2581ac9dcf70d4544e8b366 swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00218972 MX6 Secure Boot, Change to dynamic HAB data authentication
+c189b6125c3bcdb0a2581ac9dcf70d4544e8b366 ebf0353e04f8d59a9d00853e205b00c6a44bfcc0 swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00218915-1 FSL common:Add new boot logo
+ebf0353e04f8d59a9d00853e205b00c6a44bfcc0 7fe5078cc0f50dc2f316c76c0374abac8d47a887 swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00218915-2 MX6 SabreSD:Use new 8bit bmp boot logo
+7fe5078cc0f50dc2f316c76c0374abac8d47a887 9be2af91198a6fc1cf712a5acb6977ee6867d196 swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00219636 MX6 UBOOT : Enlarge command line buffer size
+9be2af91198a6fc1cf712a5acb6977ee6867d196 18e3af5e4d5821ad3f6d63e188bd7f4e2bc8d7f3 swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00219854-1 Enable fastboot feature on mx6q-arm2 board
+18e3af5e4d5821ad3f6d63e188bd7f4e2bc8d7f3 e7978f7426d0b4fd46d0280a7a923eba379f46fd swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00220076 fix the fastboot usb re-connect issue
+e7978f7426d0b4fd46d0280a7a923eba379f46fd 66b8d5c7708d51bc2bda102e203f1199265baca0 swkim <swkim@oscompile.(none)> 1376897338 +0900	am: ENGR00220164 pfuze:rise VDDARM_IN to 1.425V and work around pfuze1.0
+66b8d5c7708d51bc2bda102e203f1199265baca0 b013d979847d2b787bc7ce3e3ebb8074ba435aa3 swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00220161: imx6sl: Add MX6SL EVK Support
+b013d979847d2b787bc7ce3e3ebb8074ba435aa3 13ebd779b70be11cf7c455ee11a6332966fd10de swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00220486 Modify ODT values for Solo AI
+13ebd779b70be11cf7c455ee11a6332966fd10de 0ef8877de2e9d9880f16ae575839bf6d654ae76b swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00217505-1 uboot: MX6Q-ARD: add a NAND boot config
+0ef8877de2e9d9880f16ae575839bf6d654ae76b cc39e8cfe05ecf9b2c0f7732a1306470e938fdf5 swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00217505-2 uboot: mtd: update nand_get_flash_type()
+cc39e8cfe05ecf9b2c0f7732a1306470e938fdf5 bd7af32b99be8309c12c00ada07c0976faf65b1d swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00217505-3 uboot: gpmi: use the community's nand chip database
+bd7af32b99be8309c12c00ada07c0976faf65b1d 5795b175603d549823fa05d5e749741dedad13e3 swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00217505-4 uboot: gpmi: replace the gpmi_nfc_reset_block()
+5795b175603d549823fa05d5e749741dedad13e3 e6e6804c57783d529b31d84a6314701ab66e4811 swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00217505-5 uboot: gpmi: update the ecc_strength code
+e6e6804c57783d529b31d84a6314701ab66e4811 c2458f6b99066889f4a9640c65d8e0a8210a53f4 swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00217505-6 uboot: gpmi: set default value for busy_timeout
+c2458f6b99066889f4a9640c65d8e0a8210a53f4 8e8f3a92132f742dfa2917c3386bc06b03b2b107 swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00217505-7 uboot: gpmi: update the mtd->ecc_stats when reading page failed
+8e8f3a92132f742dfa2917c3386bc06b03b2b107 a95eb3bfa98f59c14aa6ebb07c2baa7ddb33c5bd swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00217505-8 uboot: MX6Q-ARD: set the default gpmi clock to 20MHz
+a95eb3bfa98f59c14aa6ebb07c2baa7ddb33c5bd 85d8f8a07640202dc08ce4515ab19eded81dcff0 swkim <swkim@oscompile.(none)> 1376897339 +0900	am: ENGR00180538-1 MFG download burn sd,spi, nand, nor failed.
+85d8f8a07640202dc08ce4515ab19eded81dcff0 dfab0c0351b0b40ba091db165de84b9078784772 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00220824: mx6sl_evk: mmc: only SD1 supports 8bit on evk board.
+dfab0c0351b0b40ba091db165de84b9078784772 c19894c217cac5d21bfaca6b858a61736456e7c2 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00221150 Support spi-nor on manufacturing tool
+c19894c217cac5d21bfaca6b858a61736456e7c2 24c5ba53b4145010ef5db1f854dcd60d6dd43115 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00221135: imx6x: clear PowerDown Enable bit of WDOG1_WMCR
+24c5ba53b4145010ef5db1f854dcd60d6dd43115 0158aa06850941da97795275b9a53f195ab14fe4 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00221332: U_BOOT: remove "boot" and "enable" from configs' name
+0158aa06850941da97795275b9a53f195ab14fe4 a734eeaa81b9d8a7fc4598aab22d4675e2b15cf3 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00221013 MX6 SabreSD:Disable LVDS panel CABC function
+a734eeaa81b9d8a7fc4598aab22d4675e2b15cf3 2d66b6c8069f7e14699847a9fcd1ebe6d395d418 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00219316-1: mx6 sabreauto: enable mxc_gpio support
+2d66b6c8069f7e14699847a9fcd1ebe6d395d418 0980fb40bb48f34523bbe70d79e6ed298375fcff swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00219316-2: mx6q sabreauto enable lvds backlight by default
+0980fb40bb48f34523bbe70d79e6ed298375fcff c14a24be8f893b2b96496b179cad6717b95564c9 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00222005 mfgtool can't work on mx6sl
+c14a24be8f893b2b96496b179cad6717b95564c9 cb587bf27e6c235a01b7d1fb3ea8cf19698e29c0 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00221503-1 cmd_imxotp: refine the help of this command.
+cb587bf27e6c235a01b7d1fb3ea8cf19698e29c0 e77574692cf8184c9444e04d6c50457f58b145fb swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00221503-2 imx6: add cpu serial number support.
+e77574692cf8184c9444e04d6c50457f58b145fb 63704e3bbeeaf4c5032ffe47deee46f6fce1bf52 swkim <swkim@oscompile.(none)> 1376897340 +0900	am: ENGR00222170: Add mx6sl_evk_android_config for mx6sl evk board
+63704e3bbeeaf4c5032ffe47deee46f6fce1bf52 ec98a1a8a053126918295fba88cd10296d616cec swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00223236-1 [MX6]Change the temperature range to -40C ~ 125C
+ec98a1a8a053126918295fba88cd10296d616cec 67e3b774f2f7d97742ff6e39b4810a283455bcd7 swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00223027 Add support for nand on MFG for IMX6Q
+67e3b774f2f7d97742ff6e39b4810a283455bcd7 d41cc40d67ea70ac0a16f568a31a0ec8f32f83f4 swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00223788 mx6sl_evk: change boot args to boot from mmc/sd
+d41cc40d67ea70ac0a16f568a31a0ec8f32f83f4 cfa04f44e7b885eb4592c710d54b45dcd77b45ca swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00224272: MFG:i.mx6q/ARM2 enable CONFIG_CMD_IMXOTP to fix the build error
+cfa04f44e7b885eb4592c710d54b45dcd77b45ca 0b77b64940a157d000cf8756387e6dd8917757b3 swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00224291:i.MX6Q/ARM2-LPDDR2:enable CONFIG_CMD_IMXOTP to fix the build error
+0b77b64940a157d000cf8756387e6dd8917757b3 8ea8034e7916cc4770f9a646bda808085a57f5b0 swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00224313:i.MX6 general:enable CONFIG_CMD_IMXOTP to fix the build error
+8ea8034e7916cc4770f9a646bda808085a57f5b0 034f3e3a4aacf5e57895000d908f06836b350b1c swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00225486 Support for spi-nor boot
+034f3e3a4aacf5e57895000d908f06836b350b1c 10f63a4b0fc24f26d8cc33bd6559b949f5e16673 swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00225691 NAND support on i.MX6Solo ARD
+10f63a4b0fc24f26d8cc33bd6559b949f5e16673 af490480d94081bc3ecab43146d93899e78d8dca swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00226048 Fix weim nor for mfg tool
+af490480d94081bc3ecab43146d93899e78d8dca 3aef30fd1833911d6981bfb06612c50e3f6411c6 swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00223794 MX6 SabreSD:Enable LVDS panel pwm backlight
+3aef30fd1833911d6981bfb06612c50e3f6411c6 bf8298dcbea3d2f34eff987047165eb7af27d167 swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00223797-1 MX6 SabreSD:Align IPU related clocks with kernel
+bf8298dcbea3d2f34eff987047165eb7af27d167 bbe1d964ca9a0f5dab6acffce482f599dcec25fc swkim <swkim@oscompile.(none)> 1376897341 +0900	am: ENGR00223797-2 MX6Q/DL CPU:Do not disable IPU display channel
+bbe1d964ca9a0f5dab6acffce482f599dcec25fc 02dcf0dfbd80113f22f649119abebb8d76a38cfa swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00223797-3 IPUv3:Wait for sw reset finish
+02dcf0dfbd80113f22f649119abebb8d76a38cfa 074e2e853b7f7364c33cf5f474650305f0f149a1 swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00228238 i.mx6/i.mx6dl: sabresd: add solo-ddr32bit support
+074e2e853b7f7364c33cf5f474650305f0f149a1 b73c15c56ecf7147ab9d8a5de9946ac0ba790a41 swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00227413 Change configuration file names on AI
+b73c15c56ecf7147ab9d8a5de9946ac0ba790a41 8024657f356fcb7c6f6da77a3c13087fe69bc7d4 swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00229456 Support for 64bit DDR configuration for ARD
+8024657f356fcb7c6f6da77a3c13087fe69bc7d4 23e157ceb8fa4b8076345be6b7933b2ba84d013d swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00229614 mx6: disable VDDPU by default, xpu will enable it if needed.
+23e157ceb8fa4b8076345be6b7933b2ba84d013d 9267e5deb563c10d3641da070aa3f977d8eda102 swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00229817: i.mx6dl/mx6solo_sabresd_config: fix the build issue
+9267e5deb563c10d3641da070aa3f977d8eda102 2e1c4c6bdfaeb0a3936cd2ae8be19fd8d2d65c5c swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00229709 Support 2 processors at Linux boot
+2e1c4c6bdfaeb0a3936cd2ae8be19fd8d2d65c5c 10ad7ef01581e75c73a81d6638f1a6d56403e227 swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00229711 Add weim-nor argument on uboot config Quad/DL
+10ad7ef01581e75c73a81d6638f1a6d56403e227 f93f7a6403e14241ea6bdba4a0edee4c8e3ce48b swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00229789 AHCI Disable SATA PHY in initialization
+f93f7a6403e14241ea6bdba4a0edee4c8e3ce48b c1b6b677311e073963758fccaa6ccbebdce22bcc swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00229931 Support for Solo configuration on ARD platform
+c1b6b677311e073963758fccaa6ccbebdce22bcc 75359ed9d775c5db6f6008f2915138bbfe3cae94 swkim <swkim@oscompile.(none)> 1376897342 +0900	am: ENGR00230334: Fix the mx53_smd_android config
+75359ed9d775c5db6f6008f2915138bbfe3cae94 fdfc7ce220a55b14ae2af3e61106337ec22cc4c7 swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00230104 mx6q_sabreauto_nand: fix fec phy address
+fdfc7ce220a55b14ae2af3e61106337ec22cc4c7 5d41948ca65d66b4d1fbb56d0f8520ef180f33bc swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00230391: Fix build fail issue of sata
+5d41948ca65d66b4d1fbb56d0f8520ef180f33bc 8c4083cfe52adfb8f2a3cb1f447e8d37fc53fdfc swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00231155 add enable_wait_mode=off for all the mx6q/dl mfg uboot
+8c4083cfe52adfb8f2a3cb1f447e8d37fc53fdfc 607a4d9e1858da6309c795260890d9ed407fdf3f swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00230981-1 pfuze:set all switches to PFM mode in standby
+607a4d9e1858da6309c795260890d9ed407fdf3f 603f1292742fa499dd63386e8dbc6533be569557 swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00231553: MX6SL: Uncovered an issue for I2C parent clock
+603f1292742fa499dd63386e8dbc6533be569557 6340587c6ee53c9a052681ac3e8a72beaa648f15 swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00230967 Enable recovery mode by keys when boot
+6340587c6ee53c9a052681ac3e8a72beaa648f15 dff3b24060e83135d152a039431859becac7d1f0 swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00231581 BCH: fix the wrong data size macros in BCH
+dff3b24060e83135d152a039431859becac7d1f0 fd8420b7f9de445cd8e2794171c89fc18e3648b2 swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00231781 fsl common:Align reversed color logo to standard
+fd8420b7f9de445cd8e2794171c89fc18e3648b2 582f722877aeeb51aadb87c2b3d60ab3d4c8e566 swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00231891-1 gpmi: replace the hardcode
+582f722877aeeb51aadb87c2b3d60ab3d4c8e566 a181789a497d0c06e14d18d4c96340acaf68e520 swkim <swkim@oscompile.(none)> 1376897343 +0900	am: ENGR00231891-2 gpmi: fix the 4k page size limit
+a181789a497d0c06e14d18d4c96340acaf68e520 c839a05560ed6959b11cdfbd12d3beba1dede74d swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR002232258 MX6Q-ARM2: add a NAND boot config for uboot
+c839a05560ed6959b11cdfbd12d3beba1dede74d e295936365daa3d4e7885df1cf042f3a944bfaac swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00230364 - imx6sl: FEC: fix cycle reboot fail in EVK platform for bootp.
+e295936365daa3d4e7885df1cf042f3a944bfaac 4f3c4399aa580f5a2d4425704607bebeabe0e14d swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00232682 mx6sl snvs: fix long press ONOFF failed issue in u-boot
+4f3c4399aa580f5a2d4425704607bebeabe0e14d 94b43eabe469aec652f623ec1d8aa326e2d734ff swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00233307 Need secure/encrypted boot for Widevine support.
+94b43eabe469aec652f623ec1d8aa326e2d734ff d785642dcd841583680570c56fbb08168dfcf556 swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00233730 PFUZE mx6q_sabresd: remove extra increase for PFUZE tolerance
+d785642dcd841583680570c56fbb08168dfcf556 8d25c88d2cbfc22ccb271de5cec88f95c9f2ba91 swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00233716-1: mx6q_sabreauto aling spi-nor environment offsset
+8d25c88d2cbfc22ccb271de5cec88f95c9f2ba91 0a084f77a9ed51cc009367e0717e62f5c27b3fea swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00233716-2: mx6q_sabreauto flash u-boot into spi-nor fails to boot
+0a084f77a9ed51cc009367e0717e62f5c27b3fea cbbaf92340827435127e58fe18daf788257557cd swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00233881 Camera mx6q_sabresd:swap VGEN5&VGEN3 to fix camera streaks issue
+cbbaf92340827435127e58fe18daf788257557cd 311e0ab31d02ed7bec470b9c12afae3e7214a4c8 swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00233709-1 i.mx6dl/sabreauto: update the DDR script for i.mx6dl AI board:
+311e0ab31d02ed7bec470b9c12afae3e7214a4c8 895df883381b2cfbc869f76012e8d52ad0682eb4 swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00233709-2 i.mx6q/sabreauto: update the DDR script for i.mx6q AI board:
+895df883381b2cfbc869f76012e8d52ad0682eb4 5e2ca3e2f82b60aaa40350aa7ddfd805d394ba70 swkim <swkim@oscompile.(none)> 1376897344 +0900	am: ENGR00233933 i.mx6dl/sabresd: update the DDR script for i.MX6DL sabresd board
+5e2ca3e2f82b60aaa40350aa7ddfd805d394ba70 065772e7257853cc142b2864b395e28d46dad1b7 swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR00233366-5 Anatop PFUZE: move LDO bypass code to kernel
+065772e7257853cc142b2864b395e28d46dad1b7 6fc9ea363302f5fcfe75b37392041962e4586a4a swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR00234353-1: mx6_sabreauto fix weim-nor boot
+6fc9ea363302f5fcfe75b37392041962e4586a4a 26e5696384cffaa6508e6dac4479c75d528993e7 swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR00234353-2: mx6q_sabreauto_weimnor fix redundant env offset
+26e5696384cffaa6508e6dac4479c75d528993e7 f39134cfc857632174ab064d3eff93a35d3755d8 swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR00234353-3: mx6q_sabreauto remove EIM_A24 nor pads
+f39134cfc857632174ab064d3eff93a35d3755d8 f4116c07ad699242443d762bb6f8fe4b699fe594 swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR00233928 i.mx6q/sabresd: update the DDR script for i.MX6Q sabresd board
+f4116c07ad699242443d762bb6f8fe4b699fe594 4bcd59b368d1c9ff010e4daae15f3edc5ef37be2 swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR00233168 - U-Boot fails to boot from eMMC
+4bcd59b368d1c9ff010e4daae15f3edc5ef37be2 3ca2d8abbeb0bad2f167f8d33982bed052951943 swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR00223037 fsl: Add new board HDMI dongle for imx6 Q/DL.
+3ca2d8abbeb0bad2f167f8d33982bed052951943 a95f3baa49a73e52cb33d4cf0c3463d5cef90789 swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR00235564: i.mx6 u-boot: change plugin to use ROM API table for code jump
+a95f3baa49a73e52cb33d4cf0c3463d5cef90789 4903962a8f21b07a525474f3a66be6384d6319f0 swkim <swkim@oscompile.(none)> 1376897345 +0900	am: ENGR000234991 MX6DL/ARD: Two boards met kernel dump during boot up
+4903962a8f21b07a525474f3a66be6384d6319f0 768b7f8a7f1870ba8fa67776905b809505edbd6e swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00236337: mx6/clock: emi_slow clock rate is not printed out correctly
+768b7f8a7f1870ba8fa67776905b809505edbd6e 147d213c955d8e7f613c0af12d5abe146e646330 swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00235817 mx6: use SNVS LPGPR register to store boot mode value.
+147d213c955d8e7f613c0af12d5abe146e646330 b244ae2e6ceb94d94632703545a687a99aa9e7d5 swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00236620: Add Android fastboot and recovery reboot support
+b244ae2e6ceb94d94632703545a687a99aa9e7d5 3d21d94164f491b2c406700af0cedfb02dd45601 swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00235821 mx6: correct work flow of PFDs
+3d21d94164f491b2c406700af0cedfb02dd45601 80240e511f1511ffd82193930aa7a433881cbf4e swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00236902: mx6solo_sabresd: update the DDR script for solo-sabresd
+80240e511f1511ffd82193930aa7a433881cbf4e 4329308a6e9f650f2e960e16b6074051c4c51d6f swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00236472 Update DDR script of ARD solo emulation
+4329308a6e9f650f2e960e16b6074051c4c51d6f b74f0b9f4beb9c8ae04c1ec9f9815a3003777b46 swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00235540 add sabreauto_6q config for android
+b74f0b9f4beb9c8ae04c1ec9f9815a3003777b46 da19b18064a527ddd09f71999a9b47aedb8a9c0d swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00238048: Add support for processor serial ATAG in uboot for iMX53
+da19b18064a527ddd09f71999a9b47aedb8a9c0d 4219ae583935fbaed6d29be1541d2d666f767a43 swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00238300: enhance the download speed for fastboot
+4219ae583935fbaed6d29be1541d2d666f767a43 a5adc2ae9ba6da8f32b5c9048e6bdd8418f8529f swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00238371: mx6solo: sabresd: make system prompt indicate solo config
+a5adc2ae9ba6da8f32b5c9048e6bdd8418f8529f f24d153af0048bf5c27096de42e22198fb8b38f9 swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00238834: mx6solo: add MFG support for mx6solo sabresd board
+f24d153af0048bf5c27096de42e22198fb8b38f9 d819f437b83dcca7df7bcd225e45d5c28013d7a6 swkim <swkim@oscompile.(none)> 1376897346 +0900	am: ENGR00238363: mx6dl: epdc: remove epdc macro redefinition in config file
+d819f437b83dcca7df7bcd225e45d5c28013d7a6 c952d0fac18ea0b6b69d72dd32c1ff41e3cf22dd swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00230437: mx6: epdc: EPDC I/O setup after V3p3 is enable
+c952d0fac18ea0b6b69d72dd32c1ff41e3cf22dd f1593714de3e22a8732a1ab51c3209c6f0ac078f swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00239366: Add support for nand storage in quick fastboot
+f1593714de3e22a8732a1ab51c3209c6f0ac078f 966e01cf83c98443530187641d8d70c592acca0a swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00239607 add nand config for android sabreauto
+966e01cf83c98443530187641d8d70c592acca0a 7a0118abad36c7d13249bef69a5150def8b52eb5 swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00239610: Enhance the quick fastboot stability
+7a0118abad36c7d13249bef69a5150def8b52eb5 4c72cdfd6882959885b7962991051dc8301745df swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00240261 support fastboot for nand boot in sabreauto_android
+4c72cdfd6882959885b7962991051dc8301745df c02afd01e9c8869e840433cc6ddbce9d61c507eb swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00241595-1 mx6q-sabresd:Enable SATA PHY PDDQ default
+c02afd01e9c8869e840433cc6ddbce9d61c507eb 500518989cbeebafb525bd3e38118e96e9ae89d8 swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00241595-2 mx6q-arm2:Enable SATA PHY PDDQ default
+500518989cbeebafb525bd3e38118e96e9ae89d8 6abff5658b848ebea717208b326a65a415d621ef swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00241595-3 mx6q-sabreauto:Enable SATA PHY PDDQ default
+6abff5658b848ebea717208b326a65a415d621ef 61c2a2e5a40507289fdb6014359434a4885597e0 swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00241595-4 mx6q-hdmidongle:Enable SATA PHY PDDQ default
+61c2a2e5a40507289fdb6014359434a4885597e0 5f6c05f42396c334d9856ba40c9b49d01d7d286e swkim <swkim@oscompile.(none)> 1376897347 +0900	am: ENGR00242042 MX6DQ/DL: fix boot fail issue on mx6dl boards
+5f6c05f42396c334d9856ba40c9b49d01d7d286e 9c03b71219f9137fffe7d63479abe426ba5c8b66 swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00243038: make get_mmc_env_devno to be a generic function
+9c03b71219f9137fffe7d63479abe426ba5c8b66 c4ee4e250b8bd038b44e0f2c6801fe542f5cff88 swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00244769-3 [NOR FLASH]-Improve WEIM NOR speed
+c4ee4e250b8bd038b44e0f2c6801fe542f5cff88 e34c925c2f277c2220c2938aa2865d4c4119cd1c swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00255481 mx6: Update equation for thermal sensor
+e34c925c2f277c2220c2938aa2865d4c4119cd1c 73cd730ac59b8aca422236cf2715c6ca3bfcd049 swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00256543 mx6: Update equation for thermal sensor on i.MX6DL
+73cd730ac59b8aca422236cf2715c6ca3bfcd049 2e7e4d1d242c889e7e8d896620e0cc6d8cb3c258 swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00254470-1 mx6q-sd:sata device can't work properly on most boards
+2e7e4d1d242c889e7e8d896620e0cc6d8cb3c258 5a92bd0a1bb5d505d36223c5f23233e710470c4a swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00254470-2 mx6q-arm2:sata device can't work properly on most boards
+5a92bd0a1bb5d505d36223c5f23233e710470c4a 185780db09b0ca5985a14350266d612d233f3f68 swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00254470-3 mx6q-sabreauto:sata device can't work properly on most boards
+185780db09b0ca5985a14350266d612d233f3f68 ad8b5cf20917bd8eb1dbcbb832a33c9012ae8e96 swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00254470-4 mx6q-hdmidongle:sata device can't work properly on most boards
+ad8b5cf20917bd8eb1dbcbb832a33c9012ae8e96 5c9afd41c50bbe4baf6a7b21a9dae1c67de151d4 swkim <swkim@oscompile.(none)> 1376897348 +0900	am: ENGR00254091 fastboot: add reboot command for quick fastboot
